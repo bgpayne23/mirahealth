@@ -1,0 +1,18 @@
+{
+    "obgyn_Location": "Rural",
+    "obgyn_AvgPatientTime": "21",
+    "obgyn_NumOfPatients": "16",
+    "obgyn_QualityRisk": 0,
+    "obgyn_TotalHours": 336,
+    "obgyn_BurnoutRisk": 0,
+    "Age": 18,
+    "Ethnicity": "White",
+    "Payer": "Uninsured",
+    "Location": "Rural",
+    "Income": "Q4",
+    "SystolicBP": 120,
+    "DiastolicBP": 90,
+    "BS": 6.1,
+    "BodyTemp": 98,
+    "HeartRate": 70
+}
