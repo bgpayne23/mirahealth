@@ -6,6 +6,23 @@ from joblib import dump, load
 
 app = FastAPI()
 
+from fastapi.middleware.cors import CORSMiddleware
+
+# List of allowed origins (you could also set it to "*" to allow all origins)
+origins = [
+     "http://localhost:3000",
+    # "https://your-production-domain.com",
+]
+
+# Add middleware for CORS
+app.add_middleware(
+     CORSMiddleware,
+     allow_origins=origins,
+     allow_credentials=True,
+     allow_methods=["*"],
+     allow_headers=["*"],
+ )
+
 class ScoringItem(BaseModel):
     obgyn_Location: str # "Rural",
     obgyn_AvgPatientTime: int # "21",
@@ -148,7 +165,7 @@ async def onehot_endpoint(item:ScoringItem):
         "HeartRate": item.HeartRate
     }
     
-    model = joblib.load('mirahealth_v1_0.joblib')
+    #model = joblib.load('mirahealth_v1_0.joblib')
     #df = pd.DataFrame(mh_input.values(),columns=mh_input.keys())
 
     #prediction = model.predict(df)
