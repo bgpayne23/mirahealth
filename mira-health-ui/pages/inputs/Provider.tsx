@@ -1,12 +1,17 @@
-import Layout from '@/components/Layout'
-import React from 'react'
 
-const Provider = () => {
+import Layout from '@/components/Layout';
+import ProviderInputs from '@/components/ProviderInputs';
+ 
+import React from 'react';
+
+const ProviderInputsPage = () => {
   return (
     <Layout>
-    <div>Provider</div>
+    <div className='flex items-center justify-center h-screen bg-sky-50'>
+     <ProviderInputs />
+    </div>
     </Layout>
-  )
-}
+  );
+};
 
-export default Provider
+export default ProviderInputsPage;

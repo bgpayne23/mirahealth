@@ -1,7 +1,6 @@
 import React, { useEffect } from 'react';
 import { useState } from 'react';
 import Link from "next/link";
-import { USStates } from '@/lib/utils';
 import { FieldError, SubmitHandler, UseControllerProps, useForm } from "react-hook-form";
 import axios from 'axios';
 
@@ -55,7 +54,7 @@ const PatientInputs = () => {
     
 
     console.log(data);
-
+  // todo: transfer data from response to predictions page 
     axios.post('http://34.229.92.101/', data).then(function(response){
       console.log(response);
     })
