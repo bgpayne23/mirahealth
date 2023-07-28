@@ -1,6 +1,7 @@
 import React from 'react';
 import { useRouter } from 'next/router';
 import PregnancyPredictionsDisplay from "@/components/PregnancyPredictionsDisplay";
+import Layout from '@/components/Layout';
  
 interface PredictionData {
     prediction: number;
@@ -17,9 +18,11 @@ const PredictionsPage: React.FC = () => {
     };
 
     return (
+      <Layout>
         <div className="container mx-auto mt-8">
             <PregnancyPredictionsDisplay data={predictionData} />
         </div>
+        </Layout>
     );
 };
 

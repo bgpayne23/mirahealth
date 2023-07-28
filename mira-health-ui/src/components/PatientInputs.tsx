@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React, { useContext, useEffect } from "react";
 import { useState } from "react";
 import { useRouter } from "next/router";
 import Link from "next/link";
@@ -9,15 +9,11 @@ import {
     useForm,
 } from "react-hook-form";
 import axios from "axios";
+import FormDataContext from "./FormDataContext";
 
 
 type FormValues = {
-    obgyn_AvgPatientTime: number;
-    obgyn_NumOfPatients: number;
-    obgyn_QualityRisk: number;
-    obgyn_TotalHours: number;
-    obgyn_BurnoutRisk: number;
-    obgyn_Location: string;
+
     Age: number;
     Ethnicity: string;
     Payer: string;
@@ -40,48 +36,28 @@ const PatientInputs = () => {
         mode: "onBlur",
     });
 
-    const router = useRouter();
+ 
 
     // todo: add hover message, and setTimeout.
     const [isHovered, setIsHovered] = useState(false);
-    const [apiResponse, setApiResponse] = useState({
-      prediction: 15,
-      score: 1
-  });
+    const {formData, setFormData} = useContext(FormDataContext);
+    const router = useRouter();
+
 
     const onSubmit = (data: FormValues) => {
-        // todo: connect this to another component or datasource. hardcode for now.
-        data.obgyn_AvgPatientTime = 21;
-        data.obgyn_BurnoutRisk = 0;
-        data.obgyn_NumOfPatients = 16;
-        data.obgyn_QualityRisk = 0;
-        data.obgyn_TotalHours = 336;
-        data.obgyn_Location = "Rural";
+       
         data.Age = parseInt(data.Age as any);
         data.SystolicBP = parseInt(data.SystolicBP as any);
         data.DiastolicBP = parseInt(data.DiastolicBP as any);
         data.BS = parseInt(data.BS as any);
         data.BodyTemp = parseInt(data.BodyTemp as any);
         data.HeartRate = parseInt(data.HeartRate as any);
-
         console.log(data);
-        // todo: transfer data from response to predictions page
-        axios
-            .post("http://34.229.92.101/", data)
-            .then(function (response) {
-                console.log(response);
-                router.push({
-                  pathname: '/alerts/PredictionsPage',
-                  query: { 
-                      prediction: response.data.prediction,
-                      score: response.data.score
-                  }
-              });
-            })
-            .catch(function error() {
-                console.log(error);
-            });
-
+        
+        // pushing form data to predictions page
+        
+        setFormData(currentData => ({ ...currentData, ...data }));
+        router.push('/inputs/Provider')
     };
 
     return (
@@ -139,18 +115,16 @@ const PatientInputs = () => {
                         })}
                         id="grid-ethnicity"
                     >
-                        <option value="American Indian or Alaska Native">
+                        <option value="Native">
                             American Indian or Alaska Native
                         </option>
-                        <option value="Asian">Asian</option>
-                        <option value="Black or African American">
-                            Black or African American
+                        <option value="Asian_Pacific">Asian</option>
+                        <option value="Black">
+                            Black
                         </option>
-                        <option value="Native Hawaiian or Other Pacific Islander">
-                            Native Hawaiian or Other Pacific Islander
-                        </option>
+            
                         <option value="White">White</option>
-                        <option value="Hispanic, Latino, or Spanish Origin">
+                        <option value="Hispanic">
                             Hispanic, Latino, or Spanish Origin (of any race)
                         </option>
                     </select>
