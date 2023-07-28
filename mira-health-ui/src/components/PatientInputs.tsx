@@ -103,6 +103,7 @@ const PatientInputs = () => {
                     >
                         Ethnicity
                     </label>
+                    <div className="relative">
                     <select
                         className="block appearance-none w-full bg-light-200 border border-gray-200 
                         text-gray-700 py-3 px-4 pr-8 rounded leading-tight focus:outline-none 
@@ -118,65 +119,92 @@ const PatientInputs = () => {
                         <option value="Native">
                             American Indian or Alaska Native
                         </option>
-                        <option value="Asian_Pacific">Asian</option>
+                        <option value="Asian_Pacific">Asian or Pacific Islander</option>
                         <option value="Black">
-                            Black
+                            Black or African American
                         </option>
             
-                        <option value="White">White</option>
+                        <option value="White">White or Caucasian</option>
                         <option value="Hispanic">
                             Hispanic, Latino, or Spanish Origin (of any race)
                         </option>
                     </select>
+                       <div className="pointer-events-none absolute inset-y-0 right-0 flex items-center 
+                        px-2 text-gray-700">
+                            <svg
+                                className="fill-current h-4 w-4"
+                                xmlns="http://www.w3.org/2000/svg"
+                                viewBox="0 0 20 20"
+                            >
+                                <path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z" />
+                            </svg>
+                            </div>
+                         
+                    </div>
                 </div>
             </div>
             <div className="flex flex-wrap -mx-3 mb-6">
-                <div className="w-full md:w-1/2 px-3">
-                    <label
-                        className="block uppercase tracking-wide text-blue-500 text-md font-bold mb-2"
-                        htmlFor="grid-insurance"
-                    >
-                        Insurance Type
-                    </label>
-                    <input
-                        className="appearance-none block w-full bg-light-200 text-gray-700 border 
-                        border-gray-200 rounded py-3 px-4 mb-3 leading-tight 
-                        focus:outline-none focus:ring-2 focus:ring-blue-600 focus:bg-white 
-                        focus: border-grey-500 shadow-lg"
-                        id="grid-insurance"
-                        type="text"
-                        {...register("Payer", {
-                            required: {
-                                value: true,
-                                message: "This field is required",
-                            },
-                        })}
-                        placeholder=""
-                    />
-                    <p className="text-gray-600 text-xs italic"></p>
+            <div className="w-full md:w-1/2 px-3">
+                <label className="block uppercase tracking-wide text-blue-500 text-md font-bold mb-2" htmlFor="grid-insurance">
+                    Insurance Type
+                </label>
+                <div className="relative">
+                    <select className="block appearance-none w-full bg-light-200 border border-gray-200 text-gray-700 py-3 px-4 pr-8 rounded leading-tight focus:outline-none focus:bg-white focus:ring-2 focus:ring-blue-600 shadow-lg"
+                        {...register("Payer", { required: { value: true, message: "This field is required" } })} id="grid-insurance">
+                        <option value="Public">Public</option>
+                        <option value="Uninsured">Uninsured</option>
+                        <option value="Private">Private</option>
+                    </select>
+                    <div className="pointer-events-none absolute inset-y-0 right-0 flex items-center px-2 text-gray-700">
+                        <svg className="fill-current h-4 w-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+                            <path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z" />
+                        </svg>
+                    </div>
                 </div>
+            </div>
+
                 <div className="w-full md:w-1/2 px-3">
                     <label
                         className="block uppercase tracking-wide text-blue-500 text-md font-bold mb-2"
-                        htmlFor="grid-password"
+                        htmlFor="grid-income"
                     >
                         income
                     </label>
-                    <input
-                        className="appearance-none block w-full bg-light-200 text-gray-700 border 
-                        border-gray-200 rounded py-3 px-4 mb-3 leading-tight 
-                        focus:outline-none focus:ring-2 focus:ring-blue-600 focus:bg-white 
-                        focus:border-grey-500 shadow-lg"
-                        id="grid-income"
+                    <div className="relative">
+                    <select
+                        className="block appearance-none w-full bg-light-200 border border-gray-200 
+                        text-gray-700 py-3 px-4 pr-8 rounded leading-tight focus:outline-none 
+                        focus:bg-white focus:ring-2 focus:ring-blue-600 shadow-lg"
                         {...register("Income", {
                             required: {
                                 value: true,
                                 message: "This field is required",
                             },
                         })}
-                        type="income"
-                        placeholder=""
-                    />
+                        id="grid-income"
+                    >
+                        <option value="Q1">
+                           Q1
+                        </option>
+                        <option value="Q2">Q2</option>
+                        <option value="Q3">
+                            Q3
+                        </option>
+            
+                        <option value="Q4">Q4</option>
+                       
+                    </select>
+                    <div className="pointer-events-none absolute inset-y-0 right-0 flex items-center 
+                        px-2 text-gray-700">
+                            <svg
+                                className="fill-current h-4 w-4"
+                                xmlns="http://www.w3.org/2000/svg"
+                                viewBox="0 0 20 20"
+                            >
+                                <path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z" />
+                            </svg>
+                            </div>
+                        </div>
                     <p className="text-gray-600 text-xs italic"></p>
                 </div>
             </div>

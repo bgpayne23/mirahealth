@@ -51,6 +51,7 @@ const PregnancyPredictionsDisplay: React.FC<PregnancyPredictionsProps> = ({}) =>
         };
         if (hasAllRequiredFields(formData)) {
             // Make the axios request
+            console.log(formData);
             axios.post("http://34.229.92.101/", formData)
             .then(function (response) {
                 console.log(response);
