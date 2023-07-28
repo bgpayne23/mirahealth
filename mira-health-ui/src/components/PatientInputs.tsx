@@ -1,5 +1,6 @@
 import React, { useEffect } from "react";
 import { useState } from "react";
+import { useRouter } from "next/router";
 import Link from "next/link";
 import {
     FieldError,
@@ -8,6 +9,7 @@ import {
     useForm,
 } from "react-hook-form";
 import axios from "axios";
+
 
 type FormValues = {
     obgyn_AvgPatientTime: number;
@@ -38,8 +40,14 @@ const PatientInputs = () => {
         mode: "onBlur",
     });
 
+    const router = useRouter();
+
     // todo: add hover message, and setTimeout.
     const [isHovered, setIsHovered] = useState(false);
+    const [apiResponse, setApiResponse] = useState({
+      prediction: 15,
+      score: 1
+  });
 
     const onSubmit = (data: FormValues) => {
         // todo: connect this to another component or datasource. hardcode for now.
@@ -62,10 +70,18 @@ const PatientInputs = () => {
             .post("http://34.229.92.101/", data)
             .then(function (response) {
                 console.log(response);
+                router.push({
+                  pathname: '/alerts/PredictionsPage',
+                  query: { 
+                      prediction: response.data.prediction,
+                      score: response.data.score
+                  }
+              });
             })
             .catch(function error() {
                 console.log(error);
             });
+
     };
 
     return (
