@@ -13,8 +13,10 @@ import FormDataContext from "./FormDataContext";
 
 
 type FormValues = {
-
     Age: number;
+    DOBDay: number;
+    DOBMonth: number;
+    DOBYear: number;
     Ethnicity: string;
     Payer: string;
     Location: string;
@@ -35,26 +37,40 @@ const PatientInputs = () => {
     } = useForm<FormValues>({
         mode: "onBlur",
     });
-
- 
-
+    const dateString = "1989, 11, 5"
+     
+    
     // todo: add hover message, and setTimeout.
     const [isHovered, setIsHovered] = useState(false);
     const {formData, setFormData} = useContext(FormDataContext);
     const router = useRouter();
-
-
+ 
     const onSubmit = (data: FormValues) => {
-       
-        data.Age = parseInt(data.Age as any);
+        
+        const dobDay = parseInt(data.DOBDay as any);
+        const dobMonth = parseInt(data.DOBMonth as any) - 1;  // because of 0 index
+        const dobYear = parseInt(data.DOBYear as any);
+        const today = new Date();
+        const dob = new Date(dobYear, dobMonth, dobDay);
+    
+     // Age = today - dob, but you have to check which month it is and conditionally subtract.
+        let age = today.getFullYear() - dobYear;
+        if (today.getMonth() < dobMonth || 
+            (today.getMonth() === dobMonth && today.getDate() < dobDay)) {
+             age--;  
+            }
+
+        data.Age = age;    
         data.SystolicBP = parseInt(data.SystolicBP as any);
         data.DiastolicBP = parseInt(data.DiastolicBP as any);
         data.BS = parseInt(data.BS as any);
         data.BodyTemp = parseInt(data.BodyTemp as any);
         data.HeartRate = parseInt(data.HeartRate as any);
         console.log(data);
+
+       
         
-        // pushing form data to predictions page
+        
         
         setFormData(currentData => ({ ...currentData, ...data }));
         router.push('/inputs/Provider')
@@ -66,36 +82,105 @@ const PatientInputs = () => {
             className="w-full max-w-lg mt-9"
         >
             <div className="flex flex-wrap -mx-3 mb-6">
-                <div className="w-full md:w-1/2 px-3 mb-6 md:mb-0">
-                    <label
-                        className="block uppercase tracking-wide text-blue-500 text-md font-bold mb-2"
-                        htmlFor="grid-age"
-                    >
-                        Age
-                    </label>
-                    <input
-                        {...register("Age", {
-                            required: {
-                                value: true,
-                                message: "This field is required",
-                            },
-                            validate: (value) =>
-                                value >= 9 || "Enter a valid age.",
-                        })}
-                        className={`appearance-none block w-full bg-light-200 text-gray-700 border 
-  ${errors.Age ? "border-red-500" : "border-gray-200"} 
-  rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white shadow-lg 
-  focus:ring-2 focus:ring-blue-600`}
-                        id="grid-first-name"
-                        type="number"
-                        placeholder=""
-                    />
-                    {errors.Age && (
-                        <p className="text-red-500 text-xs italic">
-                            {errors.Age.message}
-                        </p>
-                    )}
-                </div>
+            <div className="w-full md:w-1/2 px-3 mb-6 md:mb-0">
+    <label
+        className="block uppercase tracking-wide text-blue-500 text-md font-bold mb-2"
+        htmlFor="grid-dob-month"
+    >
+        Date of Birth
+    </label>
+
+    <div className="flex space-x-3">
+        <div className="w-1/3">  
+            <select
+                {...register("DOBMonth", {
+                    required: {
+                        value: true,
+                        message: "This field is required",
+                    },
+                })}
+                className={`appearance-none block w-full bg-light-200 text-gray-700 border 
+                    ${errors.DOBMonth ? "border-red-500" : "border-gray-200"} 
+                    rounded py-3 px-2 mb-3 leading-tight focus:outline-none focus:bg-white shadow-lg 
+                    focus:ring-2 focus:ring-blue-600`}
+                id="grid-dob-month"
+                placeholder="Month"
+            >
+                
+                <option value="01">January</option>
+                <option value="02">February</option>
+                <option value="03"> March</option>
+                <option value="04"> April</option>
+                <option value="05"> May</option>
+                <option value="06"> June</option>
+                <option value="07"> July</option>
+                <option value="08"> August</option>
+                <option value="09"> September</option>
+                <option value="10"> October</option>
+                <option value="11"> November</option>
+                <option value="12"> December</option>
+
+               
+            </select>
+            {errors.DOBMonth && (
+                <p className="text-red-500 text-xs italic">
+                    {errors.DOBMonth.message}
+                </p>
+            )}
+        </div>
+
+        <div className="w-1/3">  
+            <input
+                {...register("DOBDay", {
+                    required: {
+                        value: true,
+                        message: "This field is required",
+                    },
+                    validate: (value) =>
+                        value >= 1 && value <= 31 || "Enter a valid day.",
+                })}
+                className={`appearance-none block w-full bg-light-200 text-gray-700 border 
+                    ${errors.DOBDay ? "border-red-500" : "border-gray-200"} 
+                    rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white shadow-lg 
+                    focus:ring-2 focus:ring-blue-600`}
+                id="grid-dob-day"
+                type="number"
+                placeholder="Day"
+            />
+            {errors.DOBDay && (
+                <p className="text-red-500 text-xs italic">
+                    {errors.DOBDay.message}
+                </p>
+            )}
+        </div>
+
+        <div className="w-1/3">  
+            <input
+                {...register("DOBYear", {
+                    required: {
+                        value: true,
+                        message: "This field is required",
+                    },
+                    validate: (value) =>
+                        value >= 1900 && value <= new Date().getFullYear() || "Enter a valid year.",
+                })}
+                className={`appearance-none block w-full bg-light-200 text-gray-700 border 
+                    ${errors.DOBYear ? "border-red-500" : "border-gray-200"} 
+                    rounded py-3 px-3 mb-3 leading-tight focus:outline-none focus:bg-white shadow-lg 
+                    focus:ring-2 focus:ring-blue-600`}
+                id="grid-dob-year"
+                type="number"
+                placeholder="Year"
+            />
+            {errors.DOBYear && (
+                <p className="text-red-500 text-xs italic">
+                    {errors.DOBYear.message}
+                </p>
+            )}
+        </div>
+    </div>
+</div>
+
                 <div className="w-full md:w-1/2 px-3">
                     <label
                         className="block uppercase tracking-wide text-blue-500 text-md font-bold mb-2"
