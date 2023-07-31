@@ -67,6 +67,8 @@
     --ring: 240 3.7% 15.9%;
   }
 }
+
+/* red pulse animation */
  
 @layer base {
   * {
@@ -75,4 +77,20 @@
   body {
     @apply bg-background text-foreground;
   }
+}
+
+@keyframes pulse-red {
+  0% {
+    background-color: rgba(255, 0, 0, 0.0); /* Starting color (semi-transparent red) */
+  }
+  50% {
+    background-color: rgba(255, 0, 0, 0.2); /* Middle color (more opaque red) */
+  }
+  100% {
+    background-color: rgba(255, 0, 0, 0.0); /* Ending color (semi-transparent red) */
+  }
+}
+
+.animate-pulse-red {
+  animation: pulse-red 2s infinite; /* Adjust the duration (2s) for the desired pulsing speed */
 }

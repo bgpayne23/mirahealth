@@ -2,6 +2,7 @@
 
 import React from "react";
 import PregnancyPredictionsDisplay from "@/components/PregnancyPredictionsDisplay";
+import Layout from "@/components/Layout";
 
 // Define the PredictionData interface here
 interface PredictionData {
@@ -12,14 +13,18 @@ interface PredictionData {
 const PredictionsPage: React.FC = () => {
     // Assume you have received the prediction data from the server
     const predictionData: PredictionData = {
-        prediction: 0,
+        prediction: .9,
         score: 0.12345678,
     };
 
     return (
-        <div className="container mx-auto mt-8">
+    <Layout>
+    <div className="bg-sky-50">
+        <div className="container mx-auto mt-9 ">
             <PregnancyPredictionsDisplay data={predictionData} />
         </div>
+    </div>
+    </Layout>
     );
 };
 
