@@ -19,7 +19,7 @@ const PredictionsPage: React.FC = () => {
 
     return (
       <Layout>
-        <div className="container mx-auto mt-8">
+        <div className="flex items-center justify-center h-screen bg-sky-50">
             <PregnancyPredictionsDisplay data={predictionData} />
         </div>
         </Layout>

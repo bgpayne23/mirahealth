@@ -13,18 +13,18 @@ interface PregnancyPredictionsProps {
     data: PredictionData;
 }
 
-const PregnancyPredictionsDisplay: React.FC<PregnancyPredictionsProps> = ({}) => {
+const PregnancyPredictionsDisplay: React.FC<PregnancyPredictionsProps> = ({ }) => {
     const router = useRouter();
     const [apiResponse, setApiResponse] = useState<PredictionData>({
-      prediction: 0,
-      score: 0,
+        prediction: 0,
+        score: 0,
     });
-    const {formData} = useContext(FormDataContext);
+    const { formData } = useContext(FormDataContext);
 
-    
-    
-    
- 
+
+
+
+
     useEffect(() => {
         const requiredFields = [
             "obgyn_AvgPatientTime",
@@ -45,7 +45,7 @@ const PregnancyPredictionsDisplay: React.FC<PregnancyPredictionsProps> = ({}) =>
             "HeartRate",
             "HDP",
         ];
-        
+
         const hasAllRequiredFields = (obj: Record<string, any>): boolean => {
             return requiredFields.every((field) => Object.keys(obj).includes(field));
         };
@@ -53,31 +53,34 @@ const PregnancyPredictionsDisplay: React.FC<PregnancyPredictionsProps> = ({}) =>
             // Make the axios request
             console.log(formData);
             axios.post("http://34.229.92.101/", formData)
-            .then(function (response) {
-                console.log(response);
-                setApiResponse({
-                    prediction: response.data.prediction,
-                    score: response.data.score,
+                .then(function (response) {
+                    console.log(response);
+                    setApiResponse({
+                        prediction: response.data.prediction,
+                        score: response.data.score,
+                    });
+                })
+                .catch(function error(error) {
+                    console.log(error);
                 });
-            })
-            .catch(function error(error) {
-                console.log(error);
-            });
         }
-    }, [formData]); 
+    }, [formData]);
 
     return (
-        <div className="bg-white p-4 rounded-lg shadow-md">
-            <h2 className="text-2xl font-bold mb-4">Pregnancy Predictions</h2>
-            <div>
-                <p className="text-lg font-bold">Prediction:</p>
-                <p className="text-xl">{apiResponse.prediction}</p>
+            <div className="flex justify-center items-start h-screen mt-48">
+                <div className="bg-green-200 p-24 rounded-full shadow-md w-96 flex flex-col items-center">
+                    <div className="text-center py-4">
+                        <p className="text-3xl font-bold">Prediction:</p>
+                        <p className="text-4xl">{apiResponse.prediction}</p>
+                    </div>
+                    <div className="text-center">
+                        <p className="text-3xl font-bold">Score:</p>
+                        <p className="text-4xl">{apiResponse.score}</p>
+                    </div>
+                </div>
             </div>
-            <div>
-                <p className="text-lg font-bold">Score:</p>
-                <p className="text-xl">{apiResponse.score}</p>
-            </div>
-        </div>
+        
+
     );
 };
 
