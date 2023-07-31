@@ -40,6 +40,7 @@ class ScoringItem(BaseModel):
     BS: float # 6.1,
     BodyTemp: float # 98,
     HeartRate: int # 70
+    obgyn_sentiment: int # 0
 
 @app.post("/")
 async def onehot_endpoint(item:ScoringItem):
@@ -134,6 +135,7 @@ async def onehot_endpoint(item:ScoringItem):
         Income_Q4=0
 
     mh_input = {
+        "obgyn_sentiment": item.obgyn_sentiment,
         "obgyn_Location_Rural": obgyn_Location_Rural,
         "obgyn_Location_Metropolitan": obgyn_Location_Metropolitan,
         "obgyn_Location_Micropolitan": obgyn_Location_Micropolitan,
@@ -170,12 +172,12 @@ async def onehot_endpoint(item:ScoringItem):
 
     #prediction = model.predict(df)
 
-    if item.obgyn_QualityRisk == 1:
-        return { "prediction": 1,
-                 "score": 0.851247687}
-    else:
+    if item.obgyn_sentiment == 1:
         return { "prediction": 0,
-                 "score": 0.41345389}
+                 "score": 0.351247687}
+    else:
+        return { "prediction": 1,
+                 "score": 0.91345389}
 
 
 
