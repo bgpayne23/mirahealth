@@ -99,11 +99,11 @@ const ProviderInputs = () => {
 
                 {/* Facility Location */}
                 <div className="w-full md:w-1/2 px-3 mb-4">
-                    <label className="block uppercase tracking-wide text-blue-500 text-md font-bold mb-2"
+                    <label className="block uppercase tracking-wide text-purple-500 text-md font-bold mb-2"
                         htmlFor="grid-facility-location">
                         Facility Location
                     </label>
-                    <select className="block appearance-none w-full bg-light-200 border border-gray-200 text-gray-700 py-3 px-4 pr-8 rounded leading-tight focus:outline-none focus:bg-white focus:border-blue-500 shadow-lg"
+                    <select className="block appearance-none w-full bg-light-200 border border-gray-200 text-gray-700 py-3 px-4 pr-8 rounded leading-tight focus:outline-none focus:bg-white focus:border-purple-500 shadow-lg"
                         {...register("obgyn_Location", {
                             required: { value: true, message: "This field is required" }
               
@@ -119,7 +119,7 @@ const ProviderInputs = () => {
 
                 {/* Coverage Accepted */}
                 <div className="w-full md:w-1/2 px-3 mb-4">
-                    <label className="block uppercase tracking-wide text-blue-500 text-md font-bold mb-2"
+                    <label className="block uppercase tracking-wide text-purple-500 text-md font-bold mb-2"
                         htmlFor="grid-coverage-accepted">
                         Coverage Accepted
                     </label>
@@ -128,7 +128,7 @@ const ProviderInputs = () => {
                             required: { value: true, message: "This field is required" }
                 
                             })}
-                        className="block appearance-none w-full bg-light-200 border border-gray-200 text-gray-700 py-3 px-4 pr-8 rounded leading-tight focus:outline-none focus:bg-white focus:border-blue-500 shadow-lg"
+                        className="block appearance-none w-full bg-light-200 border border-gray-200 text-gray-700 py-3 px-4 pr-8 rounded leading-tight focus:outline-none focus:bg-white focus:border-purple-500 shadow-lg"
                         id="grid-coverage-accepted">
                         <option value="">Select an option...</option>
                         <option >Public Insurance</option>
@@ -140,7 +140,7 @@ const ProviderInputs = () => {
 
                 {/* Response Size */}
                 <div className="w-full md:w-1/2 px-3 mb-6 md:mb-0">
-                    <label className="block uppercase tracking-wide text-blue-500 text-md font-bold mb-2" htmlFor="grid-response-size">
+                    <label className="block uppercase tracking-wide text-purple-500 text-md font-bold mb-2" htmlFor="grid-response-size">
                         Response Size
                     </label>
                     <input 
@@ -150,7 +150,7 @@ const ProviderInputs = () => {
                         })}
                     className="appearance-none block w-full bg-light-200 text-gray-700 
       border border-gray-200 rounded py-3 px-4 leading-tight 
-      focus:outline-none focus:bg-white shadow-lg focus:ring-2 focus:ring-blue-600"
+      focus:outline-none focus:bg-white shadow-lg focus:ring-2 focus:ring-purple-600"
                         id="grid-response-size"
                         type="number"
                         placeholder="number" />
@@ -159,7 +159,7 @@ const ProviderInputs = () => {
 
                 {/* Availability */}
                 <div className="w-full md:w-1/2 px-3  mb-4">
-                    <label className="block uppercase tracking-wide text-blue-500 text-md font-bold mb-2"
+                    <label className="block uppercase tracking-wide text-purple-500 text-md font-bold mb-2"
                         htmlFor="grid-availability">
                         Availability
                     </label>
@@ -167,7 +167,7 @@ const ProviderInputs = () => {
                         {...register("availability", {
                             required: { value: true, message: "This field is required" }
                           })}
-                        className="block appearance-none w-full bg-light-200 border border-gray-200 text-gray-700 py-3 px-4 pr-8 rounded leading-tight focus:outline-none focus:bg-white focus:border-blue-500 shadow-lg"
+                        className="block appearance-none w-full bg-light-200 border border-gray-200 text-gray-700 py-3 px-4 pr-8 rounded leading-tight focus:outline-none focus:bg-white focus:border-purple-500 shadow-lg"
                         id="grid-availability">
                         <option value="">Select an option...</option>
                         <option >Day: 7am-7pm</option>
@@ -180,7 +180,7 @@ const ProviderInputs = () => {
 
                 {/* Staff Size */}
                 <div className="w-full md:w-1/2 px-3  mb-4">
-                    <label className="block uppercase tracking-wide text-blue-500 text-md font-bold mb-2"
+                    <label className="block uppercase tracking-wide text-purple-500 text-md font-bold mb-2"
                         htmlFor="grid-staff-size">
                         Staff Size
                     </label>
@@ -189,7 +189,7 @@ const ProviderInputs = () => {
                             required: { value: true, message: "This field is required" }
               
                           })}
-                        className="block appearance-none w-full bg-light-200 border border-gray-200 text-gray-700 py-3 px-4 pr-8 rounded leading-tight focus:outline-none focus:bg-white focus:border-blue-500 shadow-lg"
+                        className="block appearance-none w-full bg-light-200 border border-gray-200 text-gray-700 py-3 px-4 pr-8 rounded leading-tight focus:outline-none focus:bg-white focus:border-purple-500 shadow-lg"
                         id="grid-staff-size">
                         <option value="">Select an option...</option>
                         <option >0-10 doctors</option>
@@ -202,7 +202,7 @@ const ProviderInputs = () => {
                 {/* Response Sentiment */}
                 {/* TO DO : add colors */}
                 <div className="w-full md:w-1/2 px-3  mb-4">
-                    <label className="block uppercase tracking-wide text-blue-500 text-md font-bold mb-2"
+                    <label className="block uppercase tracking-wide text-purple-500 text-md font-bold mb-2"
                         htmlFor="grid-response-sentiment">
                         Response Sentiment
                     </label>
@@ -211,7 +211,7 @@ const ProviderInputs = () => {
                             required: { value: true, message: "This field is required" }
               
                           })}
-                        className="block appearance-none w-full bg-light-200 border border-gray-200 text-gray-700 py-3 px-4 pr-8 rounded leading-tight focus:outline-none focus:bg-white focus:border-blue-500 shadow-lg"
+                        className="block appearance-none w-full bg-light-200 border border-gray-200 text-gray-700 py-3 px-4 pr-8 rounded leading-tight focus:outline-none focus:bg-white focus:border-purple-500 shadow-lg"
                         id="grid-response-sentiment">
                         <option value="">Select an option...</option>
                         <option className="text-green-500 bg-light-green-200" value="happy">Happy</option>
@@ -223,7 +223,7 @@ const ProviderInputs = () => {
 
                 {/* Hours Worked */}
                 <div className="w-full md:w-1/2 px-3 mb-6 md:mb-0">
-                    <label className="block uppercase tracking-wide text-blue-500 text-md font-bold mb-2" htmlFor="grid-hours-worked">
+                    <label className="block uppercase tracking-wide text-purple-500 text-md font-bold mb-2" htmlFor="grid-hours-worked">
                         Hours Worked
                     </label>
                     <input 
@@ -233,7 +233,7 @@ const ProviderInputs = () => {
                           })}
                         className="appearance-none block w-full bg-light-200 text-gray-700 
       border border-gray-200 rounded py-3 px-4 leading-tight 
-      focus:outline-none focus:bg-white shadow-lg focus:ring-2 focus:ring-blue-600"
+      focus:outline-none focus:bg-white shadow-lg focus:ring-2 focus:ring-purple-600"
                         id="grid-hours-worked"
                         type="number"
                         placeholder="number" />
@@ -243,7 +243,7 @@ const ProviderInputs = () => {
                 {/* Response Time */}
                 {/* TO DO : I don't think I did this one correctly */}
                 <div className="w-full md:w-1/2 px-3  mb-4">
-                    <label className="block uppercase tracking-wide text-blue-500 text-md font-bold mb-2"
+                    <label className="block uppercase tracking-wide text-purple-500 text-md font-bold mb-2"
                         htmlFor="grid-response-time">
                         Response Time
                     </label>
@@ -252,7 +252,7 @@ const ProviderInputs = () => {
                             required: { value: true, message: "This field is required" }
               
                           })}
-                        className="block appearance-none w-full bg-light-200 border border-gray-200 text-gray-700 py-3 px-4 pr-8 rounded leading-tight focus:outline-none focus:bg-white focus:border-blue-500 shadow-lg"
+                        className="block appearance-none w-full bg-light-200 border border-gray-200 text-gray-700 py-3 px-4 pr-8 rounded leading-tight focus:outline-none focus:bg-white focus:border-purple-500 shadow-lg"
                         id="grid-response-time">
                         <option value="">Select an option...</option>
                         <option >24-48 hours M-F</option>
@@ -264,7 +264,7 @@ const ProviderInputs = () => {
                 {/* Patient Notes Size */}
                 {/* TO DO : max 5000 characters */}
                 <div className="w-full md:w-1/2 px-3 mb-6 md:mb-0">
-                    <label className="block uppercase tracking-wide text-blue-500 text-md font-bold mb-2" htmlFor="grid-patient-notes-size">
+                    <label className="block uppercase tracking-wide text-purple-500 text-md font-bold mb-2" htmlFor="grid-patient-notes-size">
                         Patient Notes Size
                     </label>
                     <input 
@@ -274,7 +274,7 @@ const ProviderInputs = () => {
                           })}
                         className="appearance-none block w-full bg-light-200 text-gray-700 
       border border-gray-200 rounded py-3 px-4 leading-tight 
-      focus:outline-none focus:bg-white shadow-lg focus:ring-2 focus:ring-blue-600"
+      focus:outline-none focus:bg-white shadow-lg focus:ring-2 focus:ring-purple-600"
                         id="grid-patient-notes-size"
                         type="number"
                         placeholder="number" />
@@ -286,7 +286,7 @@ const ProviderInputs = () => {
                 (101-1000) for public (clinic or hospital care)facilitty. */}
                 {/* TO DO : I don't think I did this one correctly */}
                 <div className="w-full md:w-1/2 px-3  mb-4">
-                    <label className="block uppercase tracking-wide text-blue-500 text-md font-bold mb-2"
+                    <label className="block uppercase tracking-wide text-purple-500 text-md font-bold mb-2"
                         htmlFor="grid-doctor-patient-ratio">
                         Doctor Patient Ratio
                     </label>
@@ -295,7 +295,7 @@ const ProviderInputs = () => {
                             required: { value: true, message: "This field is required" }
               
                           })}
-                        className="block appearance-none w-full bg-light-200 border border-gray-200 text-gray-700 py-3 px-4 pr-8 rounded leading-tight focus:outline-none focus:bg-white focus:border-blue-500 shadow-lg"
+                        className="block appearance-none w-full bg-light-200 border border-gray-200 text-gray-700 py-3 px-4 pr-8 rounded leading-tight focus:outline-none focus:bg-white focus:border-purple-500 shadow-lg"
                         id="grid-doctor-patient-ratio">
                         <option value="">Select an option...</option>
                         <option >0-100</option>
@@ -306,7 +306,7 @@ const ProviderInputs = () => {
 
                 {/* Response Frequency */}
                 <div className="w-full md:w-1/2 px-3 mb-4">
-                    <label className="block uppercase tracking-wide text-blue-500 text-md font-bold mb-2"
+                    <label className="block uppercase tracking-wide text-purple-500 text-md font-bold mb-2"
                         htmlFor="grid-response-frequency">
                         Response Frequency
                     </label>
@@ -315,7 +315,7 @@ const ProviderInputs = () => {
                             required: { value: true, message: "This field is required" }
               
                           })}
-                        className="block appearance-none w-full bg-light-200 border border-gray-200 text-gray-700 py-3 px-4 pr-8 rounded leading-tight focus:outline-none focus:bg-white focus:border-blue-500 shadow-lg"
+                        className="block appearance-none w-full bg-light-200 border border-gray-200 text-gray-700 py-3 px-4 pr-8 rounded leading-tight focus:outline-none focus:bg-white focus:border-purple-500 shadow-lg"
                         id="grid-response-frequency">
                         <option value="">Select an option...</option>
                         <option >1 visit/3 months</option>
@@ -329,7 +329,7 @@ const ProviderInputs = () => {
                 {/* Patient Notes Sentiment */}
                 {/* TO DO? : max 5000 characters */}
                 <div className="w-full md:w-1/2 px-3 mb-6 md:mb-0">
-                    <label className="block uppercase tracking-wide text-blue-500 text-md font-bold mb-2" htmlFor="grid-patient-notes-sentiment">
+                    <label className="block uppercase tracking-wide text-purple-500 text-md font-bold mb-2" htmlFor="grid-patient-notes-sentiment">
                         Patient Notes Sentiment
                     </label>
                     <input 
@@ -339,14 +339,14 @@ const ProviderInputs = () => {
                           })}
                         className="appearance-none block w-full bg-light-200 text-gray-700 
       border border-gray-200 rounded py-3 px-4 leading-tight 
-      focus:outline-none focus:bg-white shadow-lg focus:ring-2 focus:ring-blue-600"
+      focus:outline-none focus:bg-white shadow-lg focus:ring-2 focus:ring-purple-600"
                         id="grid-patient-notes-sentiment"
                         type="text"
                         placeholder=" " />
                     {errors.patientNotesSentiment && <p className="text-red-500 text-xs italic">{errors.patientNotesSentiment.message}</p>}
                 </div>
 
-                <button type="submit" className="my-4 w-full flex justify-center py-3 px-4 border border-transparent rounded-md shadow-sm text-md font-medium text-white bg-blue-500 hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">Submit Data</button>
+                <button type="submit" className="my-4 w-full flex justify-center py-3 px-4 border border-transparent rounded-md shadow-sm text-md font-medium text-white bg-purple-500 hover:bg-purple-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">Submit Data</button>
 
             </div>
 

@@ -84,7 +84,7 @@ const PatientInputs = () => {
             <div className="flex flex-wrap -mx-3 mb-6">
             <div className="w-full md:w-1/2 px-3 mb-6 md:mb-0">
     <label
-        className="block uppercase tracking-wide text-blue-500 text-md font-bold mb-2"
+        className="block uppercase tracking-wide text-purple-500 text-md font-bold mb-2"
         htmlFor="grid-dob-month"
     >
         Date of Birth
@@ -102,7 +102,7 @@ const PatientInputs = () => {
                 className={`appearance-none block w-full bg-light-200 text-gray-700 border 
                     ${errors.DOBMonth ? "border-red-500" : "border-gray-200"} 
                     rounded py-3 px-2 mb-3 leading-tight focus:outline-none focus:bg-white shadow-lg 
-                    focus:ring-2 focus:ring-blue-600`}
+                    focus:ring-2 focus:ring-purple-600`}
                 id="grid-dob-month"
                 placeholder="Month"
             >
@@ -142,7 +142,7 @@ const PatientInputs = () => {
                 className={`appearance-none block w-full bg-light-200 text-gray-700 border 
                     ${errors.DOBDay ? "border-red-500" : "border-gray-200"} 
                     rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white shadow-lg 
-                    focus:ring-2 focus:ring-blue-600`}
+                    focus:ring-2 focus:ring-purple-600`}
                 id="grid-dob-day"
                 type="number"
                 placeholder="Day"
@@ -167,7 +167,7 @@ const PatientInputs = () => {
                 className={`appearance-none block w-full bg-light-200 text-gray-700 border 
                     ${errors.DOBYear ? "border-red-500" : "border-gray-200"} 
                     rounded py-3 px-3 mb-3 leading-tight focus:outline-none focus:bg-white shadow-lg 
-                    focus:ring-2 focus:ring-blue-600`}
+                    focus:ring-2 focus:ring-purple-600`}
                 id="grid-dob-year"
                 type="number"
                 placeholder="Year"
@@ -183,7 +183,7 @@ const PatientInputs = () => {
 
                 <div className="w-full md:w-1/2 px-3">
                     <label
-                        className="block uppercase tracking-wide text-blue-500 text-md font-bold mb-2"
+                        className="block uppercase tracking-wide text-purple-500 text-md font-bold mb-2"
                         htmlFor="grid-ethnicity"
                     >
                         Ethnicity
@@ -192,7 +192,7 @@ const PatientInputs = () => {
                     <select
                         className="block appearance-none w-full bg-light-200 border border-gray-200 
                         text-gray-700 py-3 px-4 pr-8 rounded leading-tight focus:outline-none 
-                        focus:bg-white focus:ring-2 focus:ring-blue-600 shadow-lg"
+                        focus:bg-white focus:ring-2 focus:ring-purple-600 shadow-lg"
                         {...register("Ethnicity", {
                             required: {
                                 value: true,
@@ -230,11 +230,11 @@ const PatientInputs = () => {
             </div>
             <div className="flex flex-wrap -mx-3 mb-6">
             <div className="w-full md:w-1/2 px-3">
-                <label className="block uppercase tracking-wide text-blue-500 text-md font-bold mb-2" htmlFor="grid-insurance">
+                <label className="block uppercase tracking-wide text-purple-500 text-md font-bold mb-2" htmlFor="grid-insurance">
                     Insurance Type
                 </label>
                 <div className="relative">
-                    <select className="block appearance-none w-full bg-light-200 border border-gray-200 text-gray-700 py-3 px-4 pr-8 rounded leading-tight focus:outline-none focus:bg-white focus:ring-2 focus:ring-blue-600 shadow-lg"
+                    <select className="block appearance-none w-full bg-light-200 border border-gray-200 text-gray-700 py-3 px-4 pr-8 rounded leading-tight focus:outline-none focus:bg-white focus:ring-2 focus:ring-purple-600 shadow-lg"
                         {...register("Payer", { required: { value: true, message: "This field is required" } })} id="grid-insurance">
                         <option value="Public">Public</option>
                         <option value="Uninsured">Uninsured</option>
@@ -250,7 +250,7 @@ const PatientInputs = () => {
 
                 <div className="w-full md:w-1/2 px-3">
                     <label
-                        className="block uppercase tracking-wide text-blue-500 text-md font-bold mb-2"
+                        className="block uppercase tracking-wide text-purple-500 text-md font-bold mb-2"
                         htmlFor="grid-income"
                     >
                         income
@@ -259,7 +259,7 @@ const PatientInputs = () => {
                     <select
                         className="block appearance-none w-full bg-light-200 border border-gray-200 
                         text-gray-700 py-3 px-4 pr-8 rounded leading-tight focus:outline-none 
-                        focus:bg-white focus:ring-2 focus:ring-blue-600 shadow-lg"
+                        focus:bg-white focus:ring-2 focus:ring-purple-600 shadow-lg"
                         {...register("Income", {
                             required: {
                                 value: true,
@@ -296,7 +296,7 @@ const PatientInputs = () => {
             <div className="flex flex-wrap -mx-3 mb-6">
                 <div className="w-full md:w-1/2 px-3 mb-6 md:mb-0">
                     <label
-                        className="block uppercase tracking-wide text-blue-500 text-md font-bold mb-2"
+                        className="block uppercase tracking-wide text-purple-500 text-md font-bold mb-2"
                         htmlFor="grid-state"
                     >
                         Location
@@ -305,7 +305,7 @@ const PatientInputs = () => {
                         <select
                             className="block appearance-none w-full bg-light-200 border border-gray-200 
                             text-gray-700 py-3 px-4 pr-8 rounded leading-tight 
-                            focus:outline-none focus:ring-2 focus:ring-blue-600 focus:bg-white 
+                            focus:outline-none focus:ring-2 focus:ring-purple-600 focus:bg-white 
                             focus:border-grey-500 shadow-lg"
                             {...register("Location", {
                                 required: {
@@ -333,7 +333,7 @@ const PatientInputs = () => {
                 </div>
                 <div className="w-full md:w-1/2 px-3 mb-6 md:mb-0">
                     <label
-                        className="block uppercase tracking-wide text-blue-500 text-md font-bold mb-2"
+                        className="block uppercase tracking-wide text-purple-500 text-md font-bold mb-2"
                         htmlFor="grid-zip"
                     >
                         Body Temp
@@ -341,7 +341,7 @@ const PatientInputs = () => {
                     <input
                         className="appearance-none block w-full bg-light-200 text-gray-700 
       border border-gray-200 rounded py-3 px-4 leading-tight 
-      focus:outline-none focus:bg-white shadow-lg focus:ring-2 focus:ring-blue-600"
+      focus:outline-none focus:bg-white shadow-lg focus:ring-2 focus:ring-purple-600"
                         {...register("BodyTemp")}
                         id="grid-zip"
                         type="number"
@@ -450,8 +450,8 @@ const PatientInputs = () => {
                 <button
                     type="submit"
                     className="w-full flex justify-center py-3 px-4 border border-transparent 
-                    rounded-md shadow-sm text-md font-medium text-white bg-blue-500 
-                    hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-offset-2 
+                    rounded-md shadow-sm text-md font-medium text-white bg-purple-500 
+                    hover:bg-purple-600 focus:outline-none focus:ring-2 focus:ring-offset-2 
                     focus:ring-indigo-500"
                 >
                     Submit Data

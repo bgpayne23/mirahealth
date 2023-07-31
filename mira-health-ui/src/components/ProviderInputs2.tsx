@@ -62,11 +62,11 @@ const ProviderInputs2 = () => {
 
                 {/* obgyn_Location */}
                 <div className="w-full md:w-1/2 px-3 mb-4">
-                    <label className="block uppercase tracking-wide text-blue-500 text-md font-bold mb-2"
+                    <label className="block uppercase tracking-wide text-purple-500 text-md font-bold mb-2"
                         htmlFor="grid-obgyn-location">
                         Facility Location
                     </label>
-                    <select className="block appearance-none w-full bg-light-200 border border-gray-200 text-gray-700 py-3 px-4 pr-8 rounded leading-tight focus:outline-none focus:bg-white focus:border-blue-500 shadow-lg"
+                    <select className="block appearance-none w-full bg-light-200 border border-gray-200 text-gray-700 py-3 px-4 pr-8 rounded leading-tight focus:outline-none focus:bg-white focus:border-purple-500 shadow-lg"
                         {...register("obgyn_Location", {
                             required: { value: true, message: "This field is required" }
               
@@ -82,7 +82,7 @@ const ProviderInputs2 = () => {
 
                 {/* obgyn_AvgPatientTime */}
                 <div className="w-full md:w-1/2 px-3 mb-4">
-                    <label className="block uppercase tracking-wide text-blue-500 text-md font-bold mb-2"
+                    <label className="block uppercase tracking-wide text-purple-500 text-md font-bold mb-2"
                         htmlFor="grid-obgyn-avg-patient-time">
                         Average Patient Time
                     </label>
@@ -94,7 +94,7 @@ const ProviderInputs2 = () => {
                         })}
                     className="appearance-none block w-full bg-light-200 text-gray-700 
       border border-gray-200 rounded py-3 px-4 leading-tight 
-      focus:outline-none focus:bg-white shadow-lg focus:ring-2 focus:ring-blue-600"
+      focus:outline-none focus:bg-white shadow-lg focus:ring-2 focus:ring-purple-600"
                         id="grid-obgyn_num-of-patients"
                         type="number"
                         placeholder="number" />
@@ -103,7 +103,7 @@ const ProviderInputs2 = () => {
 
                 {/* obgyn_NumOfPatients */}
                 <div className="w-full md:w-1/2 px-3 mb-6 md:mb-0">
-                    <label className="block uppercase tracking-wide text-blue-500 text-md font-bold mb-2" htmlFor="grid-obgyn_num-of-patients">
+                    <label className="block uppercase tracking-wide text-purple-500 text-md font-bold mb-2" htmlFor="grid-obgyn_num-of-patients">
                         Number of Patients
                     </label>
                     <input 
@@ -113,7 +113,7 @@ const ProviderInputs2 = () => {
                         })}
                     className="appearance-none block w-full bg-light-200 text-gray-700 
       border border-gray-200 rounded py-3 px-4 leading-tight 
-      focus:outline-none focus:bg-white shadow-lg focus:ring-2 focus:ring-blue-600"
+      focus:outline-none focus:bg-white shadow-lg focus:ring-2 focus:ring-purple-600"
                         id="grid-obgyn-num-of-patients"
                         type="number"
                         placeholder="number" />
@@ -122,7 +122,7 @@ const ProviderInputs2 = () => {
 
                 {/* obgyn_QualityRisk */}
                 <div className="w-full md:w-1/2 px-3  mb-4">
-                    <label className="block uppercase tracking-wide text-blue-500 text-md font-bold mb-2"
+                    <label className="block uppercase tracking-wide text-purple-500 text-md font-bold mb-2"
                         htmlFor="grid-obgyn-quality-risk">
                         Quality Risk
                     </label>
@@ -133,7 +133,7 @@ const ProviderInputs2 = () => {
                         })}
                     className="appearance-none block w-full bg-light-200 text-gray-700 
       border border-gray-200 rounded py-3 px-4 leading-tight 
-      focus:outline-none focus:bg-white shadow-lg focus:ring-2 focus:ring-blue-600"
+      focus:outline-none focus:bg-white shadow-lg focus:ring-2 focus:ring-purple-600"
                         id="grid-obgyn-quality-risk"
                         type="number"
                         placeholder="number" />
@@ -142,7 +142,7 @@ const ProviderInputs2 = () => {
 
                 {/* obgyn_TotalHours */}
                 <div className="w-full md:w-1/2 px-3  mb-4">
-                    <label className="block uppercase tracking-wide text-blue-500 text-md font-bold mb-2"
+                    <label className="block uppercase tracking-wide text-purple-500 text-md font-bold mb-2"
                         htmlFor="grid-obgyn-total-hours">
                         Total Hours
                     </label>
@@ -153,7 +153,7 @@ const ProviderInputs2 = () => {
                         })}
                     className="appearance-none block w-full bg-light-200 text-gray-700 
       border border-gray-200 rounded py-3 px-4 leading-tight 
-      focus:outline-none focus:bg-white shadow-lg focus:ring-2 focus:ring-blue-600"
+      focus:outline-none focus:bg-white shadow-lg focus:ring-2 focus:ring-purple-600"
                         id="grid-obgyn-total-hours"
                         type="number"
                         placeholder="number" />
@@ -162,7 +162,7 @@ const ProviderInputs2 = () => {
 
                 {/* obgyn_BurnoutRisk */}
                 <div className="w-full md:w-1/2 px-3  mb-4">
-                    <label className="block uppercase tracking-wide text-blue-500 text-md font-bold mb-2"
+                    <label className="block uppercase tracking-wide text-purple-500 text-md font-bold mb-2"
                         htmlFor="grid-obgyn-burnout-risk">
                         Burnout Risk
                     </label>
@@ -173,7 +173,7 @@ const ProviderInputs2 = () => {
                         })}
                     className="appearance-none block w-full bg-light-200 text-gray-700 
       border border-gray-200 rounded py-3 px-4 leading-tight 
-      focus:outline-none focus:bg-white shadow-lg focus:ring-2 focus:ring-blue-600"
+      focus:outline-none focus:bg-white shadow-lg focus:ring-2 focus:ring-purple-600"
                         id="grid-obgyn-burnout-risk"
                         type="number"
                         placeholder="number" />
@@ -181,7 +181,7 @@ const ProviderInputs2 = () => {
                 </div>
 
 
-                <button type="submit" className="my-4 w-full flex justify-center py-3 px-4 border border-transparent rounded-md shadow-sm text-md font-medium text-white bg-blue-500 hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">Submit Data</button>
+                <button type="submit" className="my-4 w-full flex justify-center py-3 px-4 border border-transparent rounded-md shadow-sm text-md font-medium text-white bg-purple-500 hover:bg-purple-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">Submit Data</button>
 
             </div>
 

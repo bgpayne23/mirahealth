@@ -8,12 +8,13 @@ const HomePage = () => {
   return (
   
 <Layout>
-<div className="flex flex-col items-center justify-center h-screen bg-sky-50">
+<div className="flex flex-col items-center justify-normal h-screen bg-sky-50 p-14">
       {/* Home Page Content */}
-      <h1 className="text-3xl font-bold mb-4">Welcome to MiraHealth</h1>
-      <p className="text-xl">This is the home page for the MiraHealth app.</p>
+      <h1 className="text-3xl font-bold mb-4 text-purple-800">Welcome to MiraHealth</h1>
+      <img src="mh.jpg" alt="MiraHealth Logo" className="h-80 mb-4 rounded-md" /> 
+      <p className="text-2xl text-purple-700">powered by watsonx</p>
       <Link href="/inputs/Patient">
-      <button className="mt-4 bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+      <button className="mt-4 bg-purple-800 hover:bg-purple-500 text-white font-bold py-3 px-12 text-2xl rounded">
        Get Started
       </button>
     </Link>
