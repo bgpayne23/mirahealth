@@ -43,7 +43,7 @@ const PregnancyPredictionsDisplay: React.FC<PregnancyPredictionsProps> = ({ }) =
             "BS",
             "BodyTemp",
             "HeartRate",
-            "HDP",
+            "obgyn_sentiment",
         ];
 
         const hasAllRequiredFields = (obj: Record<string, any>): boolean => {

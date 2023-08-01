@@ -26,7 +26,6 @@ type FormValues = {
     BS: number;
     BodyTemp: number;
     HeartRate: number;
-    HDP: number;
 };
 
 const PatientInputs = () => {
@@ -72,7 +71,6 @@ const PatientInputs = () => {
             BS: parseFloat(data.BS as any),
             BodyTemp: parseFloat(data.BodyTemp as any),
             HeartRate: parseInt(data.HeartRate as any),
-            HDP: data.HDP,
         };
 
         console.log(formDataWithoutDOB);
