@@ -68,7 +68,7 @@ const PregnancyPredictionsDisplay: React.FC<PregnancyPredictionsProps> = ({ }) =
 
     return (
             <div className="flex justify-center items-start h-screen mt-48">
-                <div className="bg-green-200 p-24 rounded-full shadow-md w-96 flex flex-col items-center">
+                <div className={`p-24 rounded-full shadow-md w-96 flex flex-col items-center ${apiResponse.score < 0.5 ? 'bg-green-300' : 'bg-red-300'}`}>
                     <div className="text-center py-4">
                         <p className="text-3xl font-bold">Prediction:</p>
                         <p className="text-4xl">{apiResponse.prediction}</p>
