@@ -14,5 +14,6 @@
     "DiastolicBP": 90,
     "BS": 6.1,
     "BodyTemp": 98,
-    "HeartRate": 70
+    "HeartRate": 70,
+    "obgyn_sentiment": 0
 }

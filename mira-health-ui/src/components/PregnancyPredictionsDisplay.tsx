@@ -1,10 +1,14 @@
-import React from "react";
+import React, { useContext, useEffect, useState } from "react";
+import axios from 'axios';
+import { useRouter } from 'next/router';
+import FormDataContext from "./FormDataContext";
 
 type PredictionData = {
     prediction: number;
     score: number;
 };
 
+// You might not need this prop anymore
 interface PregnancyPredictionsProps {
     data: PredictionData;
 }

@@ -16,17 +16,18 @@ const Layout = ({ children }: LayoutProps) => {
                             Home
                         </span>
                     </Link>
-                    <Link href="/inputs/Provider">
-                        <span className="block py-2.5 px-4 rounded transition duration-200 
-                        hover:bg-blue-100 hover:text-blue-500 cursor-pointer">
-                            Provider Portal
-                        </span>
-                    </Link>
+                 
 
                     <Link href="/inputs/Patient">
                         <span className="block py-2.5 px-4 rounded transition duration-200 
                         hover:bg-blue-100 hover:text-blue-500 cursor-pointer">
                             Patient Portal
+                        </span>
+                    </Link>
+                    <Link href="/inputs/Provider">
+                        <span className="block py-2.5 px-4 rounded transition duration-200 
+                        hover:bg-blue-100 hover:text-blue-500 cursor-pointer">
+                            Provider Portal
                         </span>
                     </Link>
                     <Link href="/alerts/PredictionsPage">

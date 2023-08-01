@@ -1,41 +1,22 @@
-import React, { useEffect } from 'react';
+import React, { useContext, useEffect } from 'react';
 import { useState } from 'react';
 import Link from "next/link";
+import Router, { useRouter } from 'next/router';
 import { USStates } from '@/lib/utils';
 import { FieldError, UseControllerProps, useForm, Controller } from "react-hook-form";
 import axios from 'axios';
+import FormDataContext from './FormDataContext';
 
 type FormValues = {
 
-    // facilityLocation: string
-    // coverageAccepted: string
-    // responseSize: number
-    // availability: string
-    // staffSize: number
-    // responseSentiment: string
-    // hoursWorked: number
-    // responseTime: number
-    // patientNotesSize: number
-    // doctorPatientRatio: number
-    // responseFrequency: number
-    // patientNotesSentiment: string
+  
     obgyn_AvgPatientTime: number;
     obgyn_NumOfPatients: number;
     obgyn_QualityRisk: number;
     obgyn_TotalHours: number;
     obgyn_BurnoutRisk: number;
     obgyn_Location: string;
-    Age: number;
-    Ethnicity: string;
-    Payer: string;
-    Location: string;
-    Income: string;
-    SystolicBP: number;
-    DiastolicBP: number;
-    BS: number;
-    BodyTemp: number;
-    HeartRate: number;
-    HDP: number;
+     
 
 }
 // age/ titles bigger
@@ -45,20 +26,17 @@ type FormValues = {
 
 const ProviderInputs2 = () => {
 
-    //onBlur: This will validate the field when it loses focus.
-    //onChange: This will validate the field whenever its value changes.
-    //onSubmit: This will validate the field only when the form is submitted.
-    //onTouched: This will validate the field when it has been touched.
-    //all: This will validate the field both when its value changes and when it is blurred.
+   
 
     const { register, handleSubmit, formState: { errors } } = useForm<FormValues>({
         mode: 'onBlur',
     })
-
+    const router = useRouter();
     const [isHovered, setIsHovered] = useState(false);
     const [message, setMessage] = useState('');
+    const {formData, setFormData} = useContext(FormDataContext);
 
-    //setTimeout
+     
 
     function onSubmit(data: FormValues) {
     // todo: connect this to another component or datasource. hardcode for now.
@@ -68,25 +46,13 @@ const ProviderInputs2 = () => {
     data.obgyn_QualityRisk = parseInt(data.obgyn_QualityRisk as any);
     data.obgyn_TotalHours = parseInt(data.obgyn_TotalHours as any);
     data.obgyn_Location = data.obgyn_Location;
-    data.Age = 18;
-    data.Ethnicity = "Hispanic";
-    data.Payer = "Uninsured";
-    data.Location = "Rural";
-    data.Income = "Q4";
-    data.SystolicBP = 120;
-    data.DiastolicBP = 90;
-    data.BS = 6.1;
-    data.BodyTemp = 98;
-    data.HeartRate = 70;
+ 
 
     console.log(data);
-    // todo: transfer data from response to predictions page 
-    axios.post('http://34.229.92.101/', data).then(function (response) {
-      console.log(response);
-    })
-      .catch(function error() {
-        console.log(error);
-      });
+
+    setFormData(currentData => ({ ...currentData, ...data }));
+    router.push('/alerts/PredictionsPage')
+
 
     }
     

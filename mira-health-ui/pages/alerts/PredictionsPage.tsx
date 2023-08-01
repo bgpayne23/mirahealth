@@ -1,6 +1,5 @@
-// NOT USING
-
-import React from "react";
+import React from 'react';
+import { useRouter } from 'next/router';
 import PregnancyPredictionsDisplay from "@/components/PregnancyPredictionsDisplay";
 import Layout from "@/components/Layout";
 
@@ -11,7 +10,9 @@ interface PredictionData {
 }
 
 const PredictionsPage: React.FC = () => {
-    // Assume you have received the prediction data from the server
+    const router = useRouter();
+    const { prediction, score } = router.query;
+
     const predictionData: PredictionData = {
         prediction: .9,
         score: 0.12345678,
