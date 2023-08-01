@@ -46,30 +46,40 @@ const PatientInputs = () => {
 
     const onSubmit = (data: FormValues) => {
 
+        // Extract the dobDay, dobMonth, and dobYear from the data object
         const dobDay = parseInt(data.DOBDay as any);
-        const dobMonth = parseInt(data.DOBMonth as any) - 1;  // because of 0 index
+        const dobMonth = parseInt(data.DOBMonth as any) - 1; // because of 0 index
         const dobYear = parseInt(data.DOBYear as any);
+
         const today = new Date();
         const dob = new Date(dobYear, dobMonth, dobDay);
 
-        // Age = today - dob, but you have to check which month it is and conditionally subtract.
+        // Calculate age from dob properties
         let age = today.getFullYear() - dobYear;
-        if (today.getMonth() < dobMonth ||
-            (today.getMonth() === dobMonth && today.getDate() < dobDay)) {
+        if (today.getMonth() < dobMonth || (today.getMonth() === dobMonth && today.getDate() < dobDay)) {
             age--;
         }
 
-        data.Age = age;
-        data.SystolicBP = parseInt(data.SystolicBP as any);
-        data.DiastolicBP = parseInt(data.DiastolicBP as any);
-        data.BS = parseFloat(data.BS as any);
-        data.BodyTemp = parseFloat(data.BodyTemp as any);
-        data.HeartRate = parseInt(data.HeartRate as any);
-        console.log(data);
+        // Create a new object without the DOB properties
+        const formDataWithoutDOB = {
+            Age: age,
+            Ethnicity: data.Ethnicity,
+            Payer: data.Payer,
+            Location: data.Location,
+            Income: data.Income,
+            SystolicBP: parseInt(data.SystolicBP as any),
+            DiastolicBP: parseInt(data.DiastolicBP as any),
+            BS: parseFloat(data.BS as any),
+            BodyTemp: parseFloat(data.BodyTemp as any),
+            HeartRate: parseInt(data.HeartRate as any),
+            HDP: data.HDP,
+        };
 
+        console.log(formDataWithoutDOB);
 
-        setFormData(currentData => ({ ...currentData, ...data }));
-        router.push('/inputs/Provider')
+        // Update the form data state without the dobDay, dobMonth, and dobYear fields
+        setFormData((currentData) => ({ ...currentData, ...formDataWithoutDOB }));
+        router.push('/inputs/Provider');
     };
 
     return (
@@ -102,6 +112,7 @@ const PatientInputs = () => {
                                 id="grid-dob-month"
                                 placeholder="Month"
                             >
+
                                 <option value="01">January</option>
                                 <option value="02">February</option>
                                 <option value="03"> March</option>
