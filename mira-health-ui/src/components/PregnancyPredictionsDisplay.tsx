@@ -5,6 +5,7 @@ import FormDataContext from "./FormDataContext";
 import { CircularProgressbar, buildStyles } from 'react-circular-progressbar';
 import 'react-circular-progressbar/dist/styles.css';
 import Bar from './ui/bar';
+import Link from "next/link";
 
 type PredictionData = {
     prediction: number;
@@ -66,12 +67,16 @@ const PregnancyPredictionsDisplay: React.FC<PregnancyPredictionsProps> = ({ }) =
         }
     }, [formData]);
 
+    const onSubmit = () => {
+        router.push('/inputs/Recommendations')
+    }
+
     const percentage = parseFloat((Number(apiResponse.score) * 100).toFixed(2));
-    const pathColor = percentage >= .5 ? '#ef4444' : '#34d399';
+    const pathColor = percentage >= 50 ? '#ef4444' : '#34d399';
     const highRiskMessage = "Patient has high likelihood of HDP";
     const lowRiskMessage = "Patient has low likelihood of HDP";
     //const mediumRiskMessage = "Patient has medium likelihood of HDP";
-    const messageToDisplay = percentage >= .5 ? highRiskMessage : lowRiskMessage;
+    const messageToDisplay = percentage >= 50 ? highRiskMessage : lowRiskMessage;
 
     const value = 75;
     const maxValue = 100;
@@ -79,7 +84,7 @@ const PregnancyPredictionsDisplay: React.FC<PregnancyPredictionsProps> = ({ }) =
 
     return (
 
-        <div className="flex flex-col justify-center items-center h-screen mt-16 w-screen">
+        <div className="flex flex-col justify-center items-center h-screen mt-32 w-screen">
             <div className="flex justify-center" style={{ width: 300, height: 300 }}>
                 <CircularProgressbar
                     value={percentage}
@@ -97,7 +102,7 @@ const PregnancyPredictionsDisplay: React.FC<PregnancyPredictionsProps> = ({ }) =
                 />
             </div>
 
-            <div className="flex justify-center items-start mt-8">
+            <div className="flex justify-center items-start mt-8 w-1/2">
                 <div className={`p-4 mb-4 rounded-md shadow-md flex flex-col items-center ${apiResponse.score < 0.5 ? 'bg-green-300' : 'bg-red-300'}`}>
                     <div className="text-center py-1">
                         <p className="text-3xl font-bold">Alert</p>
@@ -109,87 +114,42 @@ const PregnancyPredictionsDisplay: React.FC<PregnancyPredictionsProps> = ({ }) =
             <div className="flex justify-center items-start mt-1 w-full">
                 <div className={`mt-4 shadow-md w-1/4 flex flex-col bg-white-100 border-2`}>
                     <div className="text-center py-1">
-                        <div className="text-xl font-bold">Health Factors</div>
-                        <Bar value={value} max={maxValue} color="purple" height={30} factorName={"BP"} />
-                        <Bar value={value} max={maxValue} color="purple" height={30} factorName={"BS"} />
-                        <Bar value={value} max={maxValue} color="purple" height={30} factorName={"Age"} />
+                        <div className="text-xl font-bold m-2">Health Factors</div>
+                        <Bar value={90} max={maxValue} color="#0ea5e9" height={30} factorName={"BP"} />
+                        <Bar value={value} max={maxValue} color="#0ea5e9" height={30} factorName={"BS"} />
+                        <Bar value={60} max={maxValue} color="#0ea5e9" height={30} factorName={"Age"} />
                     </div>
                 </div>
                 <div className={`mt-4 shadow-md w-1/4 flex flex-col bg-white-100 border-2`}>
                     <div className="text-center py-1">
-                        <div className="text-xl font-bold">Socioeconomic Factors</div>
-                        <Bar value={value} max={maxValue} color="purple" height={30} factorName={"Location"} />
-                        <Bar value={value} max={maxValue} color="purple" height={30} factorName={"OBGYN"} />
-                        <Bar value={value} max={maxValue} color="purple" height={30} factorName={"Payer"} />
+                        <div className="text-xl font-bold m-2">Socioeconomic Factors</div>
+                        <Bar value={95} max={maxValue} color="#0ea5e9" height={30} factorName={"Location"} />
+                        <Bar value={value} max={maxValue} color="#0ea5e9" height={30} factorName={"OBGYN"} />
+                        <Bar value={55} max={maxValue} color="#0ea5e9" height={30} factorName={"Payer"} />
                     </div>
                 </div>
             </div>
+
+
+            <div className="w-screen flex justify-center">
+                <Link href="/alerts/Recommendations">
+                    <button
+
+                        type="submit"
+                        className="m-8 w-80 flex justify-center py-3 px-4 border border-transparent 
+                    rounded-md shadow-sm text-xl font-medium text-white bg-purple-500 
+                    hover:bg-purple-600 focus:outline-none focus:ring-2 focus:ring-offset-2 
+                    focus:ring-indigo-500"
+                    >
+                        Show Recommendations
+                    </button>
+                </Link>
+            </div>
+
         </div>
 
 
-        // <div className="flex flex-col justify-center items-start h-screen mt-16">
-        //     <div className="flex">
-        //         <div className="flex justify-center"
-        //             style={{ width: 300, height: 300 }}>
-        //             <CircularProgressbar
-        //                 value={percentage}
-        //                 text={`${(Number(apiResponse.score) * 100).toFixed(2)}%`}
-        //                 styles={buildStyles({
-        //                     // Rotation of path and trail, in number of turns (0-1)
-        //                     // rotation: 0.25,
 
-        //                     // Whether to use rounded or flat corners on the ends - can use 'butt' or 'round'
-        //                     strokeLinecap: 'round',
-
-        //                     // Text size
-        //                     textSize: '18px',
-
-        //                     // How long animation takes to go from one percentage to another, in seconds
-        //                     pathTransitionDuration: 0.5,
-
-        //                     // Can specify path transition in more detail, or remove it entirely
-        //                     // pathTransition: 'none',
-
-        //                     // Colors
-        //                     pathColor: `${pathColor}`,
-        //                     textColor: '#1c1917',
-        //                     trailColor: '#d6d6d6',
-        //                     backgroundColor: '#3e98c7',
-        //                 })}
-        //                 className='' />
-        //         </div>
-
-        //     </div>
-
-        //     <div className="flex justify-center items-start h-screen mt-8">
-        //         <div className={`p-1 rounded-md shadow-md w-96 flex flex-col items-center ${apiResponse.score < 0.5 ? 'bg-purple-300' : 'bg-red-300'}`}>
-        //             <div className="text-center py-1">
-        //                 <p className="text-3xl font-bold">Alert:</p>
-        //                 <p className="text-4xl">{messageToDisplay}</p>
-        //             </div>
-        //         </div>
-        //     </div>
-
-        //     <div className="flex justify-center items-start h-screen mt-1">
-        //         <div className={`p-1 rounded-md shadow-md w-96 flex flex-col items-center ${apiResponse.score < 0.5 ? 'bg-purple-300' : 'bg-red-300'}`}>
-        //             <div className="text-center py-1">
-        //                 <Bar value={value} max={maxValue} color="purple" width={300} height={30} factorName={"BP"} />
-        //                 <Bar value={value} max={maxValue} color="purple" width={300} height={30} factorName={"BS"} />
-        //                 <Bar value={value} max={maxValue} color="purple" width={300} height={30} factorName={"Age"} />
-        //             </div>
-        //         </div>
-        //         <div className={`p-1 rounded-md shadow-md w-96 flex flex-col items-center ${apiResponse.score < 0.5 ? 'bg-purple-300' : 'bg-red-300'}`}>
-        //             <div className="text-center py-1">
-        //                 <div className="text-center py-1">
-        //                     <Bar value={value} max={maxValue} color="purple" width={300} height={30} factorName={"Location"} />
-        //                     <Bar value={value} max={maxValue} color="purple" width={300} height={30} factorName={"OBGYN"} />
-        //                     <Bar value={value} max={maxValue} color="purple" width={300} height={30} factorName={"Payer"} />
-        //                 </div>
-        //             </div>
-        //         </div>
-        //     </div>
-
-        // </div>
 
 
 
