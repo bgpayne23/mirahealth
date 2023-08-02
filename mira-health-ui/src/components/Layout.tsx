@@ -41,6 +41,12 @@ const Layout = ({ children }: LayoutProps) => {
                             Predictions
                         </span>
                     </Link>
+                    <Link href="/alerts/Recommendations">
+                        <span className="block py-5 px-4 rounded transition duration-200 
+                        hover:bg-purple-500 hover:text-white cursor-pointer text-purple-950">
+                            Recommendations
+                        </span>
+                    </Link>
                 </div>
                 <div>{children}</div>
             </div>
