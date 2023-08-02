@@ -75,7 +75,7 @@ const PregnancyPredictionsDisplay: React.FC<PregnancyPredictionsProps> = ({ }) =
                     </div>
                     <div className="text-center">
                         <p className="text-3xl font-bold">Score:</p>
-                        <p className="text-4xl">{apiResponse.score}</p>
+                        <p className="text-4xl">{(Number(apiResponse.score) * 100).toFixed(2)} %</p>
                     </div>
                 </div>
             </div>
