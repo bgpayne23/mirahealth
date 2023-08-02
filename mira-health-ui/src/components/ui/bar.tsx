@@ -9,7 +9,7 @@ interface BarProps {
     factorName?: string;
 }
 
-const Bar: React.FC<BarProps> = ({ value, max, color = 'blue', width = 200, height = 20, factorName = 'Factor' }) => {
+const Bar: React.FC<BarProps> = ({ value, max, color = 'blue', width = 180, height = 20, factorName = 'Factor' }) => {
     const percentage = Math.min((value / max) * 100, 100);
 
     const barStyles: React.CSSProperties = {

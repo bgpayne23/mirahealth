@@ -1,57 +1,43 @@
-import React, { useContext, useEffect, useState } from "react";
-import axios from 'axios';
-import { useRouter } from 'next/router';
-import FormDataContext from "./FormDataContext";
+import React from "react";
+import Recommendation from "./Recommendation";
 import { CircularProgressbar, buildStyles } from 'react-circular-progressbar';
 import 'react-circular-progressbar/dist/styles.css';
-import Bar from './ui/bar';
-import Recommendation from "./Recommendation";
 
-type RecommendationsData = {
-    watsonMessage: string
-};
-
-
-interface RecommendationsProps {
-    data: RecommendationsData;
+interface RecommendationsData {
+  watsonMessage: string;
 }
 
-const RecommendationsDisplay = ({ }) => {
-    const router = useRouter();
-    const [apiResponse, setApiResponse] = useState<RecommendationsData>({
-        watsonMessage: "watsonx-generated recommendations go here"
-    });
+// interface RecommendationsDisplayProps {
+//   data: RecommendationsData;
+// }
 
-    return (
+const RecommendationsDisplay: React.FC = () => {
+  return (
+    <div className="flex flex-col items-center h-screen mt-16 w-screen">
+      <div className="flex flex-col justify-center items-center bg-purple-100 rounded-lg p-8 w-4/5 md:w-2/3 lg:w-1/2 shadow-md">
+        <div className="text-3xl mb-4 text-purple-800">Watsonx-Generated Recommendations</div>
+        <Recommendation />
+        <Recommendation />
+        <Recommendation />
+        <Recommendation />
+      </div>
 
-        <div className="flex flex-col items-center h-screen mt-16 w-screen">
-            <div className="flex flex-col border-2 p-4 w-1/2">
-                <div className="text-xl font-bold m-4">Watsonx-Generated Recommendations</div>
-                <Recommendation />
-                <Recommendation />
-                <Recommendation />
-                <Recommendation />
-
-            </div>
-
-            <div className="flex w-1/2">
-
-                <button type="submit"
-                        className="m-8 w-1/2 flex justify-center py-3 px-4 border border-transparent 
-                    rounded-md shadow-sm text-xl font-medium text-white bg-purple-500 
-                    hover:bg-purple-600 focus:outline-none focus:ring-2 focus:ring-offset-2 
-                    focus:ring-indigo-500">Contest</button>
-                <button type="submit"
-                        className="m-8 w-1/2 flex justify-center py-3 px-4 border border-transparent 
-                    rounded-md shadow-sm text-xl font-medium text-white bg-purple-500 
-                    hover:bg-purple-600 focus:outline-none focus:ring-2 focus:ring-offset-2 
-                    focus:ring-indigo-500">Dismiss</button>
-
-            </div>
-
-        </div>
-
-    );
+      <div className="mt-8 flex w-4/5 md:w-2/3 lg:w-1/2">
+        <button
+          type="submit"
+          className="flex-1 py-3 px-4 mr-2 rounded-md shadow-sm text-xl font-medium text-white bg-purple-500 hover:bg-purple-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
+        >
+          Contest
+        </button>
+        <button
+          type="submit"
+          className="flex-1 py-3 px-4 ml-2 rounded-md shadow-sm text-xl font-medium text-white bg-purple-500 hover:bg-purple-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
+        >
+          Dismiss
+        </button>
+      </div>
+    </div>
+  );
 };
 
 export default RecommendationsDisplay;

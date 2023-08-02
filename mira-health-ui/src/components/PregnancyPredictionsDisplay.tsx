@@ -131,7 +131,7 @@ const PregnancyPredictionsDisplay: React.FC<PregnancyPredictionsProps> = ({ }) =
             </div>
 
 
-            <div className="w-screen flex justify-center">
+            <div className="w-screen flex justify-center mt-8">
                 <Link href="/alerts/Recommendations">
                     <button
 
