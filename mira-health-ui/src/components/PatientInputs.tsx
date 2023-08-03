@@ -82,11 +82,11 @@ const PatientInputs = () => {
 
     return (
         <div className="flex flex-col justify-center items-center">
-            <div className="text-3xl mt-8 font-bold text-purple-700">Patient Input</div>
             <form
                 onSubmit={handleSubmit(onSubmit)}
                 className="w-full max-w-lg mt-9"
             >
+            <div className="text-3xl mt-8 font-bold text-purple-700 mb-8">Patient Input</div>
                 <div className="flex flex-wrap -mx-3 mb-6">
                     <div className="w-full md:w-1/2 px-3 mb-6 md:mb-0">
                         <label

@@ -9,7 +9,7 @@ const Layout = ({ children }: LayoutProps) => {
     return (
         <div className="flex justify-center min-h-screen bg-white">
             <div className="w-full min-h-screen bg-purple-300 flex flex-col">
-                <div className="flex justify-center h-16 shadow-lg align-middle">
+                <div className="flex justify-center h-16 align-middle">
 
                     <Link href="/">
                         <img src="/logo.png" alt="MiraHealth Logo" className="h-10 rounded-full mt-3 mb-3" /> 
@@ -48,7 +48,7 @@ const Layout = ({ children }: LayoutProps) => {
                         </span>
                     </Link>
                 </div>
-                <div>{children}</div>
+                <div className="">{children}</div>
             </div>
         </div>
     );

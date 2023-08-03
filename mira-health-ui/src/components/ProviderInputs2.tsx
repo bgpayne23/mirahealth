@@ -60,8 +60,8 @@ const ProviderInputs2 = () => {
 
     return (
         <div className="flex flex-col justify-center items-center">
-            <div className="text-3xl mb-8 font-bold text-purple-700">Provider Input</div>
             <form onSubmit={handleSubmit(onSubmit)} className="w-full max-w-lg">
+            <div className="text-3xl mb-8 font-bold text-purple-700">Provider Input</div>
                 <div className="flex flex-wrap -mx-3 mb-6">
 
                     {/* obgyn_Location */}
