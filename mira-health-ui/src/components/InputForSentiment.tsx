@@ -54,7 +54,7 @@ const InputForSentiment: React.FC = () => {
             <div className="flex flex-col -mx-3 mb-6">
 
                 <div>
-                    <h2 className="block uppercase tracking-wide text-purple-500 text-md font-bold mb-2">Provider Notes:</h2></div>
+                    <h2 className="block uppercase tracking-wide text-purple-500 text-md font-bold mb-2">Provider Notes for Sentiment Analysis</h2></div>
                 {/* Text area for the user to input provider notes */}
                 <div ><textarea
                     value={providerNotes}
@@ -66,7 +66,7 @@ const InputForSentiment: React.FC = () => {
                 {/* Button to submit the notes */}
                 <button onClick={handleSubmit}
                     className="my-4 w-full flex justify-center py-3 px-4 border border-transparent rounded-md shadow-sm text-md font-medium text-white bg-purple-500 hover:bg-purple-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">
-                    submit to watsonx for sentiment analysis</button>
+                    Show Predictions</button>
 
             </div>
         </div>
