@@ -1,8 +1,10 @@
 const express = require('express');
 const app = express();
 const axios = require('axios');
+const cors = require('cors');
 
 app.use(express.json());
+app.use(cors());
 
 const WATSON_API_KEY = 'ZxLqSwjFfrVvQ0i6YG82fMGt05j47TpHfib3FU4t_eDD';
 const WATSON_SERVICE_URL = 'https://api.us-south.natural-language-understanding.watson.cloud.ibm.com/instances/b80ae04a-ea88-4d65-8694-dc28af13db0a';
