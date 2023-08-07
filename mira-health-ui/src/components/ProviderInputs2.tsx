@@ -16,7 +16,7 @@ type FormValues = {
     obgyn_TotalHours: number;
     obgyn_BurnoutRisk: number;
     obgyn_Location: string;
-    obgyn_sentiment: number;
+    //obgyn_sentiment: number;
 
 
 }
@@ -47,13 +47,13 @@ const ProviderInputs2 = () => {
         data.obgyn_QualityRisk = parseInt(data.obgyn_QualityRisk as any);
         data.obgyn_TotalHours = parseInt(data.obgyn_TotalHours as any);
         data.obgyn_Location = data.obgyn_Location;
-        data.obgyn_sentiment = parseInt(data.obgyn_sentiment as any);
+        //data.obgyn_sentiment = parseInt(data.obgyn_sentiment as any);
 
 
         console.log(data);
 
         setFormData(currentData => ({ ...currentData, ...data }));
-        router.push('/alerts/PredictionsPage')
+        router.push('/inputs/Notes')
 
 
     }
@@ -182,44 +182,6 @@ const ProviderInputs2 = () => {
                             type="number"
                             placeholder="number" />
                         {errors.obgyn_BurnoutRisk && <p className="text-red-500 text-xs italic">{errors.obgyn_BurnoutRisk.message}</p>}
-                    </div>
-
-                    {/* obgyn_Location */}
-                    <div className="w-full md:w-1/2 px-3 mb-4">
-                        <label className="block uppercase tracking-wide text-purple-500 text-md font-bold mb-2"
-                            htmlFor="grid-obgyn-location">
-                            Sentiment
-                        </label>
-                        <select className="block appearance-none w-full bg-light-200 border border-gray-200 text-gray-700 py-3 px-4 pr-8 rounded leading-tight focus:outline-none focus:bg-white focus:border-purple-500 shadow-lg"
-                            {...register("obgyn_sentiment", {
-                                required: { value: true, message: "This field is required" }
-
-                            })}
-                            id="grid-obgyn-location">
-                            <option value="">Select an option...</option>
-                            <option value="0">0</option>
-                            <option value="1">1</option>
-                        </select>
-                        {errors.obgyn_Location && <p className="text-red-500 text-xs italic">{errors.obgyn_Location.message}</p>}
-                    </div>
-
-                    {/* Text Box for Sentiment, button: Send to Watson NLU, */}
-                    <div className="w-full md:w-1/2 px-3  mb-4">
-                        <label className="block uppercase tracking-wide text-purple-500 text-md font-bold mb-2"
-                            htmlFor="grid-obgyn-sentiment">
-                            Provider Notes
-                        </label>
-                        <input
-                            {...register("obgyn_sentiment", {
-                                required: { value: true, message: "This field is required" }
-                            })}
-                            className="appearance-none block w-full bg-light-200 text-gray-700 
-      border border-gray-200 rounded py-3 px-4 leading-tight 
-      focus:outline-none focus:bg-white shadow-lg focus:ring-2 focus:ring-purple-600"
-                            id="grid-obgyn-sentiment"
-                            type="text"
-                            placeholder="Provider Notes" />
-                        {errors.obgyn_sentiment && <p className="text-red-500 text-xs italic">{errors.obgyn_sentiment.message}</p>}
                     </div>
 
 

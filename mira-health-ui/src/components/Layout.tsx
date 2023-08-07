@@ -35,6 +35,12 @@ const Layout = ({ children }: LayoutProps) => {
                             Provider Portal
                         </span>
                     </Link>
+                    <Link href="/inputs/Notes">
+                        <span className="block py-5 px-4 rounded transition duration-200 
+                        hover:bg-purple-500 hover:text-white cursor-pointer text-purple-950">
+                            Provider Notes
+                        </span>
+                    </Link>
                     <Link href="/alerts/PredictionsPage">
                         <span className="block py-5 px-4 rounded transition duration-200 
                         hover:bg-purple-500 hover:text-white cursor-pointer text-purple-950">
@@ -45,12 +51,6 @@ const Layout = ({ children }: LayoutProps) => {
                         <span className="block py-5 px-4 rounded transition duration-200 
                         hover:bg-purple-500 hover:text-white cursor-pointer text-purple-950">
                             Recommendations
-                        </span>
-                    </Link>
-                    <Link href="/inputs/Notes">
-                        <span className="block py-5 px-4 rounded transition duration-200 
-                        hover:bg-purple-500 hover:text-white cursor-pointer text-purple-950">
-                            Provider Notes
                         </span>
                     </Link>
                 </div>
