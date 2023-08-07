@@ -61,7 +61,7 @@ const ProviderInputs2 = () => {
     return (
         <div className="flex flex-col justify-center items-center">
             <form onSubmit={handleSubmit(onSubmit)} className="w-full max-w-lg">
-            <div className="text-3xl mb-8 font-bold text-purple-700">Provider Input</div>
+                <div className="text-3xl mb-8 font-bold text-purple-700">Provider Input</div>
                 <div className="flex flex-wrap -mx-3 mb-6">
 
                     {/* obgyn_Location */}
@@ -201,6 +201,25 @@ const ProviderInputs2 = () => {
                             <option value="1">1</option>
                         </select>
                         {errors.obgyn_Location && <p className="text-red-500 text-xs italic">{errors.obgyn_Location.message}</p>}
+                    </div>
+
+                    {/* Text Box for Sentiment, button: Send to Watson NLU, */}
+                    <div className="w-full md:w-1/2 px-3  mb-4">
+                        <label className="block uppercase tracking-wide text-purple-500 text-md font-bold mb-2"
+                            htmlFor="grid-obgyn-sentiment">
+                            Provider Notes
+                        </label>
+                        <input
+                            {...register("obgyn_sentiment", {
+                                required: { value: true, message: "This field is required" }
+                            })}
+                            className="appearance-none block w-full bg-light-200 text-gray-700 
+      border border-gray-200 rounded py-3 px-4 leading-tight 
+      focus:outline-none focus:bg-white shadow-lg focus:ring-2 focus:ring-purple-600"
+                            id="grid-obgyn-sentiment"
+                            type="text"
+                            placeholder="Provider Notes" />
+                        {errors.obgyn_sentiment && <p className="text-red-500 text-xs italic">{errors.obgyn_sentiment.message}</p>}
                     </div>
 
 
