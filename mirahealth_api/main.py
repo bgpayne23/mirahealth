@@ -3,6 +3,7 @@ from pydantic import BaseModel
 import pandas as pd
 import joblib
 from joblib import dump, load
+from mangum import Mangum
 
 app = FastAPI()
 
@@ -180,7 +181,4 @@ async def onehot_endpoint(item:ScoringItem):
                  "score": 0.91345389}
 
 
-
-# async def root():
-    # onehot_endpoint(item=ScoringItem)
-
+handler = Mangum(app)
