@@ -18,7 +18,7 @@ function MyApp({ Component, pageProps }: AppProps) {
     BS: 0,
     BodyTemp: 0,
     HeartRate: 0,
-    HDP: 0,
+    obgyn_sentiment: 0,
     obgyn_AvgPatientTime: 0,
     obgyn_NumOfPatients: 0,
     obgyn_QualityRisk: 0,

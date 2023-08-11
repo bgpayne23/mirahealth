@@ -10,7 +10,7 @@ type FormData = {
     BS: number;
     BodyTemp: number;
     HeartRate: number;
-    HDP: number;
+    obgyn_sentiment: number;
     obgyn_AvgPatientTime: number;
     obgyn_NumOfPatients: number;
     obgyn_QualityRisk: number;
@@ -36,7 +36,7 @@ const FormDataContext = React.createContext<FormContextType>({
         BS: 0,
         BodyTemp: 0,
         HeartRate: 0,
-        HDP: 0,
+        obgyn_sentiment: 0,
         obgyn_AvgPatientTime: 0,
         obgyn_NumOfPatients: 0,
         obgyn_QualityRisk: 0,
