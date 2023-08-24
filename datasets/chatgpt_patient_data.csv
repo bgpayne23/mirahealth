@@ -1,0 +1,1001 @@
+Patient ID,Age,Race,Payer,Rurality,Income,Hospital Region,Hypertension
+1,55,White,Public,Rural,Q1,Midwest,No
+2,31,American Indian and Alaska Native,Uninsured,Rural,Q1,Northeast,No
+3,26,Missing,Private,Rural,Q2,Midwest,No
+4,27,Another Race,Uninsured,Metropolitan,Q4,Northeast,No
+5,47,Another Race,Private,Rural,Q2,West,Yes
+6,30,Another Race,Uninsured,Micropolitan,Q1,Northeast,Yes
+7,51,American Indian and Alaska Native,Public,Micropolitan,Q2,West,No
+8,54,White,Uninsured,Rural,Q4,South,No
+9,42,American Indian and Alaska Native,Private,Metropolitan,Q3,Northeast,No
+10,14,Another Race,Public,Metropolitan,Q2,Midwest,No
+11,24,Another Race,Uninsured,Micropolitan,Q1,West,Yes
+12,14,Another Race,Uninsured,Rural,Q1,Northeast,No
+13,50,Hispanic,Private,Metropolitan,Q4,West,No
+14,47,White,Public,Micropolitan,Q2,South,No
+15,41,Black,Public,Rural,Q1,South,No
+16,12,White,Private,Metropolitan,Q3,Northeast,No
+17,20,Black,Private,Metropolitan,Q1,Northeast,No
+18,42,Hispanic,Public,Rural,Q3,Northeast,No
+19,22,White,Public,Micropolitan,Q2,Northeast,No
+20,23,White,Uninsured,Rural,Q3,South,No
+21,23,Hispanic,Private,Micropolitan,Q4,South,No
+22,25,Asian or Pacific Islander,Public,Metropolitan,Q3,Midwest,Yes
+23,41,Hispanic,Uninsured,Micropolitan,Q2,Northeast,No
+24,52,Hispanic,Private,Micropolitan,Q2,South,No
+25,30,Black,Uninsured,Rural,Q2,Midwest,No
+26,51,Hispanic,Public,Metropolitan,Q3,South,No
+27,24,Black,Public,Rural,Q1,Northeast,No
+28,54,Hispanic,Uninsured,Micropolitan,Q4,Midwest,No
+29,16,Black,Uninsured,Micropolitan,Q2,Midwest,No
+30,27,Missing,Private,Micropolitan,Q3,Northeast,No
+31,16,Missing,Private,Micropolitan,Q2,South,No
+32,29,Missing,Public,Metropolitan,Q1,West,No
+33,53,White,Uninsured,Rural,Q2,Northeast,Yes
+34,22,Asian or Pacific Islander,Private,Rural,Q3,West,No
+35,32,White,Uninsured,Metropolitan,Q4,West,No
+36,39,Asian or Pacific Islander,Uninsured,Micropolitan,Q2,Northeast,No
+37,18,Missing,Private,Rural,Q4,Midwest,No
+38,27,White,Uninsured,Micropolitan,Q3,West,No
+39,23,American Indian and Alaska Native,Public,Rural,Q3,Midwest,No
+40,29,Missing,Private,Rural,Q1,West,No
+41,42,Another Race,Public,Micropolitan,Q2,Northeast,Yes
+42,51,Black,Private,Micropolitan,Q2,West,No
+43,15,Black,Private,Rural,Q4,Northeast,No
+44,37,Missing,Private,Metropolitan,Q3,West,No
+45,51,American Indian and Alaska Native,Private,Metropolitan,Q2,Midwest,No
+46,53,Black,Public,Rural,Q2,Northeast,No
+47,31,Black,Private,Rural,Q3,Midwest,No
+48,19,American Indian and Alaska Native,Public,Metropolitan,Q1,West,No
+49,39,Black,Public,Metropolitan,Q2,Midwest,No
+50,23,Black,Uninsured,Metropolitan,Q3,South,No
+51,23,Another Race,Private,Metropolitan,Q3,West,No
+52,32,Hispanic,Private,Micropolitan,Q1,Midwest,No
+53,29,American Indian and Alaska Native,Private,Micropolitan,Q2,Northeast,No
+54,45,White,Public,Metropolitan,Q2,West,No
+55,19,Black,Public,Micropolitan,Q4,South,No
+56,38,Asian or Pacific Islander,Private,Micropolitan,Q4,South,No
+57,49,Black,Private,Rural,Q4,Northeast,No
+58,29,Asian or Pacific Islander,Public,Micropolitan,Q4,South,Yes
+59,40,Asian or Pacific Islander,Uninsured,Metropolitan,Q1,Northeast,No
+60,12,Black,Public,Rural,Q2,South,No
+61,46,Black,Uninsured,Metropolitan,Q2,West,No
+62,20,White,Uninsured,Rural,Q1,Northeast,No
+63,35,American Indian and Alaska Native,Public,Metropolitan,Q3,Northeast,No
+64,21,American Indian and Alaska Native,Public,Metropolitan,Q3,South,No
+65,36,Black,Private,Micropolitan,Q3,South,No
+66,48,Asian or Pacific Islander,Private,Micropolitan,Q2,Northeast,No
+67,48,Another Race,Uninsured,Micropolitan,Q4,West,Yes
+68,45,Missing,Uninsured,Rural,Q4,Midwest,No
+69,36,Asian or Pacific Islander,Public,Rural,Q2,Northeast,No
+70,13,Hispanic,Public,Rural,Q3,West,No
+71,21,Another Race,Public,Micropolitan,Q1,Midwest,No
+72,52,Another Race,Public,Micropolitan,Q4,Northeast,Yes
+73,14,American Indian and Alaska Native,Uninsured,Micropolitan,Q2,South,Yes
+74,13,Missing,Public,Metropolitan,Q4,Northeast,No
+75,55,Missing,Uninsured,Rural,Q2,Northeast,Yes
+76,37,Black,Public,Rural,Q2,Northeast,No
+77,32,Missing,Public,Micropolitan,Q3,Midwest,Yes
+78,23,Missing,Private,Metropolitan,Q4,Midwest,No
+79,45,Hispanic,Private,Metropolitan,Q2,Northeast,Yes
+80,12,Missing,Private,Micropolitan,Q4,Midwest,No
+81,28,Hispanic,Uninsured,Rural,Q4,South,Yes
+82,12,Missing,Public,Micropolitan,Q4,Northeast,Yes
+83,22,Black,Private,Micropolitan,Q2,Northeast,No
+84,21,White,Public,Rural,Q4,West,No
+85,28,White,Uninsured,Micropolitan,Q1,Northeast,No
+86,52,Black,Uninsured,Micropolitan,Q1,South,No
+87,43,Another Race,Public,Metropolitan,Q2,West,No
+88,43,White,Public,Micropolitan,Q2,South,No
+89,43,Hispanic,Private,Metropolitan,Q2,Midwest,No
+90,29,American Indian and Alaska Native,Private,Micropolitan,Q2,Northeast,Yes
+91,35,Missing,Public,Rural,Q1,South,No
+92,28,American Indian and Alaska Native,Uninsured,Micropolitan,Q3,West,Yes
+93,32,Hispanic,Public,Micropolitan,Q1,Northeast,Yes
+94,38,Asian or Pacific Islander,Public,Micropolitan,Q1,Northeast,Yes
+95,34,Another Race,Uninsured,Metropolitan,Q3,Midwest,No
+96,21,Missing,Uninsured,Micropolitan,Q2,West,No
+97,16,American Indian and Alaska Native,Uninsured,Rural,Q2,West,No
+98,13,Another Race,Public,Micropolitan,Q1,West,Yes
+99,23,Missing,Public,Rural,Q2,West,No
+100,55,Black,Uninsured,Rural,Q2,South,No
+101,31,Black,Private,Micropolitan,Q1,West,No
+102,45,American Indian and Alaska Native,Private,Metropolitan,Q3,Midwest,Yes
+103,44,Black,Public,Metropolitan,Q1,South,No
+104,32,Another Race,Private,Micropolitan,Q3,Northeast,No
+105,42,Black,Public,Metropolitan,Q4,Midwest,No
+106,39,Asian or Pacific Islander,Uninsured,Rural,Q4,Midwest,No
+107,38,American Indian and Alaska Native,Public,Metropolitan,Q3,South,No
+108,27,American Indian and Alaska Native,Public,Micropolitan,Q4,West,No
+109,44,American Indian and Alaska Native,Private,Metropolitan,Q2,South,No
+110,33,Another Race,Public,Metropolitan,Q1,Midwest,No
+111,32,Missing,Private,Micropolitan,Q4,Northeast,No
+112,52,White,Private,Micropolitan,Q4,West,No
+113,51,Another Race,Public,Metropolitan,Q1,South,No
+114,38,Black,Public,Micropolitan,Q1,South,No
+115,48,American Indian and Alaska Native,Uninsured,Rural,Q1,South,No
+116,31,American Indian and Alaska Native,Public,Rural,Q3,Midwest,No
+117,46,Asian or Pacific Islander,Uninsured,Micropolitan,Q3,Midwest,No
+118,48,Missing,Private,Metropolitan,Q1,West,No
+119,22,Black,Private,Micropolitan,Q4,West,No
+120,21,White,Uninsured,Metropolitan,Q1,Midwest,No
+121,17,Missing,Uninsured,Micropolitan,Q4,Northeast,No
+122,30,White,Uninsured,Rural,Q3,Northeast,No
+123,28,Black,Private,Micropolitan,Q2,Northeast,No
+124,54,Another Race,Private,Metropolitan,Q2,Midwest,No
+125,29,Missing,Public,Metropolitan,Q2,Midwest,Yes
+126,44,Missing,Uninsured,Metropolitan,Q1,South,No
+127,35,American Indian and Alaska Native,Uninsured,Rural,Q1,South,No
+128,38,Black,Public,Metropolitan,Q3,Northeast,No
+129,51,Asian or Pacific Islander,Uninsured,Rural,Q4,South,No
+130,32,Black,Private,Micropolitan,Q4,South,No
+131,21,American Indian and Alaska Native,Private,Metropolitan,Q1,West,No
+132,46,Hispanic,Public,Metropolitan,Q1,South,No
+133,36,White,Private,Micropolitan,Q1,Northeast,Yes
+134,21,Missing,Uninsured,Micropolitan,Q3,South,No
+135,25,Hispanic,Public,Micropolitan,Q4,Northeast,No
+136,47,White,Public,Micropolitan,Q3,West,No
+137,31,White,Uninsured,Micropolitan,Q4,Midwest,No
+138,47,White,Uninsured,Rural,Q4,South,No
+139,26,Black,Uninsured,Micropolitan,Q2,South,No
+140,53,Black,Uninsured,Micropolitan,Q1,Northeast,No
+141,43,Missing,Private,Micropolitan,Q2,Northeast,Yes
+142,23,Another Race,Private,Rural,Q2,Northeast,No
+143,27,Black,Public,Micropolitan,Q2,South,Yes
+144,23,Another Race,Public,Micropolitan,Q1,Midwest,No
+145,44,Missing,Private,Rural,Q4,South,No
+146,48,Hispanic,Public,Metropolitan,Q1,West,No
+147,43,Black,Uninsured,Rural,Q4,Northeast,No
+148,44,White,Private,Metropolitan,Q4,Midwest,No
+149,12,Hispanic,Public,Micropolitan,Q3,Northeast,No
+150,45,American Indian and Alaska Native,Public,Rural,Q2,West,No
+151,50,American Indian and Alaska Native,Public,Micropolitan,Q1,Northeast,Yes
+152,42,Black,Private,Rural,Q1,Northeast,No
+153,26,Asian or Pacific Islander,Uninsured,Rural,Q1,West,Yes
+154,52,Hispanic,Uninsured,Micropolitan,Q3,Northeast,No
+155,50,Black,Public,Micropolitan,Q3,South,No
+156,28,Another Race,Uninsured,Micropolitan,Q3,South,No
+157,45,American Indian and Alaska Native,Private,Rural,Q1,Northeast,Yes
+158,34,Black,Public,Rural,Q1,Northeast,No
+159,15,White,Private,Rural,Q2,Midwest,No
+160,49,American Indian and Alaska Native,Uninsured,Rural,Q4,Midwest,Yes
+161,29,Another Race,Private,Rural,Q1,Midwest,No
+162,30,Black,Public,Micropolitan,Q3,South,No
+163,52,Black,Uninsured,Metropolitan,Q1,Northeast,No
+164,24,Missing,Uninsured,Rural,Q1,South,No
+165,22,Another Race,Private,Rural,Q3,Northeast,No
+166,13,American Indian and Alaska Native,Public,Rural,Q3,South,No
+167,54,Hispanic,Private,Rural,Q4,West,No
+168,42,Hispanic,Public,Metropolitan,Q2,West,No
+169,48,Another Race,Uninsured,Metropolitan,Q3,Northeast,No
+170,36,White,Private,Metropolitan,Q4,South,No
+171,49,American Indian and Alaska Native,Private,Rural,Q2,Northeast,No
+172,18,Hispanic,Uninsured,Rural,Q3,West,No
+173,55,Another Race,Private,Rural,Q3,South,Yes
+174,54,American Indian and Alaska Native,Public,Rural,Q3,Northeast,No
+175,47,Hispanic,Private,Metropolitan,Q1,South,No
+176,22,Missing,Private,Metropolitan,Q1,Midwest,No
+177,15,Hispanic,Uninsured,Metropolitan,Q4,West,No
+178,37,Asian or Pacific Islander,Public,Metropolitan,Q4,Midwest,No
+179,52,American Indian and Alaska Native,Uninsured,Metropolitan,Q1,Northeast,No
+180,46,Black,Private,Micropolitan,Q3,Northeast,No
+181,51,Asian or Pacific Islander,Uninsured,Micropolitan,Q3,West,No
+182,55,Black,Public,Micropolitan,Q1,West,No
+183,33,White,Public,Micropolitan,Q1,Midwest,No
+184,48,Hispanic,Private,Micropolitan,Q2,South,Yes
+185,29,White,Private,Micropolitan,Q1,West,No
+186,41,Hispanic,Uninsured,Micropolitan,Q4,West,No
+187,35,Asian or Pacific Islander,Uninsured,Rural,Q1,South,No
+188,22,American Indian and Alaska Native,Private,Micropolitan,Q1,West,No
+189,42,White,Private,Metropolitan,Q4,South,No
+190,30,American Indian and Alaska Native,Public,Rural,Q1,South,No
+191,23,White,Private,Micropolitan,Q4,South,No
+192,54,Another Race,Private,Rural,Q3,West,No
+193,27,White,Public,Metropolitan,Q2,West,No
+194,16,Black,Public,Micropolitan,Q3,West,No
+195,36,White,Public,Micropolitan,Q3,West,Yes
+196,28,White,Private,Rural,Q3,Northeast,No
+197,28,Black,Public,Metropolitan,Q4,South,No
+198,41,American Indian and Alaska Native,Private,Micropolitan,Q4,Midwest,No
+199,44,Black,Public,Micropolitan,Q4,Northeast,No
+200,32,Missing,Uninsured,Micropolitan,Q4,West,No
+201,31,American Indian and Alaska Native,Private,Metropolitan,Q1,West,No
+202,55,White,Private,Metropolitan,Q4,Midwest,Yes
+203,35,Hispanic,Uninsured,Micropolitan,Q1,South,Yes
+204,27,White,Uninsured,Metropolitan,Q4,South,Yes
+205,41,American Indian and Alaska Native,Private,Rural,Q1,Northeast,No
+206,27,Missing,Private,Micropolitan,Q1,West,No
+207,37,Missing,Private,Rural,Q4,South,No
+208,19,White,Public,Metropolitan,Q2,South,No
+209,39,American Indian and Alaska Native,Public,Metropolitan,Q4,South,No
+210,19,Another Race,Uninsured,Micropolitan,Q1,South,Yes
+211,37,Missing,Public,Micropolitan,Q2,West,No
+212,14,White,Private,Rural,Q2,Midwest,No
+213,23,Another Race,Private,Micropolitan,Q3,Northeast,No
+214,46,Missing,Public,Rural,Q3,Midwest,No
+215,22,Hispanic,Private,Metropolitan,Q3,West,No
+216,17,Black,Public,Micropolitan,Q1,Midwest,No
+217,28,Asian or Pacific Islander,Private,Metropolitan,Q1,Midwest,No
+218,18,Hispanic,Uninsured,Micropolitan,Q1,South,Yes
+219,42,Black,Public,Metropolitan,Q2,Midwest,No
+220,53,Black,Public,Metropolitan,Q1,Midwest,No
+221,36,Asian or Pacific Islander,Public,Micropolitan,Q1,West,No
+222,54,Hispanic,Public,Rural,Q1,West,No
+223,54,Black,Uninsured,Metropolitan,Q1,Midwest,No
+224,41,White,Private,Rural,Q4,South,No
+225,32,Another Race,Public,Metropolitan,Q3,Northeast,No
+226,53,Black,Public,Rural,Q3,West,No
+227,24,Black,Public,Metropolitan,Q1,West,No
+228,36,Black,Uninsured,Rural,Q4,West,No
+229,23,Another Race,Private,Micropolitan,Q4,West,No
+230,50,White,Public,Rural,Q2,Midwest,No
+231,54,Black,Uninsured,Rural,Q4,Midwest,No
+232,48,American Indian and Alaska Native,Uninsured,Metropolitan,Q3,Midwest,Yes
+233,53,Black,Private,Rural,Q4,West,Yes
+234,19,White,Public,Metropolitan,Q3,Midwest,No
+235,33,Hispanic,Private,Micropolitan,Q2,West,No
+236,44,Another Race,Public,Metropolitan,Q3,Midwest,No
+237,24,American Indian and Alaska Native,Uninsured,Metropolitan,Q3,Midwest,No
+238,30,Missing,Private,Rural,Q4,South,No
+239,34,Missing,Uninsured,Micropolitan,Q2,West,No
+240,14,Another Race,Uninsured,Metropolitan,Q1,Northeast,No
+241,42,Missing,Private,Metropolitan,Q4,West,No
+242,45,Hispanic,Private,Micropolitan,Q4,West,No
+243,22,Asian or Pacific Islander,Private,Micropolitan,Q2,West,No
+244,13,Missing,Public,Rural,Q1,South,No
+245,15,Hispanic,Uninsured,Micropolitan,Q3,South,No
+246,13,Hispanic,Uninsured,Rural,Q4,West,No
+247,30,American Indian and Alaska Native,Private,Rural,Q1,Midwest,Yes
+248,37,Another Race,Public,Rural,Q1,West,No
+249,13,American Indian and Alaska Native,Uninsured,Rural,Q4,Northeast,No
+250,23,American Indian and Alaska Native,Public,Rural,Q4,Midwest,No
+251,35,Black,Public,Micropolitan,Q3,West,No
+252,15,Black,Uninsured,Metropolitan,Q1,West,No
+253,22,Asian or Pacific Islander,Private,Micropolitan,Q1,Northeast,No
+254,53,Hispanic,Uninsured,Metropolitan,Q4,Midwest,No
+255,49,Another Race,Uninsured,Rural,Q1,Northeast,No
+256,32,White,Private,Metropolitan,Q4,Northeast,No
+257,22,Another Race,Private,Metropolitan,Q2,Midwest,No
+258,16,Black,Uninsured,Rural,Q1,Northeast,No
+259,46,American Indian and Alaska Native,Public,Rural,Q2,West,No
+260,55,Missing,Public,Micropolitan,Q2,Midwest,No
+261,24,Black,Public,Rural,Q4,West,No
+262,32,Another Race,Public,Rural,Q2,West,No
+263,36,White,Uninsured,Rural,Q3,Midwest,No
+264,37,Asian or Pacific Islander,Uninsured,Metropolitan,Q3,Midwest,No
+265,13,Black,Private,Micropolitan,Q1,South,No
+266,36,American Indian and Alaska Native,Uninsured,Micropolitan,Q4,Northeast,No
+267,19,Black,Private,Rural,Q3,Midwest,No
+268,17,Hispanic,Uninsured,Metropolitan,Q2,Northeast,Yes
+269,19,Black,Private,Rural,Q4,Northeast,No
+270,36,Another Race,Private,Micropolitan,Q2,West,No
+271,12,Hispanic,Public,Micropolitan,Q4,South,No
+272,16,American Indian and Alaska Native,Uninsured,Rural,Q4,Northeast,No
+273,17,American Indian and Alaska Native,Private,Micropolitan,Q3,Northeast,No
+274,49,Asian or Pacific Islander,Public,Micropolitan,Q1,Northeast,No
+275,32,Hispanic,Uninsured,Metropolitan,Q4,South,No
+276,32,Missing,Private,Rural,Q1,West,Yes
+277,52,Asian or Pacific Islander,Uninsured,Micropolitan,Q3,Midwest,Yes
+278,41,Black,Uninsured,Micropolitan,Q4,West,No
+279,31,Black,Private,Metropolitan,Q2,South,No
+280,39,Black,Private,Micropolitan,Q2,West,No
+281,55,Another Race,Uninsured,Rural,Q1,South,No
+282,13,Black,Public,Metropolitan,Q2,West,No
+283,24,American Indian and Alaska Native,Private,Rural,Q2,South,No
+284,31,American Indian and Alaska Native,Public,Micropolitan,Q3,Midwest,Yes
+285,44,Black,Private,Rural,Q1,South,No
+286,55,American Indian and Alaska Native,Uninsured,Micropolitan,Q1,Northeast,Yes
+287,19,Black,Uninsured,Rural,Q1,Midwest,No
+288,52,Black,Private,Rural,Q4,West,No
+289,37,Black,Private,Metropolitan,Q2,Northeast,No
+290,15,Another Race,Private,Rural,Q3,Northeast,No
+291,31,Another Race,Private,Rural,Q1,Northeast,Yes
+292,45,Hispanic,Public,Micropolitan,Q1,West,No
+293,51,White,Private,Micropolitan,Q3,Northeast,No
+294,47,Another Race,Public,Rural,Q4,South,No
+295,31,American Indian and Alaska Native,Private,Rural,Q3,South,No
+296,39,White,Private,Rural,Q3,Northeast,No
+297,34,Hispanic,Public,Micropolitan,Q2,Northeast,No
+298,22,Black,Private,Micropolitan,Q3,South,No
+299,54,White,Private,Metropolitan,Q2,Midwest,No
+300,29,Hispanic,Private,Rural,Q2,Midwest,No
+301,53,Hispanic,Public,Micropolitan,Q4,Midwest,No
+302,45,Black,Private,Rural,Q1,West,No
+303,49,Hispanic,Public,Metropolitan,Q1,Midwest,No
+304,39,Hispanic,Private,Micropolitan,Q1,West,No
+305,50,American Indian and Alaska Native,Uninsured,Metropolitan,Q4,West,No
+306,20,White,Private,Rural,Q1,Northeast,No
+307,45,Black,Public,Rural,Q4,South,No
+308,55,Another Race,Private,Metropolitan,Q1,Midwest,Yes
+309,29,Black,Uninsured,Metropolitan,Q1,South,No
+310,32,American Indian and Alaska Native,Public,Metropolitan,Q3,Midwest,Yes
+311,33,Hispanic,Private,Metropolitan,Q1,Midwest,Yes
+312,27,Another Race,Public,Micropolitan,Q1,Northeast,Yes
+313,47,Black,Private,Micropolitan,Q2,South,Yes
+314,39,Hispanic,Public,Rural,Q3,West,No
+315,25,Hispanic,Private,Micropolitan,Q4,South,Yes
+316,19,Black,Private,Micropolitan,Q1,West,No
+317,52,Another Race,Uninsured,Micropolitan,Q3,Northeast,No
+318,37,Hispanic,Public,Micropolitan,Q2,Northeast,No
+319,34,Missing,Public,Metropolitan,Q2,Northeast,No
+320,28,American Indian and Alaska Native,Private,Rural,Q2,Midwest,No
+321,55,Black,Private,Micropolitan,Q1,South,No
+322,35,Asian or Pacific Islander,Public,Micropolitan,Q2,West,No
+323,54,Missing,Uninsured,Metropolitan,Q1,Midwest,No
+324,36,Asian or Pacific Islander,Private,Rural,Q2,Northeast,No
+325,47,Missing,Uninsured,Metropolitan,Q1,Midwest,No
+326,22,American Indian and Alaska Native,Public,Rural,Q4,Northeast,No
+327,15,American Indian and Alaska Native,Public,Rural,Q2,West,No
+328,23,American Indian and Alaska Native,Private,Micropolitan,Q1,South,No
+329,19,American Indian and Alaska Native,Public,Rural,Q3,Midwest,No
+330,28,White,Uninsured,Metropolitan,Q3,Northeast,Yes
+331,28,Black,Private,Rural,Q3,South,No
+332,14,Another Race,Public,Rural,Q4,West,Yes
+333,23,American Indian and Alaska Native,Public,Metropolitan,Q4,Northeast,No
+334,20,Another Race,Public,Micropolitan,Q1,Midwest,No
+335,19,White,Public,Rural,Q1,South,No
+336,29,Hispanic,Public,Rural,Q2,South,No
+337,21,Asian or Pacific Islander,Public,Micropolitan,Q1,Midwest,Yes
+338,38,Hispanic,Public,Metropolitan,Q4,Northeast,No
+339,17,American Indian and Alaska Native,Uninsured,Metropolitan,Q2,South,No
+340,30,American Indian and Alaska Native,Private,Metropolitan,Q2,Midwest,Yes
+341,27,Hispanic,Public,Micropolitan,Q3,Midwest,No
+342,45,White,Private,Rural,Q4,West,No
+343,21,Black,Private,Rural,Q4,Midwest,No
+344,25,Hispanic,Uninsured,Metropolitan,Q2,Midwest,No
+345,23,American Indian and Alaska Native,Private,Rural,Q1,Northeast,No
+346,13,Hispanic,Private,Rural,Q3,West,No
+347,19,Black,Uninsured,Rural,Q2,Northeast,Yes
+348,54,Another Race,Uninsured,Micropolitan,Q1,Midwest,No
+349,55,Hispanic,Private,Rural,Q3,Northeast,No
+350,36,White,Public,Micropolitan,Q2,Northeast,No
+351,50,Asian or Pacific Islander,Private,Metropolitan,Q3,South,No
+352,21,Black,Uninsured,Rural,Q4,West,No
+353,40,White,Uninsured,Metropolitan,Q2,South,Yes
+354,34,Another Race,Private,Rural,Q4,South,No
+355,21,Asian or Pacific Islander,Private,Rural,Q1,Northeast,Yes
+356,32,Black,Private,Rural,Q1,Northeast,No
+357,13,Black,Uninsured,Micropolitan,Q2,Midwest,Yes
+358,14,Hispanic,Public,Rural,Q1,Northeast,No
+359,29,White,Uninsured,Metropolitan,Q3,Midwest,No
+360,33,Black,Public,Rural,Q4,Midwest,No
+361,43,Black,Uninsured,Rural,Q2,Midwest,No
+362,46,Black,Public,Metropolitan,Q1,Midwest,Yes
+363,46,Missing,Private,Micropolitan,Q1,Midwest,No
+364,50,Asian or Pacific Islander,Public,Micropolitan,Q3,South,No
+365,30,Another Race,Public,Rural,Q4,Midwest,No
+366,22,Hispanic,Public,Metropolitan,Q1,Northeast,No
+367,24,White,Public,Micropolitan,Q1,West,No
+368,22,American Indian and Alaska Native,Uninsured,Metropolitan,Q1,Northeast,No
+369,36,American Indian and Alaska Native,Uninsured,Metropolitan,Q2,Midwest,No
+370,53,Hispanic,Uninsured,Metropolitan,Q1,West,No
+371,50,American Indian and Alaska Native,Private,Rural,Q1,West,No
+372,14,Missing,Uninsured,Micropolitan,Q4,Northeast,Yes
+373,13,Hispanic,Private,Micropolitan,Q3,Northeast,No
+374,30,Black,Public,Metropolitan,Q3,Midwest,No
+375,21,White,Public,Metropolitan,Q2,Midwest,No
+376,38,Hispanic,Public,Micropolitan,Q3,Northeast,No
+377,22,Black,Uninsured,Rural,Q3,Northeast,No
+378,17,Black,Private,Metropolitan,Q2,Midwest,No
+379,53,White,Public,Metropolitan,Q4,South,No
+380,16,Missing,Public,Micropolitan,Q4,Northeast,No
+381,14,White,Private,Micropolitan,Q3,South,No
+382,23,White,Uninsured,Rural,Q3,Midwest,No
+383,24,Black,Public,Rural,Q2,South,No
+384,14,American Indian and Alaska Native,Private,Metropolitan,Q1,West,No
+385,51,Another Race,Public,Metropolitan,Q1,South,No
+386,47,American Indian and Alaska Native,Private,Metropolitan,Q3,Northeast,No
+387,24,Missing,Private,Micropolitan,Q2,South,No
+388,38,American Indian and Alaska Native,Public,Rural,Q3,Midwest,No
+389,20,Another Race,Private,Rural,Q1,Midwest,No
+390,52,Asian or Pacific Islander,Private,Micropolitan,Q2,Midwest,No
+391,55,Asian or Pacific Islander,Public,Metropolitan,Q1,Northeast,No
+392,29,Missing,Uninsured,Metropolitan,Q4,South,No
+393,28,American Indian and Alaska Native,Uninsured,Metropolitan,Q2,Northeast,No
+394,19,White,Uninsured,Metropolitan,Q4,Midwest,No
+395,35,Black,Public,Metropolitan,Q3,Northeast,Yes
+396,31,White,Uninsured,Micropolitan,Q1,South,Yes
+397,12,Hispanic,Private,Rural,Q3,Midwest,No
+398,51,Another Race,Private,Metropolitan,Q2,Midwest,No
+399,47,Asian or Pacific Islander,Public,Metropolitan,Q2,West,No
+400,41,Missing,Private,Metropolitan,Q2,Midwest,Yes
+401,23,Missing,Public,Metropolitan,Q4,South,No
+402,19,Another Race,Uninsured,Rural,Q3,South,No
+403,42,American Indian and Alaska Native,Public,Metropolitan,Q1,Northeast,No
+404,39,Missing,Private,Rural,Q2,Northeast,No
+405,22,Asian or Pacific Islander,Private,Metropolitan,Q4,West,No
+406,36,Another Race,Private,Rural,Q3,Midwest,No
+407,53,American Indian and Alaska Native,Uninsured,Rural,Q3,West,No
+408,25,American Indian and Alaska Native,Uninsured,Metropolitan,Q2,West,No
+409,39,American Indian and Alaska Native,Private,Metropolitan,Q3,West,No
+410,47,Another Race,Uninsured,Micropolitan,Q2,South,No
+411,46,White,Uninsured,Micropolitan,Q3,South,Yes
+412,41,Black,Uninsured,Metropolitan,Q2,Northeast,No
+413,19,Black,Uninsured,Metropolitan,Q2,West,No
+414,25,White,Public,Rural,Q1,South,No
+415,52,Missing,Uninsured,Metropolitan,Q1,West,No
+416,55,Black,Public,Micropolitan,Q2,Midwest,No
+417,31,Asian or Pacific Islander,Private,Micropolitan,Q1,West,No
+418,28,Black,Public,Micropolitan,Q2,Midwest,No
+419,55,Black,Private,Micropolitan,Q3,West,No
+420,50,Black,Private,Rural,Q3,Northeast,Yes
+421,45,White,Public,Micropolitan,Q3,Northeast,No
+422,31,Another Race,Uninsured,Metropolitan,Q2,West,No
+423,14,American Indian and Alaska Native,Public,Rural,Q2,West,No
+424,17,Another Race,Uninsured,Micropolitan,Q4,Northeast,No
+425,33,Missing,Private,Metropolitan,Q2,Midwest,No
+426,48,Hispanic,Public,Metropolitan,Q1,Northeast,No
+427,15,Another Race,Private,Micropolitan,Q1,Midwest,No
+428,43,Asian or Pacific Islander,Uninsured,Metropolitan,Q2,Midwest,Yes
+429,13,Black,Public,Micropolitan,Q1,Northeast,No
+430,24,Hispanic,Private,Metropolitan,Q1,Northeast,No
+431,43,Another Race,Public,Micropolitan,Q2,Northeast,No
+432,29,Black,Public,Rural,Q1,Northeast,No
+433,54,Asian or Pacific Islander,Public,Micropolitan,Q2,Midwest,No
+434,41,Another Race,Uninsured,Rural,Q1,South,Yes
+435,21,American Indian and Alaska Native,Uninsured,Metropolitan,Q3,Northeast,No
+436,12,Missing,Public,Micropolitan,Q3,Midwest,No
+437,22,Asian or Pacific Islander,Private,Rural,Q2,Northeast,No
+438,51,Another Race,Public,Micropolitan,Q2,South,Yes
+439,34,Hispanic,Public,Metropolitan,Q1,Midwest,No
+440,34,Another Race,Uninsured,Micropolitan,Q4,Northeast,No
+441,50,White,Uninsured,Metropolitan,Q1,South,No
+442,51,American Indian and Alaska Native,Public,Metropolitan,Q4,Midwest,Yes
+443,27,White,Public,Micropolitan,Q1,South,Yes
+444,49,Asian or Pacific Islander,Uninsured,Metropolitan,Q2,Northeast,No
+445,24,Missing,Private,Micropolitan,Q1,Midwest,No
+446,52,Hispanic,Uninsured,Rural,Q3,Midwest,No
+447,20,Hispanic,Public,Micropolitan,Q2,Midwest,No
+448,13,Asian or Pacific Islander,Uninsured,Rural,Q4,South,No
+449,24,American Indian and Alaska Native,Public,Metropolitan,Q2,South,No
+450,34,Asian or Pacific Islander,Uninsured,Metropolitan,Q4,Northeast,No
+451,31,Another Race,Public,Metropolitan,Q3,West,No
+452,54,Black,Public,Rural,Q3,Northeast,Yes
+453,30,Missing,Private,Metropolitan,Q3,West,No
+454,28,Black,Public,Rural,Q3,Midwest,No
+455,18,Missing,Public,Rural,Q4,West,No
+456,31,Another Race,Public,Metropolitan,Q1,Midwest,Yes
+457,50,Missing,Public,Metropolitan,Q3,South,Yes
+458,44,Missing,Public,Rural,Q4,West,Yes
+459,49,White,Uninsured,Micropolitan,Q3,West,No
+460,46,White,Public,Metropolitan,Q1,Midwest,No
+461,34,Asian or Pacific Islander,Uninsured,Rural,Q2,Midwest,No
+462,52,White,Private,Micropolitan,Q2,West,No
+463,16,American Indian and Alaska Native,Public,Rural,Q2,Midwest,No
+464,30,American Indian and Alaska Native,Uninsured,Metropolitan,Q4,West,No
+465,42,Black,Uninsured,Rural,Q3,West,No
+466,40,Asian or Pacific Islander,Public,Metropolitan,Q3,West,No
+467,26,Hispanic,Private,Micropolitan,Q2,Northeast,No
+468,17,Black,Uninsured,Micropolitan,Q2,South,No
+469,18,American Indian and Alaska Native,Uninsured,Metropolitan,Q3,West,No
+470,18,Black,Public,Metropolitan,Q3,South,No
+471,52,Missing,Uninsured,Rural,Q3,Northeast,No
+472,42,Black,Private,Micropolitan,Q4,South,No
+473,26,Missing,Uninsured,Metropolitan,Q3,Northeast,No
+474,24,American Indian and Alaska Native,Private,Rural,Q2,Midwest,No
+475,18,Black,Public,Rural,Q3,South,No
+476,27,American Indian and Alaska Native,Private,Metropolitan,Q3,Northeast,No
+477,28,Hispanic,Public,Micropolitan,Q4,Northeast,No
+478,16,Asian or Pacific Islander,Private,Micropolitan,Q2,South,No
+479,51,Missing,Private,Metropolitan,Q2,Northeast,No
+480,25,Hispanic,Uninsured,Micropolitan,Q3,Northeast,No
+481,19,White,Private,Rural,Q2,West,No
+482,21,American Indian and Alaska Native,Public,Rural,Q4,Northeast,No
+483,36,Black,Private,Metropolitan,Q1,Northeast,No
+484,20,American Indian and Alaska Native,Private,Micropolitan,Q4,Midwest,Yes
+485,29,Black,Private,Metropolitan,Q3,South,No
+486,25,Another Race,Uninsured,Metropolitan,Q2,Midwest,No
+487,44,Black,Public,Micropolitan,Q2,Northeast,No
+488,28,White,Private,Metropolitan,Q3,Midwest,No
+489,13,Another Race,Public,Micropolitan,Q3,South,No
+490,13,Black,Public,Metropolitan,Q3,Midwest,No
+491,47,Asian or Pacific Islander,Public,Metropolitan,Q4,Midwest,Yes
+492,44,White,Public,Metropolitan,Q2,Midwest,Yes
+493,51,White,Private,Rural,Q2,South,Yes
+494,12,Another Race,Uninsured,Metropolitan,Q2,Northeast,No
+495,45,Hispanic,Uninsured,Metropolitan,Q2,South,No
+496,50,Black,Public,Metropolitan,Q3,South,No
+497,15,Asian or Pacific Islander,Public,Micropolitan,Q1,Northeast,No
+498,19,American Indian and Alaska Native,Private,Metropolitan,Q4,West,No
+499,49,Another Race,Public,Rural,Q1,South,Yes
+500,12,Asian or Pacific Islander,Uninsured,Metropolitan,Q3,Northeast,No
+501,45,Missing,Private,Metropolitan,Q3,Midwest,No
+502,37,Hispanic,Uninsured,Micropolitan,Q1,West,No
+503,32,Missing,Private,Metropolitan,Q3,West,No
+504,24,Another Race,Private,Rural,Q1,South,No
+505,24,Hispanic,Private,Micropolitan,Q4,Midwest,No
+506,55,Black,Private,Metropolitan,Q1,Midwest,No
+507,51,Missing,Public,Rural,Q1,South,No
+508,30,Hispanic,Private,Metropolitan,Q2,South,No
+509,28,White,Private,Rural,Q4,Northeast,No
+510,16,Another Race,Public,Metropolitan,Q2,Midwest,No
+511,20,Missing,Private,Metropolitan,Q4,South,No
+512,41,Hispanic,Uninsured,Micropolitan,Q1,Northeast,No
+513,20,Black,Private,Micropolitan,Q1,Midwest,No
+514,54,Another Race,Private,Micropolitan,Q3,West,No
+515,19,Another Race,Uninsured,Metropolitan,Q1,Midwest,No
+516,13,Black,Uninsured,Rural,Q3,South,No
+517,29,Missing,Public,Metropolitan,Q1,Midwest,No
+518,27,White,Private,Micropolitan,Q4,West,No
+519,37,American Indian and Alaska Native,Private,Rural,Q1,South,No
+520,13,Hispanic,Uninsured,Metropolitan,Q2,Midwest,No
+521,13,White,Private,Metropolitan,Q3,Northeast,No
+522,46,White,Private,Micropolitan,Q4,Midwest,Yes
+523,13,American Indian and Alaska Native,Public,Metropolitan,Q3,Northeast,No
+524,18,American Indian and Alaska Native,Uninsured,Metropolitan,Q4,Midwest,No
+525,36,White,Private,Metropolitan,Q2,South,No
+526,19,White,Uninsured,Rural,Q4,Midwest,No
+527,26,Black,Public,Rural,Q2,South,No
+528,43,American Indian and Alaska Native,Public,Micropolitan,Q3,Northeast,Yes
+529,46,Another Race,Public,Rural,Q3,South,Yes
+530,26,Missing,Public,Rural,Q3,Midwest,Yes
+531,50,Another Race,Public,Metropolitan,Q3,Midwest,No
+532,41,Hispanic,Private,Metropolitan,Q1,Northeast,Yes
+533,18,Black,Uninsured,Metropolitan,Q2,Midwest,No
+534,48,American Indian and Alaska Native,Public,Micropolitan,Q2,Midwest,Yes
+535,29,Another Race,Uninsured,Metropolitan,Q3,West,No
+536,26,Another Race,Uninsured,Micropolitan,Q1,South,No
+537,19,Missing,Public,Rural,Q1,South,No
+538,19,Another Race,Uninsured,Micropolitan,Q1,Midwest,No
+539,21,White,Uninsured,Metropolitan,Q2,West,No
+540,37,Black,Public,Micropolitan,Q3,Midwest,No
+541,48,American Indian and Alaska Native,Public,Micropolitan,Q3,West,No
+542,39,Black,Private,Micropolitan,Q3,South,No
+543,52,Asian or Pacific Islander,Public,Metropolitan,Q3,West,No
+544,18,White,Private,Metropolitan,Q2,South,No
+545,27,American Indian and Alaska Native,Private,Rural,Q4,Northeast,No
+546,34,White,Private,Micropolitan,Q2,West,No
+547,52,White,Uninsured,Rural,Q2,Midwest,No
+548,55,White,Private,Micropolitan,Q2,Midwest,No
+549,40,White,Public,Micropolitan,Q2,Northeast,No
+550,27,White,Private,Rural,Q2,Northeast,No
+551,28,Hispanic,Private,Micropolitan,Q2,Northeast,No
+552,13,American Indian and Alaska Native,Private,Micropolitan,Q4,Northeast,Yes
+553,55,Missing,Uninsured,Metropolitan,Q2,South,No
+554,28,Another Race,Uninsured,Rural,Q2,Midwest,No
+555,38,Missing,Private,Rural,Q4,South,No
+556,51,American Indian and Alaska Native,Private,Metropolitan,Q1,South,No
+557,17,American Indian and Alaska Native,Public,Micropolitan,Q2,West,No
+558,45,Missing,Public,Micropolitan,Q3,Northeast,No
+559,13,White,Uninsured,Rural,Q4,South,No
+560,41,American Indian and Alaska Native,Private,Rural,Q2,South,No
+561,50,White,Private,Micropolitan,Q4,Northeast,No
+562,51,Black,Uninsured,Rural,Q4,South,Yes
+563,27,American Indian and Alaska Native,Public,Rural,Q4,South,No
+564,40,Another Race,Public,Metropolitan,Q1,Northeast,No
+565,34,American Indian and Alaska Native,Public,Rural,Q3,South,No
+566,15,Missing,Public,Micropolitan,Q3,Midwest,No
+567,44,Black,Private,Metropolitan,Q4,South,No
+568,31,Another Race,Private,Micropolitan,Q1,Midwest,No
+569,28,White,Private,Rural,Q2,West,No
+570,46,Black,Private,Rural,Q1,Northeast,No
+571,46,Black,Uninsured,Rural,Q4,South,No
+572,32,Missing,Public,Micropolitan,Q1,West,No
+573,55,Asian or Pacific Islander,Public,Rural,Q1,South,No
+574,50,Another Race,Public,Micropolitan,Q3,South,No
+575,15,Hispanic,Uninsured,Micropolitan,Q2,Midwest,No
+576,47,American Indian and Alaska Native,Uninsured,Rural,Q3,Midwest,Yes
+577,24,Black,Uninsured,Metropolitan,Q4,West,No
+578,18,White,Private,Rural,Q1,South,No
+579,36,Missing,Uninsured,Micropolitan,Q2,South,Yes
+580,27,American Indian and Alaska Native,Public,Rural,Q3,Northeast,Yes
+581,46,Hispanic,Uninsured,Micropolitan,Q4,Midwest,No
+582,47,Black,Uninsured,Rural,Q1,West,No
+583,42,Missing,Public,Metropolitan,Q1,Northeast,Yes
+584,38,Asian or Pacific Islander,Private,Rural,Q1,South,No
+585,47,Black,Uninsured,Micropolitan,Q1,West,No
+586,39,Black,Uninsured,Micropolitan,Q1,Midwest,No
+587,52,Missing,Private,Rural,Q1,Northeast,No
+588,34,White,Public,Metropolitan,Q1,Midwest,No
+589,45,White,Public,Metropolitan,Q1,Northeast,No
+590,25,Black,Private,Metropolitan,Q3,Midwest,No
+591,41,American Indian and Alaska Native,Uninsured,Rural,Q1,Northeast,No
+592,26,Asian or Pacific Islander,Private,Rural,Q1,Midwest,No
+593,42,American Indian and Alaska Native,Public,Metropolitan,Q1,West,No
+594,28,Missing,Public,Rural,Q4,Midwest,No
+595,29,Asian or Pacific Islander,Public,Metropolitan,Q3,West,No
+596,45,Asian or Pacific Islander,Public,Rural,Q1,South,No
+597,21,Black,Uninsured,Rural,Q1,South,No
+598,38,Black,Private,Micropolitan,Q1,Northeast,No
+599,26,White,Uninsured,Micropolitan,Q2,Midwest,No
+600,16,American Indian and Alaska Native,Private,Metropolitan,Q2,Midwest,No
+601,32,Another Race,Private,Rural,Q4,South,No
+602,32,Asian or Pacific Islander,Uninsured,Micropolitan,Q1,South,No
+603,43,Asian or Pacific Islander,Private,Rural,Q2,South,No
+604,23,Missing,Private,Rural,Q3,Midwest,No
+605,26,Black,Uninsured,Micropolitan,Q4,Midwest,No
+606,48,Black,Uninsured,Micropolitan,Q4,Northeast,No
+607,27,Hispanic,Public,Metropolitan,Q2,Midwest,No
+608,35,Another Race,Uninsured,Rural,Q4,West,No
+609,12,Another Race,Private,Metropolitan,Q3,West,No
+610,34,Black,Uninsured,Rural,Q4,Midwest,No
+611,41,American Indian and Alaska Native,Public,Micropolitan,Q1,Northeast,No
+612,18,Asian or Pacific Islander,Public,Rural,Q1,South,No
+613,55,Missing,Public,Micropolitan,Q1,Midwest,No
+614,31,Asian or Pacific Islander,Public,Micropolitan,Q4,South,Yes
+615,32,Missing,Uninsured,Rural,Q2,Midwest,No
+616,42,Missing,Private,Micropolitan,Q2,Midwest,Yes
+617,51,American Indian and Alaska Native,Public,Rural,Q4,South,No
+618,16,Black,Uninsured,Metropolitan,Q1,South,No
+619,48,White,Private,Metropolitan,Q3,Midwest,No
+620,42,Another Race,Private,Metropolitan,Q1,Midwest,No
+621,48,Hispanic,Public,Rural,Q1,South,No
+622,31,Missing,Uninsured,Micropolitan,Q3,Northeast,No
+623,44,Black,Private,Micropolitan,Q4,South,No
+624,37,Hispanic,Private,Metropolitan,Q1,West,No
+625,17,White,Private,Metropolitan,Q4,West,No
+626,25,American Indian and Alaska Native,Private,Micropolitan,Q1,South,No
+627,15,American Indian and Alaska Native,Public,Metropolitan,Q3,South,No
+628,20,American Indian and Alaska Native,Public,Micropolitan,Q2,Northeast,No
+629,42,White,Public,Rural,Q4,Northeast,No
+630,16,American Indian and Alaska Native,Private,Rural,Q1,Northeast,No
+631,53,White,Uninsured,Metropolitan,Q1,Northeast,No
+632,30,Another Race,Uninsured,Rural,Q4,South,Yes
+633,33,Missing,Uninsured,Metropolitan,Q1,Midwest,Yes
+634,48,Hispanic,Public,Micropolitan,Q3,Midwest,No
+635,34,White,Public,Rural,Q4,Midwest,Yes
+636,53,Hispanic,Public,Micropolitan,Q1,Northeast,Yes
+637,15,White,Private,Metropolitan,Q1,West,No
+638,39,White,Public,Micropolitan,Q4,South,No
+639,12,Asian or Pacific Islander,Private,Rural,Q3,Midwest,No
+640,48,Black,Uninsured,Micropolitan,Q1,South,Yes
+641,30,American Indian and Alaska Native,Public,Rural,Q3,South,No
+642,30,Asian or Pacific Islander,Public,Metropolitan,Q3,South,No
+643,19,White,Private,Rural,Q2,West,No
+644,51,American Indian and Alaska Native,Public,Micropolitan,Q1,South,No
+645,36,Black,Public,Rural,Q2,Midwest,No
+646,14,Black,Uninsured,Rural,Q2,West,No
+647,13,American Indian and Alaska Native,Private,Rural,Q1,West,Yes
+648,37,White,Public,Rural,Q1,West,Yes
+649,40,American Indian and Alaska Native,Private,Micropolitan,Q4,Midwest,No
+650,30,White,Private,Metropolitan,Q2,South,No
+651,32,American Indian and Alaska Native,Public,Micropolitan,Q2,South,No
+652,47,White,Private,Rural,Q4,Northeast,Yes
+653,15,Asian or Pacific Islander,Uninsured,Micropolitan,Q3,West,No
+654,41,Black,Uninsured,Rural,Q4,Northeast,No
+655,49,Black,Uninsured,Rural,Q1,West,No
+656,24,White,Private,Micropolitan,Q3,South,No
+657,51,Black,Private,Micropolitan,Q2,Northeast,Yes
+658,44,Missing,Private,Micropolitan,Q3,Northeast,No
+659,38,American Indian and Alaska Native,Public,Micropolitan,Q4,South,Yes
+660,51,Another Race,Private,Micropolitan,Q1,Midwest,No
+661,34,Hispanic,Uninsured,Metropolitan,Q4,Midwest,Yes
+662,48,Asian or Pacific Islander,Uninsured,Micropolitan,Q2,South,No
+663,25,Black,Private,Rural,Q3,South,No
+664,21,American Indian and Alaska Native,Public,Metropolitan,Q2,Midwest,No
+665,34,American Indian and Alaska Native,Public,Micropolitan,Q4,Midwest,No
+666,46,Hispanic,Private,Rural,Q4,Midwest,No
+667,37,Another Race,Private,Micropolitan,Q4,South,No
+668,22,Asian or Pacific Islander,Public,Metropolitan,Q2,Northeast,No
+669,33,Hispanic,Uninsured,Micropolitan,Q1,West,No
+670,48,Hispanic,Public,Metropolitan,Q2,Midwest,No
+671,30,Hispanic,Uninsured,Micropolitan,Q3,Northeast,No
+672,30,American Indian and Alaska Native,Private,Metropolitan,Q3,West,Yes
+673,35,Asian or Pacific Islander,Private,Micropolitan,Q4,Northeast,Yes
+674,30,American Indian and Alaska Native,Public,Micropolitan,Q1,Midwest,Yes
+675,43,White,Public,Micropolitan,Q2,Midwest,No
+676,33,White,Private,Metropolitan,Q4,Northeast,No
+677,31,Asian or Pacific Islander,Private,Micropolitan,Q3,Northeast,No
+678,45,Asian or Pacific Islander,Private,Micropolitan,Q1,West,No
+679,50,Black,Uninsured,Rural,Q3,South,No
+680,50,White,Private,Micropolitan,Q4,Midwest,No
+681,45,Black,Private,Rural,Q3,South,No
+682,26,American Indian and Alaska Native,Private,Micropolitan,Q1,South,Yes
+683,27,White,Private,Metropolitan,Q3,West,No
+684,48,American Indian and Alaska Native,Private,Micropolitan,Q3,Northeast,No
+685,12,American Indian and Alaska Native,Private,Rural,Q4,Midwest,No
+686,13,Black,Private,Metropolitan,Q1,South,No
+687,53,Another Race,Public,Micropolitan,Q1,Midwest,No
+688,23,White,Private,Rural,Q3,Northeast,No
+689,14,White,Uninsured,Metropolitan,Q1,Midwest,No
+690,31,American Indian and Alaska Native,Public,Micropolitan,Q2,Midwest,No
+691,32,American Indian and Alaska Native,Public,Metropolitan,Q1,South,No
+692,37,Hispanic,Private,Metropolitan,Q2,Midwest,No
+693,49,White,Uninsured,Metropolitan,Q3,South,No
+694,24,White,Private,Rural,Q2,Midwest,No
+695,36,Missing,Public,Rural,Q1,Northeast,No
+696,29,Black,Private,Metropolitan,Q2,Midwest,No
+697,16,Hispanic,Public,Metropolitan,Q2,Northeast,Yes
+698,48,Another Race,Private,Metropolitan,Q1,Midwest,No
+699,27,American Indian and Alaska Native,Private,Rural,Q2,Northeast,No
+700,14,Black,Public,Metropolitan,Q3,West,No
+701,16,Asian or Pacific Islander,Uninsured,Micropolitan,Q2,Midwest,No
+702,26,Missing,Uninsured,Rural,Q3,Midwest,No
+703,37,Black,Uninsured,Metropolitan,Q2,West,No
+704,30,White,Private,Metropolitan,Q1,Northeast,Yes
+705,12,Another Race,Public,Rural,Q4,Midwest,No
+706,49,Black,Public,Micropolitan,Q1,South,No
+707,16,American Indian and Alaska Native,Private,Micropolitan,Q3,Northeast,No
+708,16,Missing,Public,Rural,Q3,Northeast,No
+709,33,Another Race,Uninsured,Rural,Q4,Midwest,No
+710,44,White,Private,Micropolitan,Q2,West,Yes
+711,16,Another Race,Uninsured,Micropolitan,Q2,West,No
+712,12,White,Private,Micropolitan,Q3,South,No
+713,48,Black,Private,Micropolitan,Q3,Midwest,Yes
+714,24,Black,Uninsured,Metropolitan,Q2,Northeast,No
+715,45,Hispanic,Public,Rural,Q1,South,No
+716,30,Missing,Public,Metropolitan,Q4,Midwest,Yes
+717,47,Another Race,Public,Metropolitan,Q2,South,Yes
+718,45,American Indian and Alaska Native,Public,Metropolitan,Q1,West,No
+719,29,Black,Public,Rural,Q4,South,No
+720,16,Asian or Pacific Islander,Private,Metropolitan,Q2,Midwest,No
+721,39,Black,Uninsured,Rural,Q2,Midwest,No
+722,23,Missing,Private,Metropolitan,Q3,Midwest,No
+723,25,Another Race,Private,Metropolitan,Q3,Midwest,No
+724,38,American Indian and Alaska Native,Public,Metropolitan,Q4,Northeast,No
+725,17,Asian or Pacific Islander,Public,Metropolitan,Q2,West,Yes
+726,31,American Indian and Alaska Native,Private,Metropolitan,Q3,South,No
+727,43,Missing,Uninsured,Metropolitan,Q2,West,Yes
+728,49,Asian or Pacific Islander,Uninsured,Metropolitan,Q2,Northeast,No
+729,25,White,Private,Metropolitan,Q1,West,No
+730,26,Missing,Public,Micropolitan,Q3,Midwest,No
+731,55,Hispanic,Private,Metropolitan,Q3,Northeast,No
+732,48,Another Race,Private,Metropolitan,Q2,Northeast,No
+733,43,Missing,Private,Rural,Q2,South,No
+734,36,Another Race,Public,Micropolitan,Q2,South,No
+735,34,Another Race,Public,Rural,Q2,Northeast,No
+736,16,White,Private,Metropolitan,Q2,West,No
+737,18,Missing,Private,Micropolitan,Q4,West,No
+738,32,Missing,Uninsured,Rural,Q4,Northeast,Yes
+739,49,Another Race,Public,Micropolitan,Q1,South,No
+740,43,Hispanic,Private,Micropolitan,Q4,South,No
+741,49,American Indian and Alaska Native,Public,Metropolitan,Q1,West,Yes
+742,53,Missing,Private,Rural,Q1,Midwest,No
+743,12,Black,Private,Rural,Q4,South,No
+744,24,Black,Public,Metropolitan,Q3,South,No
+745,29,American Indian and Alaska Native,Uninsured,Micropolitan,Q3,Midwest,No
+746,31,Asian or Pacific Islander,Uninsured,Metropolitan,Q2,South,Yes
+747,21,Another Race,Public,Rural,Q1,Midwest,No
+748,39,Black,Private,Micropolitan,Q1,West,No
+749,47,American Indian and Alaska Native,Private,Rural,Q2,West,No
+750,17,Hispanic,Public,Rural,Q1,Midwest,No
+751,27,American Indian and Alaska Native,Uninsured,Micropolitan,Q3,South,Yes
+752,47,Another Race,Public,Micropolitan,Q3,West,No
+753,20,White,Uninsured,Metropolitan,Q4,South,No
+754,48,Black,Private,Metropolitan,Q2,West,No
+755,28,Asian or Pacific Islander,Private,Micropolitan,Q3,South,No
+756,19,Asian or Pacific Islander,Public,Metropolitan,Q3,Northeast,Yes
+757,24,Black,Public,Rural,Q3,Midwest,No
+758,32,Another Race,Public,Micropolitan,Q4,Northeast,No
+759,41,Missing,Public,Metropolitan,Q3,Northeast,No
+760,13,Black,Uninsured,Metropolitan,Q3,Northeast,No
+761,13,Hispanic,Public,Micropolitan,Q4,West,Yes
+762,16,American Indian and Alaska Native,Uninsured,Rural,Q1,South,No
+763,29,American Indian and Alaska Native,Uninsured,Metropolitan,Q2,Northeast,No
+764,34,Asian or Pacific Islander,Public,Micropolitan,Q4,Midwest,No
+765,31,American Indian and Alaska Native,Private,Rural,Q1,West,Yes
+766,36,Black,Private,Rural,Q1,South,No
+767,36,Black,Private,Micropolitan,Q2,Midwest,No
+768,23,Hispanic,Public,Metropolitan,Q1,South,No
+769,28,Hispanic,Public,Rural,Q1,Midwest,No
+770,39,White,Uninsured,Rural,Q4,South,Yes
+771,40,Another Race,Public,Micropolitan,Q3,South,No
+772,26,Hispanic,Uninsured,Micropolitan,Q2,Midwest,Yes
+773,35,Black,Public,Rural,Q4,West,No
+774,46,American Indian and Alaska Native,Private,Rural,Q1,South,Yes
+775,50,Hispanic,Public,Metropolitan,Q4,Northeast,No
+776,45,American Indian and Alaska Native,Private,Rural,Q2,South,No
+777,19,White,Uninsured,Metropolitan,Q1,West,No
+778,24,Black,Private,Rural,Q2,South,No
+779,25,Black,Private,Micropolitan,Q2,West,No
+780,36,Another Race,Public,Micropolitan,Q2,Midwest,No
+781,20,Missing,Public,Metropolitan,Q3,West,No
+782,52,Hispanic,Public,Rural,Q2,Northeast,No
+783,38,Black,Public,Micropolitan,Q1,Northeast,No
+784,48,American Indian and Alaska Native,Uninsured,Micropolitan,Q4,South,Yes
+785,49,Black,Private,Rural,Q2,Midwest,No
+786,13,Black,Uninsured,Metropolitan,Q2,Northeast,Yes
+787,42,Another Race,Uninsured,Metropolitan,Q4,Midwest,No
+788,26,White,Uninsured,Rural,Q1,West,No
+789,39,White,Uninsured,Rural,Q3,Northeast,No
+790,29,White,Uninsured,Rural,Q2,Midwest,No
+791,16,White,Public,Rural,Q1,West,No
+792,35,Black,Uninsured,Rural,Q4,Northeast,No
+793,35,White,Uninsured,Micropolitan,Q4,Midwest,No
+794,15,Missing,Private,Rural,Q2,West,No
+795,54,Another Race,Private,Micropolitan,Q4,West,No
+796,48,Hispanic,Private,Micropolitan,Q4,Northeast,No
+797,16,White,Public,Rural,Q2,South,No
+798,43,American Indian and Alaska Native,Uninsured,Micropolitan,Q3,Midwest,No
+799,36,Asian or Pacific Islander,Public,Micropolitan,Q1,South,No
+800,33,Asian or Pacific Islander,Public,Rural,Q1,South,Yes
+801,48,American Indian and Alaska Native,Private,Metropolitan,Q4,South,No
+802,43,Asian or Pacific Islander,Public,Rural,Q2,Midwest,No
+803,48,White,Private,Rural,Q1,South,No
+804,40,Missing,Public,Micropolitan,Q2,South,No
+805,49,American Indian and Alaska Native,Public,Metropolitan,Q4,South,No
+806,23,Missing,Private,Rural,Q3,South,No
+807,13,Black,Private,Metropolitan,Q1,West,No
+808,18,Asian or Pacific Islander,Public,Rural,Q3,Northeast,No
+809,42,Missing,Uninsured,Micropolitan,Q1,West,No
+810,21,Black,Public,Rural,Q2,Northeast,No
+811,52,Black,Uninsured,Rural,Q4,Midwest,No
+812,44,Another Race,Uninsured,Metropolitan,Q1,West,No
+813,34,American Indian and Alaska Native,Private,Rural,Q3,South,No
+814,22,Hispanic,Uninsured,Rural,Q3,South,Yes
+815,35,Black,Uninsured,Rural,Q4,Midwest,No
+816,38,Hispanic,Public,Metropolitan,Q2,Midwest,No
+817,54,Asian or Pacific Islander,Private,Micropolitan,Q3,Northeast,No
+818,19,White,Uninsured,Micropolitan,Q3,Northeast,No
+819,51,Missing,Uninsured,Micropolitan,Q1,South,Yes
+820,44,Hispanic,Public,Metropolitan,Q3,South,No
+821,45,Black,Public,Micropolitan,Q4,West,No
+822,19,Another Race,Private,Rural,Q3,West,No
+823,45,American Indian and Alaska Native,Private,Metropolitan,Q4,South,No
+824,44,American Indian and Alaska Native,Private,Micropolitan,Q3,Midwest,No
+825,39,Missing,Public,Rural,Q4,Midwest,Yes
+826,38,White,Private,Metropolitan,Q4,South,No
+827,48,White,Uninsured,Rural,Q1,West,No
+828,17,American Indian and Alaska Native,Uninsured,Rural,Q1,Northeast,No
+829,49,Another Race,Public,Micropolitan,Q3,Midwest,No
+830,43,Hispanic,Private,Micropolitan,Q1,Northeast,No
+831,46,American Indian and Alaska Native,Uninsured,Micropolitan,Q4,Midwest,Yes
+832,53,Asian or Pacific Islander,Public,Micropolitan,Q1,South,No
+833,28,Hispanic,Uninsured,Micropolitan,Q2,South,No
+834,24,Black,Uninsured,Metropolitan,Q1,Northeast,No
+835,43,Black,Private,Micropolitan,Q2,West,No
+836,26,Hispanic,Uninsured,Rural,Q2,Northeast,No
+837,41,White,Private,Rural,Q2,Midwest,No
+838,41,Another Race,Uninsured,Metropolitan,Q2,West,No
+839,49,Missing,Private,Rural,Q2,South,No
+840,14,Missing,Public,Rural,Q2,Northeast,Yes
+841,38,Asian or Pacific Islander,Uninsured,Metropolitan,Q1,South,No
+842,44,American Indian and Alaska Native,Public,Metropolitan,Q4,South,Yes
+843,15,Another Race,Private,Micropolitan,Q3,Midwest,No
+844,55,Black,Private,Micropolitan,Q4,Northeast,No
+845,19,Asian or Pacific Islander,Uninsured,Micropolitan,Q2,West,No
+846,49,White,Private,Metropolitan,Q1,West,No
+847,13,American Indian and Alaska Native,Uninsured,Metropolitan,Q3,West,No
+848,40,Another Race,Public,Rural,Q4,West,No
+849,51,Asian or Pacific Islander,Private,Metropolitan,Q1,Northeast,Yes
+850,48,Missing,Private,Micropolitan,Q1,South,No
+851,48,American Indian and Alaska Native,Public,Metropolitan,Q2,West,No
+852,23,Hispanic,Public,Micropolitan,Q1,Northeast,No
+853,24,Black,Uninsured,Micropolitan,Q2,Northeast,No
+854,31,White,Private,Rural,Q1,West,No
+855,55,Missing,Uninsured,Micropolitan,Q1,South,Yes
+856,44,Missing,Private,Metropolitan,Q4,West,No
+857,36,White,Private,Metropolitan,Q4,Midwest,No
+858,51,White,Public,Rural,Q4,Midwest,No
+859,23,Asian or Pacific Islander,Private,Micropolitan,Q3,Midwest,No
+860,30,White,Uninsured,Rural,Q4,Northeast,Yes
+861,29,Missing,Uninsured,Micropolitan,Q3,Midwest,No
+862,15,Missing,Private,Rural,Q4,Northeast,No
+863,37,White,Uninsured,Micropolitan,Q2,West,No
+864,13,Missing,Private,Rural,Q2,South,No
+865,22,White,Public,Micropolitan,Q4,Midwest,No
+866,52,White,Uninsured,Metropolitan,Q1,South,No
+867,27,American Indian and Alaska Native,Uninsured,Rural,Q3,Northeast,No
+868,15,Black,Public,Metropolitan,Q4,Northeast,No
+869,39,Asian or Pacific Islander,Private,Metropolitan,Q4,West,Yes
+870,35,Missing,Public,Micropolitan,Q4,Midwest,No
+871,46,American Indian and Alaska Native,Uninsured,Micropolitan,Q2,West,Yes
+872,14,American Indian and Alaska Native,Public,Metropolitan,Q1,Northeast,No
+873,55,Missing,Uninsured,Metropolitan,Q4,South,No
+874,50,Black,Private,Rural,Q1,South,No
+875,41,White,Uninsured,Metropolitan,Q1,Midwest,Yes
+876,29,American Indian and Alaska Native,Private,Rural,Q4,Midwest,No
+877,52,Asian or Pacific Islander,Private,Micropolitan,Q4,Midwest,No
+878,48,Black,Uninsured,Metropolitan,Q1,Midwest,No
+879,41,White,Public,Rural,Q3,South,No
+880,14,White,Public,Rural,Q4,Midwest,No
+881,38,White,Uninsured,Rural,Q2,South,No
+882,34,Black,Uninsured,Metropolitan,Q2,West,No
+883,20,Another Race,Public,Rural,Q4,Northeast,No
+884,53,White,Private,Micropolitan,Q4,South,Yes
+885,43,Another Race,Uninsured,Rural,Q4,Northeast,No
+886,30,Asian or Pacific Islander,Public,Rural,Q1,Midwest,No
+887,32,Missing,Private,Rural,Q2,Northeast,Yes
+888,50,Missing,Private,Metropolitan,Q4,Midwest,No
+889,23,Asian or Pacific Islander,Public,Rural,Q4,West,No
+890,30,Missing,Public,Micropolitan,Q1,West,No
+891,12,White,Private,Micropolitan,Q3,Northeast,No
+892,52,Hispanic,Public,Rural,Q4,South,No
+893,44,American Indian and Alaska Native,Public,Metropolitan,Q2,Midwest,No
+894,24,American Indian and Alaska Native,Public,Metropolitan,Q2,Midwest,No
+895,54,White,Public,Metropolitan,Q4,Midwest,No
+896,39,Missing,Public,Rural,Q3,Northeast,No
+897,47,Asian or Pacific Islander,Uninsured,Micropolitan,Q4,West,Yes
+898,21,American Indian and Alaska Native,Private,Rural,Q4,South,No
+899,23,Another Race,Private,Rural,Q2,Northeast,No
+900,25,Another Race,Public,Micropolitan,Q3,West,No
+901,30,Black,Private,Micropolitan,Q4,South,No
+902,23,White,Uninsured,Metropolitan,Q3,West,No
+903,35,Hispanic,Uninsured,Metropolitan,Q2,West,No
+904,24,Asian or Pacific Islander,Public,Rural,Q2,West,No
+905,55,Another Race,Uninsured,Rural,Q1,South,Yes
+906,45,Asian or Pacific Islander,Private,Metropolitan,Q2,Midwest,No
+907,55,Black,Uninsured,Micropolitan,Q2,West,No
+908,54,Black,Private,Rural,Q1,Northeast,No
+909,51,Asian or Pacific Islander,Uninsured,Rural,Q2,Northeast,Yes
+910,29,White,Private,Micropolitan,Q3,West,No
+911,54,American Indian and Alaska Native,Uninsured,Micropolitan,Q2,West,No
+912,30,American Indian and Alaska Native,Public,Micropolitan,Q3,South,No
+913,32,White,Public,Metropolitan,Q2,Midwest,No
+914,23,Another Race,Uninsured,Metropolitan,Q2,South,No
+915,54,Asian or Pacific Islander,Uninsured,Rural,Q1,Midwest,Yes
+916,17,Black,Public,Micropolitan,Q3,West,No
+917,52,Another Race,Private,Micropolitan,Q1,Northeast,No
+918,36,Hispanic,Uninsured,Micropolitan,Q1,Midwest,No
+919,34,American Indian and Alaska Native,Uninsured,Rural,Q1,South,Yes
+920,32,Missing,Public,Micropolitan,Q1,West,No
+921,54,Black,Uninsured,Micropolitan,Q2,Midwest,No
+922,43,Missing,Uninsured,Micropolitan,Q3,West,Yes
+923,20,Asian or Pacific Islander,Public,Metropolitan,Q2,West,No
+924,44,American Indian and Alaska Native,Private,Metropolitan,Q1,Midwest,No
+925,39,White,Private,Micropolitan,Q2,West,Yes
+926,43,Missing,Public,Rural,Q2,Northeast,No
+927,52,Hispanic,Uninsured,Micropolitan,Q4,West,Yes
+928,43,Asian or Pacific Islander,Uninsured,Metropolitan,Q3,Midwest,No
+929,32,White,Public,Micropolitan,Q4,West,No
+930,19,Another Race,Public,Rural,Q3,Northeast,No
+931,45,White,Private,Rural,Q1,South,No
+932,24,Another Race,Private,Micropolitan,Q4,South,No
+933,27,American Indian and Alaska Native,Private,Micropolitan,Q2,South,Yes
+934,41,Hispanic,Public,Metropolitan,Q2,West,No
+935,25,American Indian and Alaska Native,Uninsured,Rural,Q2,Northeast,No
+936,33,Missing,Public,Rural,Q4,Midwest,No
+937,47,Hispanic,Uninsured,Micropolitan,Q3,West,No
+938,17,Black,Public,Metropolitan,Q3,South,No
+939,40,Asian or Pacific Islander,Public,Rural,Q1,South,Yes
+940,23,American Indian and Alaska Native,Private,Metropolitan,Q1,Midwest,No
+941,40,Hispanic,Public,Micropolitan,Q3,Midwest,No
+942,39,Hispanic,Private,Rural,Q2,West,No
+943,39,White,Private,Metropolitan,Q2,Midwest,No
+944,29,Hispanic,Private,Rural,Q1,Northeast,Yes
+945,20,American Indian and Alaska Native,Private,Rural,Q1,Midwest,No
+946,48,Asian or Pacific Islander,Uninsured,Metropolitan,Q2,Midwest,No
+947,39,American Indian and Alaska Native,Public,Micropolitan,Q1,West,No
+948,16,Missing,Public,Metropolitan,Q4,Midwest,No
+949,55,Another Race,Public,Rural,Q4,Midwest,No
+950,31,American Indian and Alaska Native,Uninsured,Rural,Q4,South,No
+951,41,Missing,Uninsured,Metropolitan,Q3,Midwest,No
+952,21,Black,Private,Micropolitan,Q2,West,No
+953,28,Asian or Pacific Islander,Public,Metropolitan,Q1,Midwest,No
+954,20,White,Private,Metropolitan,Q1,Northeast,No
+955,43,Black,Uninsured,Metropolitan,Q3,South,No
+956,49,Hispanic,Public,Rural,Q3,South,No
+957,42,Black,Private,Micropolitan,Q3,South,No
+958,33,Another Race,Private,Rural,Q2,Northeast,No
+959,45,Black,Public,Micropolitan,Q1,Northeast,No
+960,52,Asian or Pacific Islander,Public,Micropolitan,Q1,West,No
+961,30,White,Private,Rural,Q2,Northeast,No
+962,18,Hispanic,Public,Metropolitan,Q3,South,No
+963,40,Black,Private,Rural,Q4,South,No
+964,33,White,Public,Metropolitan,Q2,Midwest,No
+965,55,White,Uninsured,Micropolitan,Q1,South,No
+966,48,White,Uninsured,Metropolitan,Q1,Northeast,No
+967,31,Missing,Private,Micropolitan,Q2,Northeast,No
+968,52,Another Race,Private,Micropolitan,Q4,Midwest,Yes
+969,54,American Indian and Alaska Native,Uninsured,Metropolitan,Q4,Midwest,No
+970,44,Another Race,Uninsured,Metropolitan,Q4,Midwest,No
+971,28,Another Race,Public,Micropolitan,Q2,South,No
+972,53,Asian or Pacific Islander,Private,Rural,Q1,Northeast,Yes
+973,22,Hispanic,Public,Metropolitan,Q2,West,No
+974,44,American Indian and Alaska Native,Public,Metropolitan,Q3,Midwest,Yes
+975,44,American Indian and Alaska Native,Public,Rural,Q3,Northeast,No
+976,46,Another Race,Public,Micropolitan,Q1,South,No
+977,47,American Indian and Alaska Native,Public,Metropolitan,Q1,Northeast,No
+978,13,Missing,Uninsured,Rural,Q1,Midwest,No
+979,12,Black,Private,Metropolitan,Q3,West,No
+980,47,Black,Private,Metropolitan,Q3,South,No
+981,23,American Indian and Alaska Native,Public,Metropolitan,Q1,South,No
+982,40,Hispanic,Private,Rural,Q2,South,Yes
+983,33,Hispanic,Private,Metropolitan,Q3,West,No
+984,42,Missing,Uninsured,Rural,Q1,South,No
+985,48,Asian or Pacific Islander,Uninsured,Metropolitan,Q1,West,No
+986,46,Black,Public,Micropolitan,Q3,West,No
+987,40,Missing,Public,Micropolitan,Q1,Northeast,No
+988,23,Asian or Pacific Islander,Public,Micropolitan,Q2,Midwest,No
+989,15,Black,Uninsured,Rural,Q1,West,Yes
+990,45,Missing,Private,Metropolitan,Q2,Midwest,Yes
+991,40,Missing,Private,Metropolitan,Q1,West,No
+992,50,Asian or Pacific Islander,Private,Metropolitan,Q3,West,No
+993,22,Black,Private,Metropolitan,Q3,Midwest,No
+994,43,Black,Public,Rural,Q3,South,No
+995,51,White,Public,Micropolitan,Q1,South,No
+996,33,Asian or Pacific Islander,Uninsured,Metropolitan,Q4,Midwest,No
+997,32,Asian or Pacific Islander,Public,Micropolitan,Q2,Midwest,No
+998,17,Asian or Pacific Islander,Uninsured,Rural,Q3,South,No
+999,51,Black,Private,Micropolitan,Q3,West,Yes
+1000,28,White,Public,Rural,Q1,West,No
