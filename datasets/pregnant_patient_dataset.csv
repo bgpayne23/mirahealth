@@ -1,0 +1,476 @@
+obgyn_id,obgyn_Gender,obgyn_Location,obgyn_Ethnicity,obgyn_AvgPatientTime,obgyn_NumOfPatients,obgyn_BurnoutRisk,obgyn_Sentiment,patient_Age,patient_Ethnicity,patient_Payer,patient_Location,patient_Income,patient_HospitalRegion,patient_SystolicBP,patient_DiastolicBP,patient_BS,patient_HDP
+O1,Female,Metropolitan,White,17,24,0,0,34,Hispanic,Public,Metropolitan,Q2,South,113.69076988335752,91.67609421313757,8.498975010607042,0
+O1,Female,Metropolitan,White,17,24,0,0,12,Black,Public,Micropolitan,Q3,Midwest,70.0,97.74365614635036,7.0683052621299245,0
+O1,Female,Metropolitan,White,17,24,0,0,29,American Indian and Alaska Native,Public,Metropolitan,Q4,South,133.2305612661287,73.87690876361631,6.0,0
+O1,Female,Metropolitan,White,17,24,0,0,27,Missing,Uninsured,Rural,Q1,Northeast,117.16324502486607,93.20783528470534,8.293301183294094,0
+O1,Female,Metropolitan,White,17,24,0,0,14,Another race,Private,Micropolitan,Q1,Midwest,98.2395308921527,60.55448279693721,12.315787315408832,0
+O1,Female,Metropolitan,White,17,24,0,0,29,Asian or Pacific Islander,Public,Metropolitan,Q2,Midwest,102.49021487685097,90.14123749262296,10.932379269004853,0
+O1,Female,Metropolitan,White,17,24,0,0,40,Hispanic,Uninsured,Metropolitan,Q2,South,98.84672847464714,79.89385950875747,9.601340547431393,0
+O1,Female,Metropolitan,White,17,24,0,0,27,Hispanic,Public,Micropolitan,Q4,South,104.34971115271144,100.0,6.143059665174899,0
+O1,Female,Metropolitan,White,17,24,0,0,42,Another race,Uninsured,Micropolitan,Q3,Midwest,76.58091122412233,74.44010977478304,7.520259346743481,1
+O1,Female,Metropolitan,White,17,24,0,0,50,Hispanic,Uninsured,Rural,Q3,Northeast,104.53322230515408,87.14042649008098,6.0,0
+O1,Female,Metropolitan,White,17,24,0,0,32,Black,Uninsured,Rural,Q1,Midwest,75.02451513971735,86.98146356851262,9.512234231517198,0
+O1,Female,Metropolitan,White,17,24,0,0,16,American Indian and Alaska Native,Private,Rural,Q1,West,94.67455696958852,96.75108532006479,10.29370018265813,0
+O1,Female,Metropolitan,White,17,24,0,0,31,Hispanic,Private,Metropolitan,Q1,West,129.7922139347441,82.36186536874305,8.53373731354569,0
+O1,Female,Metropolitan,White,17,24,0,0,40,White,Uninsured,Metropolitan,Q2,Northeast,81.68934820751154,88.51305254731105,6.0,0
+O1,Female,Metropolitan,White,17,24,0,0,26,Asian or Pacific Islander,Public,Rural,Q1,Northeast,76.87547967976288,82.90546562911373,12.17923563090655,0
+O1,Female,Metropolitan,White,17,24,0,0,52,Hispanic,Uninsured,Rural,Q1,West,111.50836525998832,88.62292816900836,9.796079896504494,0
+O1,Female,Metropolitan,White,17,24,0,0,46,American Indian and Alaska Native,Uninsured,Metropolitan,Q4,South,104.07683854691197,82.91510084465577,6.0,0
+O1,Female,Metropolitan,White,17,24,0,0,17,White,Private,Metropolitan,Q2,West,132.50931099232662,66.48905290800562,6.0,0
+O1,Female,Metropolitan,White,17,24,0,0,31,Asian or Pacific Islander,Private,Rural,Q1,South,92.53119277337989,62.25474953552072,10.731449452653012,0
+O1,Female,Metropolitan,White,17,24,0,0,54,American Indian and Alaska Native,Public,Metropolitan,Q3,West,124.78359126040186,68.7607750574772,8.837381772712968,0
+O1,Female,Metropolitan,White,17,24,0,0,41,Asian or Pacific Islander,Private,Rural,Q4,Northeast,128.30481223058274,82.72832345563927,13.17522425318704,0
+O1,Female,Metropolitan,White,17,24,0,0,45,Another race,Uninsured,Micropolitan,Q4,West,158.79161440343333,87.44309453321647,11.793371338606175,0
+O1,Female,Metropolitan,White,17,24,0,0,37,American Indian and Alaska Native,Private,Metropolitan,Q4,Northeast,132.72229815189252,58.40480495101668,6.572902019927419,0
+O1,Female,Metropolitan,White,17,24,0,0,43,Hispanic,Private,Rural,Q1,Northeast,93.78080170990381,61.839608075973715,8.508812289324728,0
+O2,Female,Rural,White,17,30,0,0,31,Hispanic,Uninsured,Metropolitan,Q1,Midwest,96.15522266473862,78.25778314494359,7.075561800422555,0
+O2,Female,Rural,White,17,30,0,0,16,Missing,Uninsured,Metropolitan,Q2,Midwest,134.6911332414797,85.29921049488232,8.95789790906863,0
+O2,Female,Rural,White,17,30,0,0,34,White,Private,Metropolitan,Q1,Midwest,71.681219484801,79.21610477583815,15.042214838452725,0
+O2,Female,Rural,White,17,30,0,0,27,Hispanic,Private,Micropolitan,Q1,Northeast,106.49993990793789,57.85961638713273,11.5264816236026,0
+O2,Female,Rural,White,17,30,0,0,36,Missing,Public,Rural,Q4,South,107.0823927894293,95.0867626123345,6.0,0
+O2,Female,Rural,White,17,30,0,0,33,Black,Uninsured,Rural,Q1,Midwest,132.04050111834079,49.0,6.485196572438541,0
+O2,Female,Rural,White,17,30,0,0,29,American Indian and Alaska Native,Private,Micropolitan,Q3,West,143.1246942625325,56.60416762594346,6.0,0
+O2,Female,Rural,White,17,30,0,0,39,American Indian and Alaska Native,Uninsured,Metropolitan,Q2,Midwest,83.26842493421029,77.97594258021901,6.631609400490811,0
+O2,Female,Rural,White,17,30,0,0,38,Missing,Public,Metropolitan,Q3,West,136.75358389145998,69.37904983431686,6.353451866813293,0
+O2,Female,Rural,White,17,30,0,0,26,White,Uninsured,Rural,Q2,Northeast,116.8191650942009,74.15637842779846,10.583518697817553,1
+O2,Female,Rural,White,17,30,0,0,37,American Indian and Alaska Native,Private,Rural,Q3,South,120.26236901948228,73.26910410594532,11.825564289715897,0
+O2,Female,Rural,White,17,30,0,0,33,Hispanic,Private,Rural,Q1,Northeast,127.2034977281996,79.25172878963241,12.792751967201049,0
+O2,Female,Rural,White,17,30,0,0,51,Black,Public,Metropolitan,Q4,South,100.64101125636614,100.0,6.0,1
+O2,Female,Rural,White,17,30,0,0,32,Missing,Private,Metropolitan,Q2,Northeast,79.49364687003987,73.96796788437486,9.655186435701575,0
+O2,Female,Rural,White,17,30,0,0,26,Asian or Pacific Islander,Private,Rural,Q4,Midwest,125.55503358989773,89.65742034967008,10.717329911792142,0
+O2,Female,Rural,White,17,30,0,0,53,White,Uninsured,Rural,Q1,South,105.45545882768404,53.76406233089691,7.8445440352648115,0
+O2,Female,Rural,White,17,30,0,0,20,American Indian and Alaska Native,Uninsured,Metropolitan,Q2,Northeast,114.6345290197743,68.87142018981497,7.720780444908538,0
+O2,Female,Rural,White,17,30,0,0,18,Another race,Public,Micropolitan,Q3,West,132.58994868963853,84.68988183803299,6.0,0
+O2,Female,Rural,White,17,30,0,0,54,Another race,Uninsured,Rural,Q2,Northeast,108.5716433419954,64.70312144700635,10.545398819105177,0
+O2,Female,Rural,White,17,30,0,0,45,Another race,Public,Metropolitan,Q1,West,104.97941773911899,64.31988384638238,11.51926536938546,0
+O2,Female,Rural,White,17,30,0,0,46,Black,Private,Metropolitan,Q3,Midwest,114.05678670947648,84.02912994077154,6.0,0
+O2,Female,Rural,White,17,30,0,0,12,Hispanic,Uninsured,Metropolitan,Q1,Northeast,137.0283335751232,60.748957907378355,10.626025858503278,0
+O2,Female,Rural,White,17,30,0,0,32,Missing,Uninsured,Rural,Q2,Northeast,127.2627711747922,67.69538128165651,9.394778974846119,0
+O2,Female,Rural,White,17,30,0,0,48,Black,Public,Micropolitan,Q3,Northeast,104.54394674378267,60.00422218338847,10.848936437949966,1
+O2,Female,Rural,White,17,30,0,0,38,Hispanic,Uninsured,Micropolitan,Q2,South,108.98122037810582,72.55957121213056,9.424079086159983,1
+O2,Female,Rural,White,17,30,0,0,33,Missing,Uninsured,Metropolitan,Q1,Midwest,99.55615656764073,76.28576585234515,6.0,0
+O2,Female,Rural,White,17,30,0,0,41,White,Public,Rural,Q1,Northeast,119.95910379264762,64.72295705152376,7.6328598471922575,0
+O2,Female,Rural,White,17,30,0,0,23,White,Private,Metropolitan,Q2,Midwest,86.87047311238211,81.41796156834411,10.873138446318197,0
+O2,Female,Rural,White,17,30,0,0,46,American Indian and Alaska Native,Uninsured,Metropolitan,Q3,Northeast,102.26405417456019,96.10353078771192,6.9338705588377545,0
+O2,Female,Rural,White,17,30,0,0,34,White,Uninsured,Metropolitan,Q4,West,127.08818862287518,85.20313675433496,11.676580180527807,0
+O3,Female,Metropolitan,Hispanic,13,18,0,-1,28,Black,Public,Rural,Q3,Midwest,124.57845974072829,81.04493934266948,10.583194933383519,1
+O3,Female,Metropolitan,Hispanic,13,18,0,-1,44,White,Uninsured,Micropolitan,Q4,Midwest,116.21700643105315,83.9558101419813,6.0,0
+O3,Female,Metropolitan,Hispanic,13,18,0,-1,47,American Indian and Alaska Native,Private,Micropolitan,Q3,South,113.37022878428782,88.8946380768671,6.517825107565808,0
+O3,Female,Metropolitan,Hispanic,13,18,0,-1,34,White,Private,Micropolitan,Q2,Midwest,119.19159611430457,63.50914486091125,8.985255931410226,0
+O3,Female,Metropolitan,Hispanic,13,18,0,-1,48,White,Uninsured,Metropolitan,Q4,Midwest,132.93718883201905,72.89973048828303,10.704754948415438,0
+O3,Female,Metropolitan,Hispanic,13,18,0,-1,49,American Indian and Alaska Native,Private,Rural,Q1,Northeast,119.38282758775053,71.19532777375636,11.165013434906253,0
+O3,Female,Metropolitan,Hispanic,13,18,0,-1,20,Hispanic,Private,Rural,Q1,Midwest,70.0,62.324761461645146,11.951764558704108,0
+O3,Female,Metropolitan,Hispanic,13,18,0,-1,12,Black,Public,Rural,Q2,South,108.40633809677189,82.95468453443655,12.75787284128036,1
+O3,Female,Metropolitan,Hispanic,13,18,0,-1,34,Black,Private,Rural,Q3,South,112.52135137175932,92.29194406805473,10.503723130336617,0
+O3,Female,Metropolitan,Hispanic,13,18,0,-1,12,Another race,Private,Metropolitan,Q2,Midwest,148.35448728858046,88.60738977081965,7.841107766335374,0
+O3,Female,Metropolitan,Hispanic,13,18,0,-1,28,Another race,Uninsured,Metropolitan,Q4,West,118.18892855631152,72.38132710128708,6.0,0
+O3,Female,Metropolitan,Hispanic,13,18,0,-1,46,Black,Private,Micropolitan,Q4,South,96.67166772445898,81.45736660470446,6.0,1
+O3,Female,Metropolitan,Hispanic,13,18,0,-1,42,Hispanic,Uninsured,Micropolitan,Q3,Northeast,128.25480189105022,80.43295733331948,7.203036443954675,0
+O3,Female,Metropolitan,Hispanic,13,18,0,-1,29,Asian or Pacific Islander,Public,Rural,Q4,Midwest,74.90153938232245,100.0,6.0,0
+O3,Female,Metropolitan,Hispanic,13,18,0,-1,52,White,Public,Micropolitan,Q4,Northeast,122.03721190451951,57.82708732748149,6.0,0
+O3,Female,Metropolitan,Hispanic,13,18,0,-1,43,Hispanic,Private,Micropolitan,Q2,West,131.54909647787878,72.59426084131186,6.630279205967762,1
+O3,Female,Metropolitan,Hispanic,13,18,0,-1,35,American Indian and Alaska Native,Public,Metropolitan,Q2,South,107.85512595375394,74.73192856264404,10.28556158006257,1
+O3,Female,Metropolitan,Hispanic,13,18,0,-1,47,White,Uninsured,Metropolitan,Q2,Midwest,70.0,64.87689157521203,7.855424677021396,0
+O4,Male,Metropolitan,White,29,29,0,-1,27,Asian or Pacific Islander,Uninsured,Metropolitan,Q2,South,113.90334305602435,57.71126530485741,10.986579601680758,0
+O4,Male,Metropolitan,White,29,29,0,-1,36,Black,Uninsured,Rural,Q4,South,108.17490232335545,82.95116779381713,6.0,0
+O4,Male,Metropolitan,White,29,29,0,-1,28,Another race,Private,Micropolitan,Q2,Midwest,129.51457554614663,62.45170435758021,6.0,0
+O4,Male,Metropolitan,White,29,29,0,-1,25,White,Private,Rural,Q1,Northeast,137.98609886397568,75.94115418994433,7.078446451003837,0
+O4,Male,Metropolitan,White,29,29,0,-1,46,Black,Private,Metropolitan,Q2,West,108.54029157086595,89.87472704227726,6.0,0
+O4,Male,Metropolitan,White,29,29,0,-1,46,Asian or Pacific Islander,Public,Micropolitan,Q4,Northeast,98.7624373484119,62.052734677559386,6.0,0
+O4,Male,Metropolitan,White,29,29,0,-1,51,Another race,Uninsured,Micropolitan,Q1,Midwest,134.87403483795407,67.25586173975674,6.0,1
+O4,Male,Metropolitan,White,29,29,0,-1,32,Black,Public,Micropolitan,Q2,Midwest,91.17904257496185,68.02164064279127,12.283674307851113,0
+O4,Male,Metropolitan,White,29,29,0,-1,37,Another race,Uninsured,Rural,Q3,South,136.82257033686437,94.26460576855158,6.0,0
+O4,Male,Metropolitan,White,29,29,0,-1,31,Black,Public,Micropolitan,Q1,Northeast,116.66858947586962,92.43036497484034,16.101625536057234,0
+O4,Male,Metropolitan,White,29,29,0,-1,54,Missing,Uninsured,Metropolitan,Q4,Midwest,102.89607274979178,68.23648165826856,6.0,0
+O4,Male,Metropolitan,White,29,29,0,-1,29,Missing,Private,Rural,Q1,Northeast,92.3147182161756,53.32445073253434,13.50922862788564,0
+O4,Male,Metropolitan,White,29,29,0,-1,28,American Indian and Alaska Native,Private,Micropolitan,Q3,South,100.3734336914689,67.85247869587248,7.919232429333212,0
+O4,Male,Metropolitan,White,29,29,0,-1,17,Hispanic,Private,Metropolitan,Q2,Midwest,120.82353538280968,61.482841222844755,6.947654821015491,0
+O4,Male,Metropolitan,White,29,29,0,-1,35,Black,Uninsured,Micropolitan,Q3,South,111.59077049016074,84.88324880289206,11.002073576994288,0
+O4,Male,Metropolitan,White,29,29,0,-1,52,White,Uninsured,Rural,Q2,Midwest,145.340661231625,73.81999538642697,6.0,0
+O4,Male,Metropolitan,White,29,29,0,-1,43,Another race,Public,Rural,Q4,Midwest,122.52619351989748,67.23169178093183,12.09488223134963,1
+O4,Male,Metropolitan,White,29,29,0,-1,44,Another race,Public,Micropolitan,Q2,South,118.57327283078993,82.96663698944093,13.58220376201199,1
+O4,Male,Metropolitan,White,29,29,0,-1,55,American Indian and Alaska Native,Private,Rural,Q1,Northeast,114.6322633270544,78.08765718808601,11.51054240801854,0
+O4,Male,Metropolitan,White,29,29,0,-1,19,Black,Public,Rural,Q3,Northeast,118.51653299827895,58.32158129613224,13.389055468048156,0
+O4,Male,Metropolitan,White,29,29,0,-1,18,Black,Private,Micropolitan,Q1,South,124.13444748996467,72.60407028822719,6.0,0
+O4,Male,Metropolitan,White,29,29,0,-1,39,Another race,Public,Rural,Q1,Northeast,120.58210892201484,57.24348879362152,10.68114782543114,0
+O4,Male,Metropolitan,White,29,29,0,-1,19,Another race,Public,Rural,Q3,Midwest,137.02070210650044,68.73208651070951,12.021436668306116,0
+O4,Male,Metropolitan,White,29,29,0,-1,46,Black,Private,Metropolitan,Q4,South,112.65705609706416,80.32534247675234,6.0,0
+O4,Male,Metropolitan,White,29,29,0,-1,27,Missing,Uninsured,Rural,Q4,Midwest,135.91025440457287,88.163038096542,9.022042396461156,0
+O4,Male,Metropolitan,White,29,29,0,-1,46,White,Public,Micropolitan,Q3,Midwest,119.09645823791885,60.18955893519005,10.667631213244388,0
+O4,Male,Metropolitan,White,29,29,0,-1,33,American Indian and Alaska Native,Private,Micropolitan,Q2,Midwest,123.65473293758194,82.99256412151068,13.016634508201719,0
+O4,Male,Metropolitan,White,29,29,0,-1,30,Missing,Uninsured,Metropolitan,Q4,South,100.76341321840778,82.6146759384157,12.267668225298706,0
+O4,Male,Metropolitan,White,29,29,0,-1,25,Black,Public,Rural,Q1,Midwest,111.56781852324055,91.82833718220164,6.0,0
+O5,Female,Metropolitan,White,29,24,0,0,34,Hispanic,Private,Metropolitan,Q4,Midwest,115.81316250545183,75.52095586887377,6.0,0
+O5,Female,Metropolitan,White,29,24,0,0,54,American Indian and Alaska Native,Public,Metropolitan,Q1,South,84.18503666529433,100.0,10.421979662479307,0
+O5,Female,Metropolitan,White,29,24,0,0,55,Asian or Pacific Islander,Public,Micropolitan,Q4,South,103.45284410966441,95.78277855793829,10.120036931160449,0
+O5,Female,Metropolitan,White,29,24,0,0,32,American Indian and Alaska Native,Public,Metropolitan,Q4,Midwest,80.68204300252421,82.54376721722944,6.986517825161691,0
+O5,Female,Metropolitan,White,29,24,0,0,55,White,Uninsured,Metropolitan,Q4,Northeast,87.2338848559641,84.10324057579913,13.09898668482747,1
+O5,Female,Metropolitan,White,29,24,0,0,43,Another race,Private,Micropolitan,Q4,West,91.97681803817432,96.96595297363042,9.128906470059931,0
+O5,Female,Metropolitan,White,29,24,0,0,36,Missing,Private,Metropolitan,Q4,South,117.82665372967602,50.23074651770732,6.0,0
+O5,Female,Metropolitan,White,29,24,0,0,46,White,Uninsured,Rural,Q3,South,127.42149506405221,87.32216327216211,7.73832330038422,0
+O5,Female,Metropolitan,White,29,24,0,0,36,Hispanic,Private,Metropolitan,Q4,West,105.09316324057535,73.17157419665838,7.83139524716366,0
+O5,Female,Metropolitan,White,29,24,0,0,54,American Indian and Alaska Native,Public,Rural,Q3,South,125.89095530989914,78.21606003075108,6.0,1
+O5,Female,Metropolitan,White,29,24,0,0,33,Hispanic,Public,Rural,Q3,West,86.60371215935999,83.77981593925256,10.722239702706567,0
+O5,Female,Metropolitan,White,29,24,0,0,34,Hispanic,Uninsured,Metropolitan,Q1,Northeast,121.00212193314877,98.55785222587764,6.0,0
+O5,Female,Metropolitan,White,29,24,0,0,24,White,Public,Metropolitan,Q3,Midwest,99.95087690115915,91.76720050462465,7.1614890715130075,0
+O5,Female,Metropolitan,White,29,24,0,0,19,Missing,Private,Rural,Q2,South,70.0,64.13775329947455,10.382037735400633,1
+O5,Female,Metropolitan,White,29,24,0,0,49,Black,Private,Metropolitan,Q3,Midwest,115.92719207552715,56.18624759998553,10.973872309605321,0
+O5,Female,Metropolitan,White,29,24,0,0,33,White,Public,Rural,Q1,South,102.96069952355096,83.19443245506451,9.267111010501225,0
+O5,Female,Metropolitan,White,29,24,0,0,27,White,Private,Rural,Q1,South,85.99030553144607,88.00443938531926,11.505280458120776,0
+O5,Female,Metropolitan,White,29,24,0,0,43,White,Public,Micropolitan,Q1,Midwest,114.71963624850089,81.94941860377223,6.0,0
+O5,Female,Metropolitan,White,29,24,0,0,36,American Indian and Alaska Native,Private,Micropolitan,Q4,South,136.46454503776428,76.66313553913491,10.46527316461939,0
+O5,Female,Metropolitan,White,29,24,0,0,55,White,Private,Rural,Q3,Midwest,121.80609961622241,66.8683262680056,7.180984451849154,1
+O5,Female,Metropolitan,White,29,24,0,0,37,White,Public,Rural,Q4,Northeast,102.55570340989145,100.0,7.230005149025703,0
+O5,Female,Metropolitan,White,29,24,0,0,54,American Indian and Alaska Native,Private,Rural,Q1,West,78.9372101988082,68.37335672528526,13.40567922846251,0
+O5,Female,Metropolitan,White,29,24,0,0,25,American Indian and Alaska Native,Private,Micropolitan,Q3,Northeast,85.73391762279405,89.44755569047649,9.646474537995655,0
+O5,Female,Metropolitan,White,29,24,0,0,27,White,Private,Micropolitan,Q3,Northeast,92.4556153624053,63.89954873158044,6.0,0
+O6,Male,Metropolitan,White,21,29,0,1,34,White,Private,Micropolitan,Q3,West,92.51590065421968,81.67748121840704,7.054533504335517,0
+O6,Male,Metropolitan,White,21,29,0,1,18,White,Uninsured,Rural,Q2,Midwest,107.71540629198785,50.53392650582407,11.517997696263826,0
+O6,Male,Metropolitan,White,21,29,0,1,31,Black,Uninsured,Micropolitan,Q3,West,104.93801229657753,79.71681400954108,10.092723262124887,0
+O6,Male,Metropolitan,White,21,29,0,1,21,Black,Private,Rural,Q2,South,100.46313044159214,67.33907030184788,10.702613685507249,0
+O6,Male,Metropolitan,White,21,29,0,1,45,White,Private,Rural,Q2,South,97.16666519230229,83.8248556369904,12.54049305989961,1
+O6,Male,Metropolitan,White,21,29,0,1,54,Asian or Pacific Islander,Public,Metropolitan,Q3,Midwest,100.68861961346607,87.67541229287798,15.206204741995355,0
+O6,Male,Metropolitan,White,21,29,0,1,38,Another race,Public,Micropolitan,Q3,Northeast,100.32884168108349,75.49513202996864,6.0,0
+O6,Male,Metropolitan,White,21,29,0,1,53,Missing,Private,Micropolitan,Q2,Northeast,137.1827810552036,72.28062504975802,8.033323556670254,1
+O6,Male,Metropolitan,White,21,29,0,1,28,Another race,Public,Micropolitan,Q1,Midwest,98.8796530279265,79.79720789773165,7.330560762826423,0
+O6,Male,Metropolitan,White,21,29,0,1,42,Another race,Public,Rural,Q1,Midwest,83.21202477570564,90.71241817344628,6.0,0
+O6,Male,Metropolitan,White,21,29,0,1,39,Asian or Pacific Islander,Public,Metropolitan,Q2,Midwest,113.5601246934779,82.43507320568318,6.576481342150047,0
+O6,Male,Metropolitan,White,21,29,0,1,49,Black,Private,Rural,Q3,West,111.72097664823467,55.20541030339058,7.563673654397807,0
+O6,Male,Metropolitan,White,21,29,0,1,45,White,Private,Metropolitan,Q1,Northeast,120.60007133233046,49.0,10.000020995551163,1
+O6,Male,Metropolitan,White,21,29,0,1,20,Another race,Uninsured,Micropolitan,Q1,South,89.17325330973921,96.77850690199132,12.727565842396492,0
+O6,Male,Metropolitan,White,21,29,0,1,29,Hispanic,Private,Metropolitan,Q1,Midwest,147.9763537287078,72.43670536118871,6.0,0
+O6,Male,Metropolitan,White,21,29,0,1,16,Another race,Public,Micropolitan,Q3,Northeast,91.52741744861179,93.27590095070707,15.197961853101551,0
+O6,Male,Metropolitan,White,21,29,0,1,28,Hispanic,Private,Rural,Q2,West,106.58580201575914,88.66744947510662,8.346510509394506,0
+O6,Male,Metropolitan,White,21,29,0,1,29,Black,Uninsured,Metropolitan,Q2,Northeast,125.86622003444926,85.85442145052873,6.539350464370777,0
+O6,Male,Metropolitan,White,21,29,0,1,32,Asian or Pacific Islander,Public,Rural,Q3,West,102.16820255952207,86.73901706731793,13.10155930502653,0
+O6,Male,Metropolitan,White,21,29,0,1,26,White,Uninsured,Micropolitan,Q2,Northeast,115.14115767544358,67.43639639021194,6.0,0
+O6,Male,Metropolitan,White,21,29,0,1,48,Missing,Uninsured,Metropolitan,Q1,Northeast,119.42673055877215,77.58826479794412,7.512185943194488,0
+O6,Male,Metropolitan,White,21,29,0,1,33,Another race,Public,Metropolitan,Q4,South,132.47059851420187,83.86420517189421,7.78222487948795,0
+O6,Male,Metropolitan,White,21,29,0,1,49,Hispanic,Public,Rural,Q3,South,93.29227139356516,82.96564052809417,6.0,0
+O6,Male,Metropolitan,White,21,29,0,1,41,Another race,Uninsured,Metropolitan,Q2,Midwest,99.99908836158801,92.92724760610706,11.318281853347138,0
+O6,Male,Metropolitan,White,21,29,0,1,46,White,Public,Micropolitan,Q1,Northeast,97.55583480847949,87.9706194266246,10.315456369412715,0
+O6,Male,Metropolitan,White,21,29,0,1,16,White,Uninsured,Micropolitan,Q3,West,116.05474680089213,90.35083035424047,11.654612618401092,0
+O6,Male,Metropolitan,White,21,29,0,1,34,American Indian and Alaska Native,Uninsured,Rural,Q2,Northeast,119.50244587324481,64.90084951374189,8.304664478855555,0
+O6,Male,Metropolitan,White,21,29,0,1,52,Asian or Pacific Islander,Uninsured,Metropolitan,Q2,West,99.25120152384392,64.73577681797403,12.798478951650388,0
+O6,Male,Metropolitan,White,21,29,0,1,32,Another race,Uninsured,Rural,Q3,West,104.48733674938411,100.0,6.0,0
+O7,Female,Metropolitan,Black,17,24,0,0,25,American Indian and Alaska Native,Uninsured,Metropolitan,Q2,West,102.04924407989735,81.07547720948351,6.0,0
+O7,Female,Metropolitan,Black,17,24,0,0,31,American Indian and Alaska Native,Private,Rural,Q4,Midwest,93.80432127119133,85.83245339797406,9.99383815352126,0
+O7,Female,Metropolitan,Black,17,24,0,0,23,Black,Uninsured,Metropolitan,Q2,West,112.3325678520965,72.5191881012644,10.038115431254356,1
+O7,Female,Metropolitan,Black,17,24,0,0,51,American Indian and Alaska Native,Uninsured,Metropolitan,Q4,Northeast,138.74187196519338,83.38762176530828,10.307645503520254,0
+O7,Female,Metropolitan,Black,17,24,0,0,37,White,Uninsured,Rural,Q2,West,136.1262913338222,60.79592542308881,8.936114056782198,0
+O7,Female,Metropolitan,Black,17,24,0,0,34,White,Private,Micropolitan,Q1,South,157.30079359576575,76.74676039180868,6.59636383892969,0
+O7,Female,Metropolitan,Black,17,24,0,0,33,Missing,Uninsured,Metropolitan,Q1,South,141.04684143775359,63.29298579469511,6.819100071936637,1
+O7,Female,Metropolitan,Black,17,24,0,0,54,Asian or Pacific Islander,Public,Micropolitan,Q4,West,115.34896883711947,86.15139403225913,6.0,0
+O7,Female,Metropolitan,Black,17,24,0,0,25,Black,Private,Rural,Q2,Northeast,78.79643985206516,64.43851502352634,6.0,0
+O7,Female,Metropolitan,Black,17,24,0,0,45,American Indian and Alaska Native,Uninsured,Metropolitan,Q2,South,131.8699466231228,75.6510461781493,8.296323645653555,0
+O7,Female,Metropolitan,Black,17,24,0,0,40,White,Uninsured,Micropolitan,Q2,South,93.39564690343607,68.69101984918956,6.931563273731131,0
+O7,Female,Metropolitan,Black,17,24,0,0,33,Asian or Pacific Islander,Public,Metropolitan,Q4,West,95.06226020303575,89.90540266787286,8.258755067104389,0
+O7,Female,Metropolitan,Black,17,24,0,0,30,Missing,Uninsured,Rural,Q1,South,120.47332247440238,97.205930439098,13.89070093018077,0
+O7,Female,Metropolitan,Black,17,24,0,0,29,Missing,Public,Rural,Q1,South,104.18442942997682,74.00180352947734,7.5509360568158375,0
+O7,Female,Metropolitan,Black,17,24,0,0,36,Black,Uninsured,Rural,Q2,South,155.04783863856068,100.0,9.590080393153535,0
+O7,Female,Metropolitan,Black,17,24,0,0,22,White,Uninsured,Metropolitan,Q2,Midwest,127.17725699765909,66.85761875474478,11.622778247997985,0
+O7,Female,Metropolitan,Black,17,24,0,0,47,Hispanic,Private,Metropolitan,Q2,Northeast,136.64362675162388,74.33262724498758,6.0,0
+O7,Female,Metropolitan,Black,17,24,0,0,15,American Indian and Alaska Native,Private,Rural,Q1,West,104.16026796297571,54.99203395812843,11.469743843444714,0
+O7,Female,Metropolitan,Black,17,24,0,0,36,Black,Private,Metropolitan,Q1,Midwest,77.70812362601863,72.511668120433,9.92237668597864,0
+O7,Female,Metropolitan,Black,17,24,0,0,18,American Indian and Alaska Native,Private,Rural,Q4,Midwest,123.00067307987524,68.44504635756407,9.565382716611508,0
+O7,Female,Metropolitan,Black,17,24,0,0,25,American Indian and Alaska Native,Private,Metropolitan,Q4,Midwest,109.83462293707169,66.2929519678441,6.0,0
+O7,Female,Metropolitan,Black,17,24,0,0,37,Black,Private,Metropolitan,Q2,Northeast,125.99998223093954,63.17755360055817,6.838058534543553,0
+O7,Female,Metropolitan,Black,17,24,0,0,40,White,Private,Metropolitan,Q3,West,107.13090627042102,69.67656316868053,8.248807830424026,0
+O7,Female,Metropolitan,Black,17,24,0,0,54,Hispanic,Uninsured,Micropolitan,Q2,South,137.56479513755446,78.23795691564999,11.974297646297313,0
+O8,Female,Metropolitan,Black,13,28,1,1,48,Black,Uninsured,Metropolitan,Q3,West,93.07716974142218,73.12640028160257,10.298738563868547,0
+O8,Female,Metropolitan,Black,13,28,1,1,34,Hispanic,Private,Micropolitan,Q4,Northeast,144.03251995300622,96.80236040171752,13.586666016395434,0
+O8,Female,Metropolitan,Black,13,28,1,1,30,Another race,Private,Rural,Q2,South,80.1075093157994,74.97577606756973,6.0,0
+O8,Female,Metropolitan,Black,13,28,1,1,48,American Indian and Alaska Native,Uninsured,Rural,Q2,South,100.3048280774313,79.19223326961428,6.0,1
+O8,Female,Metropolitan,Black,13,28,1,1,43,Another race,Public,Rural,Q3,Northeast,119.60881022333464,66.99656601366355,10.1612905979344,1
+O8,Female,Metropolitan,Black,13,28,1,1,17,Missing,Private,Metropolitan,Q1,Northeast,146.47485137719121,94.28746797439264,15.339798812442815,1
+O8,Female,Metropolitan,Black,13,28,1,1,53,Another race,Private,Metropolitan,Q2,West,95.07900638581654,67.09920949627465,6.0,0
+O8,Female,Metropolitan,Black,13,28,1,1,32,Black,Public,Metropolitan,Q1,Northeast,137.9032051575026,76.29931751885258,6.0,0
+O8,Female,Metropolitan,Black,13,28,1,1,47,American Indian and Alaska Native,Public,Rural,Q3,South,142.77741233694306,70.28625485032572,11.032712733573668,0
+O8,Female,Metropolitan,Black,13,28,1,1,33,Hispanic,Public,Micropolitan,Q1,South,126.32765201816542,95.97636682589288,14.268136266418328,0
+O8,Female,Metropolitan,Black,13,28,1,1,12,Another race,Public,Metropolitan,Q1,Northeast,100.5429659770712,86.64750058746591,10.056733633786537,0
+O8,Female,Metropolitan,Black,13,28,1,1,44,Asian or Pacific Islander,Private,Micropolitan,Q2,West,111.99493065946233,57.206870328754,11.01192889274756,0
+O8,Female,Metropolitan,Black,13,28,1,1,18,Black,Public,Micropolitan,Q4,Northeast,134.9252264921982,66.56626608315459,10.061548589131903,0
+O8,Female,Metropolitan,Black,13,28,1,1,22,Hispanic,Public,Metropolitan,Q3,Midwest,115.23897505925096,89.65075731941003,14.344248770303725,0
+O8,Female,Metropolitan,Black,13,28,1,1,12,White,Private,Rural,Q3,South,83.08226674860249,68.08757847764704,6.0,0
+O8,Female,Metropolitan,Black,13,28,1,1,41,White,Uninsured,Metropolitan,Q2,West,127.6421936195519,81.2081149742827,6.0,0
+O8,Female,Metropolitan,Black,13,28,1,1,47,American Indian and Alaska Native,Public,Micropolitan,Q1,Northeast,124.36422023755756,93.49059906490486,7.46682548341122,0
+O8,Female,Metropolitan,Black,13,28,1,1,38,White,Public,Rural,Q1,Northeast,110.51360786980709,64.77998348414607,9.274437203937898,0
+O8,Female,Metropolitan,Black,13,28,1,1,35,Another race,Private,Metropolitan,Q1,South,106.17098578403034,76.52390014728809,7.667644372769752,0
+O8,Female,Metropolitan,Black,13,28,1,1,54,Black,Public,Rural,Q3,Northeast,90.67802735367559,62.024105348882856,6.056974251758222,0
+O8,Female,Metropolitan,Black,13,28,1,1,47,White,Public,Rural,Q1,South,93.49029997805127,66.3067033613524,14.747145731429466,0
+O8,Female,Metropolitan,Black,13,28,1,1,52,American Indian and Alaska Native,Public,Micropolitan,Q3,Midwest,99.8728254195479,77.50544171093341,12.2720353224257,0
+O8,Female,Metropolitan,Black,13,28,1,1,49,Black,Public,Metropolitan,Q3,West,118.24918790148189,80.97608466720747,6.0,0
+O8,Female,Metropolitan,Black,13,28,1,1,45,Hispanic,Private,Metropolitan,Q4,Northeast,82.164540972246,68.3754609028549,13.13284128520723,0
+O8,Female,Metropolitan,Black,13,28,1,1,55,Hispanic,Private,Micropolitan,Q2,West,95.01945669936646,50.626660607620444,6.396008563642626,0
+O8,Female,Metropolitan,Black,13,28,1,1,28,Hispanic,Uninsured,Micropolitan,Q1,Northeast,147.20035950569974,68.73538314914832,7.3514058258754265,0
+O8,Female,Metropolitan,Black,13,28,1,1,48,Black,Uninsured,Rural,Q1,Northeast,104.98220301935105,82.83132557004299,11.40220811347918,0
+O8,Female,Metropolitan,Black,13,28,1,1,36,Black,Private,Rural,Q4,Midwest,75.48716120757308,72.60482826882728,6.891816944820386,0
+O9,Female,Metropolitan,White,17,23,0,1,17,American Indian and Alaska Native,Uninsured,Rural,Q1,Midwest,92.5887414020369,51.74574520288381,8.895904054018768,0
+O9,Female,Metropolitan,White,17,23,0,1,43,Another race,Public,Rural,Q2,Northeast,136.22591318835876,81.06220988590755,6.0,1
+O9,Female,Metropolitan,White,17,23,0,1,49,Black,Public,Metropolitan,Q4,South,115.9464132107951,65.95645108786717,8.709299994285288,0
+O9,Female,Metropolitan,White,17,23,0,1,47,Hispanic,Private,Micropolitan,Q4,South,87.84710287753417,86.53407396618847,6.0,0
+O9,Female,Metropolitan,White,17,23,0,1,32,Another race,Private,Rural,Q1,South,123.6642949629204,64.39450639549571,9.188675874249677,1
+O9,Female,Metropolitan,White,17,23,0,1,54,White,Public,Rural,Q3,South,90.93018885362137,85.18194720331438,17.418991261799544,0
+O9,Female,Metropolitan,White,17,23,0,1,20,American Indian and Alaska Native,Uninsured,Metropolitan,Q3,Northeast,151.24398408959775,83.52276253163461,10.033383478482715,0
+O9,Female,Metropolitan,White,17,23,0,1,42,White,Uninsured,Micropolitan,Q2,West,116.56594162391079,72.70019599261454,13.832538827605545,0
+O9,Female,Metropolitan,White,17,23,0,1,34,White,Private,Rural,Q2,West,136.25971831040962,79.6173494079642,10.622005708491503,0
+O9,Female,Metropolitan,White,17,23,0,1,34,Hispanic,Uninsured,Rural,Q1,West,99.7039571525946,76.92970296501157,14.879935434188585,0
+O9,Female,Metropolitan,White,17,23,0,1,33,White,Uninsured,Rural,Q1,South,99.80234413246401,74.91303327812932,6.722607337041323,0
+O9,Female,Metropolitan,White,17,23,0,1,38,Missing,Private,Metropolitan,Q1,Midwest,112.03194153024269,100.0,14.67266875509875,0
+O9,Female,Metropolitan,White,17,23,0,1,17,Asian or Pacific Islander,Public,Rural,Q2,West,94.5507786074744,67.40551667411086,6.0,0
+O9,Female,Metropolitan,White,17,23,0,1,49,Black,Public,Metropolitan,Q3,Northeast,105.9082479666226,55.991819993359044,6.00944189895462,0
+O9,Female,Metropolitan,White,17,23,0,1,47,Black,Uninsured,Metropolitan,Q3,Midwest,113.56262688344981,71.35440830711865,6.9066328056602835,0
+O9,Female,Metropolitan,White,17,23,0,1,25,Black,Private,Rural,Q2,West,119.14624637279944,78.51756687676794,6.0,1
+O9,Female,Metropolitan,White,17,23,0,1,26,Hispanic,Public,Rural,Q2,Northeast,76.6684311741906,86.78763077136757,13.12397982660011,0
+O9,Female,Metropolitan,White,17,23,0,1,44,Missing,Public,Rural,Q2,Midwest,106.09574681630166,73.07512568216937,13.362456918957639,0
+O9,Female,Metropolitan,White,17,23,0,1,33,White,Uninsured,Micropolitan,Q1,South,103.83431419342358,69.4189268134183,8.22755371007827,1
+O9,Female,Metropolitan,White,17,23,0,1,30,American Indian and Alaska Native,Private,Metropolitan,Q4,West,96.44683139678662,92.50102479942446,10.388426466720597,0
+O9,Female,Metropolitan,White,17,23,0,1,52,Hispanic,Private,Metropolitan,Q3,Midwest,100.5416282084894,55.418454790830154,15.518735819324952,0
+O9,Female,Metropolitan,White,17,23,0,1,43,White,Uninsured,Metropolitan,Q1,Northeast,94.14692836288667,88.65930286279205,9.664389014944792,0
+O9,Female,Metropolitan,White,17,23,0,1,29,Asian or Pacific Islander,Private,Micropolitan,Q4,South,102.055306287645,77.067095233311,6.0,0
+O10,Female,Micropolitan,White,21,30,0,0,28,Hispanic,Public,Rural,Q2,South,112.95688138204883,57.351003380716506,6.0,0
+O10,Female,Micropolitan,White,21,30,0,0,55,White,Uninsured,Metropolitan,Q1,West,150.0010321337535,63.479792614515176,9.214488517893432,0
+O10,Female,Micropolitan,White,21,30,0,0,34,Missing,Public,Micropolitan,Q1,West,99.2446609130672,66.07542356118007,6.0,0
+O10,Female,Micropolitan,White,21,30,0,0,45,Another race,Public,Micropolitan,Q2,West,104.05382039690357,72.18092678879975,6.0,0
+O10,Female,Micropolitan,White,21,30,0,0,31,Missing,Public,Metropolitan,Q1,Northeast,116.07016338659614,76.0874421023551,6.0,0
+O10,Female,Micropolitan,White,21,30,0,0,43,American Indian and Alaska Native,Public,Rural,Q1,South,124.97720405985558,76.31984370838421,6.426324937601676,0
+O10,Female,Micropolitan,White,21,30,0,0,48,Hispanic,Private,Metropolitan,Q4,West,101.05290018819015,57.136526990492186,12.189104829598893,0
+O10,Female,Micropolitan,White,21,30,0,0,16,American Indian and Alaska Native,Uninsured,Rural,Q4,West,103.08657194578967,64.19492370290494,6.344735274586817,0
+O10,Female,Micropolitan,White,21,30,0,0,54,Asian or Pacific Islander,Private,Metropolitan,Q1,Midwest,122.37449261254709,74.25908918226514,7.169123955542296,0
+O10,Female,Micropolitan,White,21,30,0,0,26,Black,Uninsured,Rural,Q2,Northeast,98.32045489341007,69.35877838264031,6.544171594241221,0
+O10,Female,Micropolitan,White,21,30,0,0,32,Asian or Pacific Islander,Public,Micropolitan,Q2,Midwest,138.80907456557944,81.31144252093839,6.175172577445712,0
+O10,Female,Micropolitan,White,21,30,0,0,32,Hispanic,Public,Micropolitan,Q4,West,120.53018993005276,49.95365911130639,10.995219075023053,0
+O10,Female,Micropolitan,White,21,30,0,0,34,Black,Uninsured,Micropolitan,Q2,West,87.35537125931302,73.3496397324283,6.65448692263614,0
+O10,Female,Micropolitan,White,21,30,0,0,50,Hispanic,Uninsured,Micropolitan,Q2,Northeast,127.94336012498931,76.76560776682939,8.186905421825418,0
+O10,Female,Micropolitan,White,21,30,0,0,30,Black,Public,Rural,Q1,South,113.18111069146036,51.85490973472018,6.452718265591462,0
+O10,Female,Micropolitan,White,21,30,0,0,53,American Indian and Alaska Native,Public,Metropolitan,Q3,Northeast,113.07590172437772,78.1249174128187,7.743916611729771,0
+O10,Female,Micropolitan,White,21,30,0,0,36,Asian or Pacific Islander,Private,Metropolitan,Q4,Northeast,138.4786701507599,68.53927312644372,6.26865598938476,0
+O10,Female,Micropolitan,White,21,30,0,0,36,Missing,Uninsured,Rural,Q1,West,104.88363326715049,74.18726932657275,7.276954245252826,0
+O10,Female,Micropolitan,White,21,30,0,0,33,American Indian and Alaska Native,Uninsured,Rural,Q1,West,109.6994508327938,72.81332034407664,13.472203072958589,0
+O10,Female,Micropolitan,White,21,30,0,0,33,American Indian and Alaska Native,Private,Micropolitan,Q1,South,107.37888621749377,86.49939643338553,6.0,0
+O10,Female,Micropolitan,White,21,30,0,0,24,Black,Public,Micropolitan,Q4,South,121.31994175016138,78.36798544212478,6.0,0
+O10,Female,Micropolitan,White,21,30,0,0,26,Asian or Pacific Islander,Uninsured,Rural,Q4,Northeast,116.14729887819735,68.4800343834189,10.934964122427022,0
+O10,Female,Micropolitan,White,21,30,0,0,25,Black,Uninsured,Micropolitan,Q4,South,92.61346102217948,89.74792396439567,6.0,1
+O10,Female,Micropolitan,White,21,30,0,0,40,Hispanic,Private,Micropolitan,Q1,Midwest,100.12939310706713,83.17936230905525,7.122170517936313,0
+O10,Female,Micropolitan,White,21,30,0,0,32,Missing,Uninsured,Micropolitan,Q4,West,107.82027926985785,78.33195736102853,12.15041433237787,0
+O10,Female,Micropolitan,White,21,30,0,0,13,Another race,Private,Micropolitan,Q4,South,109.57717638753635,75.21444811789144,7.821016309212917,0
+O10,Female,Micropolitan,White,21,30,0,0,50,Black,Private,Metropolitan,Q3,South,108.87110402470442,90.7481742820577,8.086818772198443,0
+O10,Female,Micropolitan,White,21,30,0,0,45,Black,Uninsured,Metropolitan,Q2,Midwest,70.0,89.74496810361327,6.3740674568678815,0
+O10,Female,Micropolitan,White,21,30,0,0,48,Black,Private,Rural,Q2,South,94.49122039943637,91.31860554998536,10.998495466734404,0
+O10,Female,Micropolitan,White,21,30,0,0,38,American Indian and Alaska Native,Public,Metropolitan,Q4,West,108.71201500039643,91.31730875992318,6.0,0
+O11,Female,Metropolitan,White,13,16,0,1,34,American Indian and Alaska Native,Private,Rural,Q1,Northeast,131.96578926088728,77.1403517471902,9.814045718723044,0
+O11,Female,Metropolitan,White,13,16,0,1,44,White,Public,Micropolitan,Q3,Midwest,120.94338644991524,73.28342877701972,11.790659723562845,0
+O11,Female,Metropolitan,White,13,16,0,1,34,Asian or Pacific Islander,Uninsured,Metropolitan,Q3,Midwest,110.90926440484617,63.2182891189726,7.951847504315128,0
+O11,Female,Metropolitan,White,13,16,0,1,44,Asian or Pacific Islander,Public,Metropolitan,Q3,Northeast,118.19907530493946,95.81721756654431,8.542678219664879,0
+O11,Female,Metropolitan,White,13,16,0,1,23,White,Uninsured,Micropolitan,Q4,South,87.771848573256,49.0,9.94179582557378,0
+O11,Female,Metropolitan,White,13,16,0,1,47,Black,Private,Metropolitan,Q4,West,133.8228850808224,55.78413767629492,9.466455609375071,0
+O11,Female,Metropolitan,White,13,16,0,1,39,American Indian and Alaska Native,Private,Rural,Q4,Midwest,139.23675011471303,95.46859099250935,13.210615642596014,0
+O11,Female,Metropolitan,White,13,16,0,1,21,Hispanic,Private,Micropolitan,Q4,West,116.59591045488794,78.99252716612126,6.0,0
+O11,Female,Metropolitan,White,13,16,0,1,51,Another race,Uninsured,Rural,Q2,Midwest,86.3790519695305,94.56209388947931,13.372535479978925,1
+O11,Female,Metropolitan,White,13,16,0,1,51,Missing,Public,Micropolitan,Q4,Midwest,106.178028086067,100.0,6.0,0
+O11,Female,Metropolitan,White,13,16,0,1,39,Another race,Public,Metropolitan,Q1,Northeast,108.01066828644402,85.54349145587528,11.967119531288477,0
+O11,Female,Metropolitan,White,13,16,0,1,54,Black,Public,Metropolitan,Q3,South,82.90581133623996,79.38683329855738,13.050858610784136,0
+O11,Female,Metropolitan,White,13,16,0,1,46,Missing,Uninsured,Rural,Q2,Midwest,151.48119063439248,68.17629481958362,10.04481673318634,0
+O11,Female,Metropolitan,White,13,16,0,1,42,American Indian and Alaska Native,Uninsured,Rural,Q4,West,116.1550739452105,63.08270225837648,6.043310399570499,1
+O11,Female,Metropolitan,White,13,16,0,1,45,Black,Uninsured,Rural,Q2,South,109.81358014189242,82.42825889498295,10.883737421399275,0
+O11,Female,Metropolitan,White,13,16,0,1,31,Black,Public,Micropolitan,Q1,Midwest,83.48644388850877,65.0685374559173,10.60189282611154,0
+O12,Female,Metropolitan,White,21,15,0,0,54,Another race,Public,Metropolitan,Q4,Midwest,86.99752770966927,85.17292331848472,7.085935440219827,0
+O12,Female,Metropolitan,White,21,15,0,0,54,Black,Public,Rural,Q3,Midwest,91.1819359877945,57.70551364398866,9.132397238350277,0
+O12,Female,Metropolitan,White,21,15,0,0,44,White,Uninsured,Metropolitan,Q4,Midwest,126.07012879482878,73.80916743382134,6.0,0
+O12,Female,Metropolitan,White,21,15,0,0,51,Asian or Pacific Islander,Public,Rural,Q2,South,136.54324507458867,71.42228036443178,6.0,1
+O12,Female,Metropolitan,White,21,15,0,0,50,White,Public,Micropolitan,Q2,South,109.94285114395886,63.8808743748699,7.514588135741353,0
+O12,Female,Metropolitan,White,21,15,0,0,55,American Indian and Alaska Native,Private,Rural,Q3,Northeast,107.2405332847195,49.0,14.677522537294795,1
+O12,Female,Metropolitan,White,21,15,0,0,53,Asian or Pacific Islander,Uninsured,Rural,Q3,Midwest,125.11132861671128,72.53261305872249,7.02263119810296,1
+O12,Female,Metropolitan,White,21,15,0,0,52,Another race,Private,Metropolitan,Q4,West,128.68219948553238,75.68419297428252,6.0,0
+O12,Female,Metropolitan,White,21,15,0,0,51,White,Private,Metropolitan,Q2,Northeast,102.60620714026453,55.53265901226945,7.294859625407522,0
+O12,Female,Metropolitan,White,21,15,0,0,13,Black,Private,Rural,Q1,South,122.97938409762189,80.96485926841163,7.089577062945439,0
+O12,Female,Metropolitan,White,21,15,0,0,30,Hispanic,Uninsured,Micropolitan,Q2,South,94.01262939891862,86.78214256217524,6.0,0
+O12,Female,Metropolitan,White,21,15,0,0,44,American Indian and Alaska Native,Private,Rural,Q2,South,105.737516019582,65.45106373376592,6.0,0
+O12,Female,Metropolitan,White,21,15,0,0,30,Hispanic,Uninsured,Micropolitan,Q1,Midwest,85.91833612350555,67.76586176817106,8.731696577585208,0
+O12,Female,Metropolitan,White,21,15,0,0,48,White,Private,Micropolitan,Q4,Northeast,98.94621986877853,69.23355503634652,9.031842810239432,0
+O12,Female,Metropolitan,White,21,15,0,0,36,Missing,Public,Micropolitan,Q3,South,134.16286161968654,100.0,13.550605614119068,0
+O13,Male,Metropolitan,White,9,25,1,1,44,Black,Private,Micropolitan,Q4,West,110.95552606106202,72.1192995422177,9.996554528541804,0
+O13,Male,Metropolitan,White,9,25,1,1,37,Black,Public,Rural,Q1,Midwest,94.47063208671352,60.38461173643839,9.212902951878371,0
+O13,Male,Metropolitan,White,9,25,1,1,53,American Indian and Alaska Native,Public,Metropolitan,Q1,South,116.75718823692871,85.9547321064447,11.291284688624634,0
+O13,Male,Metropolitan,White,9,25,1,1,33,White,Private,Micropolitan,Q2,Northeast,117.02182407210563,57.88147849304305,14.261341319686645,0
+O13,Male,Metropolitan,White,9,25,1,1,55,Asian or Pacific Islander,Private,Rural,Q2,Midwest,141.45270225649688,100.0,10.919740884625952,0
+O13,Male,Metropolitan,White,9,25,1,1,45,Black,Uninsured,Micropolitan,Q2,Northeast,147.12836168808192,72.04172617380988,11.230924854274438,0
+O13,Male,Metropolitan,White,9,25,1,1,45,Black,Uninsured,Micropolitan,Q3,Midwest,117.73351126533979,79.155006116707,6.312145604417663,0
+O13,Male,Metropolitan,White,9,25,1,1,34,Asian or Pacific Islander,Uninsured,Rural,Q3,South,123.11129080950545,86.23622120895263,9.978624109883112,0
+O13,Male,Metropolitan,White,9,25,1,1,51,Black,Private,Micropolitan,Q2,Northeast,76.55228920608636,71.44219590135995,6.0,0
+O13,Male,Metropolitan,White,9,25,1,1,17,White,Private,Metropolitan,Q4,South,120.648364323377,78.14648834066038,10.96178868318195,0
+O13,Male,Metropolitan,White,9,25,1,1,25,White,Uninsured,Metropolitan,Q3,Northeast,112.51034100391514,65.73979830969206,11.63200700119327,0
+O13,Male,Metropolitan,White,9,25,1,1,26,Missing,Public,Rural,Q4,South,104.82676962217303,93.4337851244142,7.502817743891068,0
+O13,Male,Metropolitan,White,9,25,1,1,50,White,Public,Rural,Q2,Midwest,72.39766101625767,88.47125741275852,12.675170963900904,0
+O13,Male,Metropolitan,White,9,25,1,1,53,Missing,Uninsured,Micropolitan,Q4,West,108.81563367974057,78.83661031153618,6.35150266829668,0
+O13,Male,Metropolitan,White,9,25,1,1,52,American Indian and Alaska Native,Uninsured,Rural,Q3,West,72.20945073702578,75.42273347585076,6.0,0
+O13,Male,Metropolitan,White,9,25,1,1,33,American Indian and Alaska Native,Public,Rural,Q3,West,85.57542570940913,90.19993407047517,9.643207394188344,0
+O13,Male,Metropolitan,White,9,25,1,1,35,Missing,Private,Metropolitan,Q1,Midwest,97.59782023163088,65.19937423420188,11.044856725979042,1
+O13,Male,Metropolitan,White,9,25,1,1,51,Black,Public,Micropolitan,Q4,Midwest,80.62147218483146,87.38156914235454,6.0,0
+O13,Male,Metropolitan,White,9,25,1,1,34,Another race,Private,Metropolitan,Q1,West,103.12603196403315,67.82831752305674,6.0,0
+O13,Male,Metropolitan,White,9,25,1,1,40,Hispanic,Private,Metropolitan,Q4,West,128.96860924676437,75.44187726814054,8.27740059436727,0
+O13,Male,Metropolitan,White,9,25,1,1,24,White,Private,Micropolitan,Q1,South,97.89117192701887,95.33778285712833,6.468663099499011,0
+O13,Male,Metropolitan,White,9,25,1,1,49,Black,Public,Rural,Q2,Northeast,126.84575259013914,89.64344418335746,6.0,0
+O13,Male,Metropolitan,White,9,25,1,1,28,White,Private,Rural,Q3,Midwest,141.79522048452762,89.44210263254313,8.214927447793974,0
+O13,Male,Metropolitan,White,9,25,1,1,53,White,Private,Metropolitan,Q1,West,128.47858612386773,58.40395345896827,11.868802823714287,0
+O13,Male,Metropolitan,White,9,25,1,1,16,Hispanic,Public,Rural,Q3,West,99.3628260796762,83.81393093643695,13.58822154925852,0
+O14,Male,Metropolitan,Black,25,21,0,1,41,Black,Public,Micropolitan,Q1,Midwest,132.46293768872445,65.11409024223573,6.0,1
+O14,Male,Metropolitan,Black,25,21,0,1,35,Another race,Public,Micropolitan,Q3,South,91.26126258174021,69.51545723600438,6.0,0
+O14,Male,Metropolitan,Black,25,21,0,1,31,Asian or Pacific Islander,Public,Micropolitan,Q4,Midwest,132.8638569224926,91.13201200649891,13.396042921238573,0
+O14,Male,Metropolitan,Black,25,21,0,1,32,White,Public,Metropolitan,Q1,West,94.25876658263643,91.57688171817529,7.815181928402565,0
+O14,Male,Metropolitan,Black,25,21,0,1,48,American Indian and Alaska Native,Uninsured,Rural,Q3,Midwest,101.98544429784423,76.37813475741022,12.465502471156016,1
+O14,Male,Metropolitan,Black,25,21,0,1,51,Missing,Private,Micropolitan,Q3,South,127.71114682295418,76.06267507951443,9.717943873322893,0
+O14,Male,Metropolitan,Black,25,21,0,1,31,White,Private,Metropolitan,Q2,Northeast,107.79251429023881,76.8315664670204,10.34219295341491,0
+O14,Male,Metropolitan,Black,25,21,0,1,55,Black,Private,Rural,Q4,Northeast,96.21625475330076,66.25193509440557,6.0,0
+O14,Male,Metropolitan,Black,25,21,0,1,53,White,Uninsured,Rural,Q4,West,125.9305815305107,92.16045672623879,8.261469915075692,1
+O14,Male,Metropolitan,Black,25,21,0,1,47,White,Private,Rural,Q4,Midwest,106.65204453473326,91.43058571043281,11.719334187899427,0
+O14,Male,Metropolitan,Black,25,21,0,1,48,American Indian and Alaska Native,Uninsured,Rural,Q2,West,127.55747600630485,73.7153869152181,6.0,0
+O14,Male,Metropolitan,Black,25,21,0,1,49,Asian or Pacific Islander,Private,Rural,Q3,Northeast,85.98061527864971,56.01072508121959,12.330883129808708,1
+O14,Male,Metropolitan,Black,25,21,0,1,53,Asian or Pacific Islander,Private,Rural,Q3,Midwest,110.75657365109804,91.79166283446781,6.0,0
+O14,Male,Metropolitan,Black,25,21,0,1,32,American Indian and Alaska Native,Public,Rural,Q1,South,143.51594585464971,60.18951457180336,11.812249539922911,0
+O14,Male,Metropolitan,Black,25,21,0,1,46,American Indian and Alaska Native,Private,Micropolitan,Q3,Midwest,108.33377962546385,86.87255755584812,6.0,0
+O14,Male,Metropolitan,Black,25,21,0,1,19,White,Private,Metropolitan,Q3,West,76.27236918689238,75.7256549637652,6.3858224499834515,0
+O14,Male,Metropolitan,Black,25,21,0,1,38,Asian or Pacific Islander,Public,Metropolitan,Q4,Midwest,95.56715640459319,75.36004270776853,6.0,0
+O14,Male,Metropolitan,Black,25,21,0,1,34,Black,Public,Metropolitan,Q3,Northeast,129.92801811507678,81.61041210036396,10.701044372825569,1
+O14,Male,Metropolitan,Black,25,21,0,1,26,Black,Private,Micropolitan,Q4,Midwest,90.328292344636,85.87793434494651,6.0,0
+O14,Male,Metropolitan,Black,25,21,0,1,41,American Indian and Alaska Native,Private,Rural,Q4,Midwest,95.7094356900528,62.522858051060446,7.631169955493288,0
+O14,Male,Metropolitan,Black,25,21,0,1,26,Hispanic,Uninsured,Metropolitan,Q1,Northeast,89.50915739579247,68.15273399767136,10.038548951660054,0
+O15,Female,Metropolitan,White,17,25,0,0,31,Another race,Uninsured,Rural,Q4,West,130.21579975928438,84.6255813689478,6.0,0
+O15,Female,Metropolitan,White,17,25,0,0,48,Another race,Public,Metropolitan,Q4,West,100.37127425028314,73.93711315002753,8.179810194452191,0
+O15,Female,Metropolitan,White,17,25,0,0,20,Hispanic,Public,Rural,Q2,Northeast,106.71287901183116,64.78132159552923,6.0,0
+O15,Female,Metropolitan,White,17,25,0,0,31,Hispanic,Uninsured,Metropolitan,Q4,South,133.45141623099502,89.16831615049676,11.223273590544391,0
+O15,Female,Metropolitan,White,17,25,0,0,34,Missing,Private,Micropolitan,Q1,South,110.60317963591623,68.26682792018087,9.21457187444555,0
+O15,Female,Metropolitan,White,17,25,0,0,52,White,Uninsured,Micropolitan,Q1,Northeast,106.5800172380152,84.52751645822755,15.47459629068912,0
+O15,Female,Metropolitan,White,17,25,0,0,44,Black,Uninsured,Metropolitan,Q2,South,92.1992359353147,78.40193081039811,6.0,0
+O15,Female,Metropolitan,White,17,25,0,0,22,Black,Private,Micropolitan,Q1,Midwest,91.72597658433563,66.93098595957642,7.432683057614493,0
+O15,Female,Metropolitan,White,17,25,0,0,52,Another race,Public,Metropolitan,Q3,Midwest,147.30036203710057,100.0,13.315939303906998,1
+O15,Female,Metropolitan,White,17,25,0,0,25,American Indian and Alaska Native,Public,Micropolitan,Q4,Midwest,112.70487391016353,70.2780338291846,10.130155290254784,0
+O15,Female,Metropolitan,White,17,25,0,0,38,Missing,Private,Micropolitan,Q2,West,112.3580485300411,97.0630751064105,6.0,0
+O15,Female,Metropolitan,White,17,25,0,0,15,Missing,Public,Metropolitan,Q2,Midwest,143.36805783902386,65.81927879967756,11.52856945705637,1
+O15,Female,Metropolitan,White,17,25,0,0,30,Another race,Uninsured,Metropolitan,Q1,West,131.12932188924282,66.8207287296033,9.914072834761448,1
+O15,Female,Metropolitan,White,17,25,0,0,17,Missing,Public,Micropolitan,Q2,Northeast,77.49702171243324,49.326632995072586,9.471541594817081,0
+O15,Female,Metropolitan,White,17,25,0,0,53,Black,Uninsured,Metropolitan,Q4,Northeast,93.69710538353051,65.39291231000895,6.521919434431201,0
+O15,Female,Metropolitan,White,17,25,0,0,28,Another race,Uninsured,Rural,Q4,South,121.64363348926759,76.24132400871821,6.0,0
+O15,Female,Metropolitan,White,17,25,0,0,34,Another race,Private,Micropolitan,Q2,South,101.49343690562743,63.96350012009298,6.0,0
+O15,Female,Metropolitan,White,17,25,0,0,55,American Indian and Alaska Native,Uninsured,Micropolitan,Q4,South,128.7304507658011,54.55147062127041,6.0,0
+O15,Female,Metropolitan,White,17,25,0,0,55,Hispanic,Private,Rural,Q1,Midwest,114.36960824136673,72.71495006123328,8.22918549210338,0
+O15,Female,Metropolitan,White,17,25,0,0,34,Black,Public,Metropolitan,Q2,West,150.73730298828502,73.42555591292995,8.309317448874667,0
+O15,Female,Metropolitan,White,17,25,0,0,28,American Indian and Alaska Native,Private,Rural,Q2,Northeast,110.45305327693995,100.0,6.0,0
+O15,Female,Metropolitan,White,17,25,0,0,21,Black,Private,Rural,Q4,West,122.94059963861946,79.82577204098676,6.029579014006975,0
+O15,Female,Metropolitan,White,17,25,0,0,44,Black,Private,Micropolitan,Q3,Northeast,92.22150746927532,82.38186385028399,10.43078091537851,0
+O15,Female,Metropolitan,White,17,25,0,0,51,Hispanic,Public,Metropolitan,Q1,West,136.61022813917566,87.9879162184745,11.128101500519078,0
+O15,Female,Metropolitan,White,17,25,0,0,52,Black,Uninsured,Rural,Q1,Midwest,151.74995240464588,81.82206150407835,15.776495101669084,0
+O16,Male,Metropolitan,Black,29,20,0,-1,41,Missing,Public,Micropolitan,Q1,West,116.13595757467779,71.19181987520916,10.080298285469617,1
+O16,Male,Metropolitan,Black,29,20,0,-1,42,Another race,Uninsured,Micropolitan,Q2,West,128.2505986877175,69.4577339882647,6.828080818666115,0
+O16,Male,Metropolitan,Black,29,20,0,-1,25,American Indian and Alaska Native,Private,Rural,Q3,Midwest,160.0,61.21999062303796,6.0,0
+O16,Male,Metropolitan,Black,29,20,0,-1,54,White,Private,Rural,Q4,South,91.40392657289414,87.37807226092463,6.0,0
+O16,Male,Metropolitan,Black,29,20,0,-1,17,White,Private,Micropolitan,Q1,South,143.98629234473646,80.93584864566891,11.419191811752468,0
+O16,Male,Metropolitan,Black,29,20,0,-1,52,Black,Private,Metropolitan,Q3,South,115.08512719236084,86.9428122049091,6.0,0
+O16,Male,Metropolitan,Black,29,20,0,-1,47,Asian or Pacific Islander,Private,Rural,Q3,Northeast,148.28191671250656,66.02443904266559,6.0,0
+O16,Male,Metropolitan,Black,29,20,0,-1,35,Black,Private,Rural,Q4,West,94.96286759055266,76.35596483563009,9.078648795473981,0
+O16,Male,Metropolitan,Black,29,20,0,-1,54,White,Private,Rural,Q4,South,111.49064676211407,56.31554146334662,7.282001027802828,0
+O16,Male,Metropolitan,Black,29,20,0,-1,17,Black,Public,Metropolitan,Q1,West,105.14488015704636,95.11813491561419,12.516863624281534,1
+O16,Male,Metropolitan,Black,29,20,0,-1,12,Hispanic,Uninsured,Micropolitan,Q4,South,109.06901945839724,87.40535435670992,6.0,0
+O16,Male,Metropolitan,Black,29,20,0,-1,32,White,Public,Micropolitan,Q2,Northeast,70.0,92.37723510071093,9.404315332933725,0
+O16,Male,Metropolitan,Black,29,20,0,-1,29,Black,Private,Micropolitan,Q3,Northeast,128.7242080591222,72.69159176144791,6.954747113225674,0
+O16,Male,Metropolitan,Black,29,20,0,-1,49,Black,Public,Rural,Q1,Midwest,110.66850122078777,81.85216977739307,9.430180607781965,0
+O16,Male,Metropolitan,Black,29,20,0,-1,50,American Indian and Alaska Native,Public,Metropolitan,Q4,West,155.76163774522576,81.12087306505367,6.0,0
+O16,Male,Metropolitan,Black,29,20,0,-1,53,Asian or Pacific Islander,Private,Metropolitan,Q2,Northeast,130.00555034962983,71.85081948380069,7.984281352142794,1
+O16,Male,Metropolitan,Black,29,20,0,-1,25,Missing,Public,Rural,Q3,Midwest,88.57347880216034,49.58987239531392,9.46752182069243,1
+O16,Male,Metropolitan,Black,29,20,0,-1,55,Hispanic,Public,Rural,Q2,South,141.0146079054836,81.57943688056677,6.0,1
+O16,Male,Metropolitan,Black,29,20,0,-1,47,American Indian and Alaska Native,Uninsured,Rural,Q1,Northeast,105.59775803984842,88.32108698854455,6.0,0
+O16,Male,Metropolitan,Black,29,20,0,-1,19,Missing,Uninsured,Rural,Q3,West,125.93878598093129,88.96876796483028,6.321208364377087,0
+O17,Female,Metropolitan,White,17,19,0,-1,33,Black,Uninsured,Metropolitan,Q4,Northeast,118.83283034392728,87.05008796135435,6.0,0
+O17,Female,Metropolitan,White,17,19,0,-1,47,Another race,Public,Metropolitan,Q3,West,126.75464348195678,81.45807575208157,12.026148377076062,0
+O17,Female,Metropolitan,White,17,19,0,-1,29,Hispanic,Uninsured,Rural,Q2,Northeast,108.79904328916582,73.87800737530189,6.0,0
+O17,Female,Metropolitan,White,17,19,0,-1,36,Asian or Pacific Islander,Public,Micropolitan,Q2,West,96.42174908469502,81.79463278761828,9.28679816367283,0
+O17,Female,Metropolitan,White,17,19,0,-1,16,Black,Public,Micropolitan,Q3,Northeast,136.7636810636664,71.75964038928643,13.156008746671592,0
+O17,Female,Metropolitan,White,17,19,0,-1,52,Missing,Uninsured,Rural,Q3,West,92.14383137966934,90.25835404377447,6.06706257425904,0
+O17,Female,Metropolitan,White,17,19,0,-1,52,Missing,Uninsured,Metropolitan,Q1,Northeast,102.50464232665546,88.83116648025099,12.72254847218977,0
+O17,Female,Metropolitan,White,17,19,0,-1,12,Black,Public,Metropolitan,Q4,Midwest,109.83407012532275,61.13687858931657,7.068302066124926,1
+O17,Female,Metropolitan,White,17,19,0,-1,46,American Indian and Alaska Native,Uninsured,Metropolitan,Q1,Midwest,108.84529231918744,68.38626338511583,14.43697285849693,0
+O17,Female,Metropolitan,White,17,19,0,-1,48,White,Public,Rural,Q2,West,119.21688527285335,99.53976041950034,10.67205523033525,1
+O17,Female,Metropolitan,White,17,19,0,-1,33,Black,Private,Metropolitan,Q1,Northeast,86.6919256571826,54.96694358476377,9.048064673097869,0
+O17,Female,Metropolitan,White,17,19,0,-1,38,American Indian and Alaska Native,Public,Micropolitan,Q1,West,136.23474313617112,59.257597453368845,6.694580374855769,0
+O17,Female,Metropolitan,White,17,19,0,-1,33,White,Private,Micropolitan,Q1,West,114.1793047608687,74.81045540197734,7.026520679539713,0
+O17,Female,Metropolitan,White,17,19,0,-1,45,Hispanic,Public,Micropolitan,Q2,Midwest,97.53588292406074,85.057106734215,6.243331512346759,0
+O17,Female,Metropolitan,White,17,19,0,-1,30,American Indian and Alaska Native,Uninsured,Rural,Q4,Midwest,125.37913362550937,76.50817302343654,11.466774503287873,0
+O17,Female,Metropolitan,White,17,19,0,-1,46,American Indian and Alaska Native,Public,Metropolitan,Q1,Northeast,80.94425574739785,69.74718331337561,6.0,0
+O17,Female,Metropolitan,White,17,19,0,-1,48,Another race,Public,Micropolitan,Q1,Northeast,112.84408785592927,78.74573402490036,9.288308850178012,0
+O17,Female,Metropolitan,White,17,19,0,-1,45,Black,Uninsured,Metropolitan,Q3,South,87.14785743045431,82.3512150324878,11.560030358950945,0
+O17,Female,Metropolitan,White,17,19,0,-1,30,White,Private,Micropolitan,Q2,Northeast,99.26182117298714,77.83917973217531,9.414414769272847,0
+O18,Female,Rural,White,21,26,0,1,54,Hispanic,Private,Micropolitan,Q4,West,96.60732215871816,73.80242026564201,13.960835558415512,0
+O18,Female,Rural,White,21,26,0,1,27,Black,Public,Metropolitan,Q1,South,100.61459768606838,85.84844047649432,6.576771748120864,0
+O18,Female,Rural,White,21,26,0,1,42,Black,Private,Micropolitan,Q2,Northeast,134.40396824422254,49.0,6.0,0
+O18,Female,Rural,White,21,26,0,1,32,White,Uninsured,Rural,Q4,Northeast,110.32655737725752,91.02129064031718,6.0,0
+O18,Female,Rural,White,21,26,0,1,51,Another race,Uninsured,Metropolitan,Q1,Northeast,123.19131657717138,93.96883191589751,12.131780438905883,0
+O18,Female,Rural,White,21,26,0,1,15,Black,Uninsured,Micropolitan,Q4,West,103.27382044550185,73.32476979182991,6.0,0
+O18,Female,Rural,White,21,26,0,1,45,Missing,Public,Micropolitan,Q2,Midwest,90.45163633117203,91.34421451613306,10.720138184182836,0
+O18,Female,Rural,White,21,26,0,1,29,Black,Uninsured,Micropolitan,Q1,South,117.69941335899895,83.32280859258957,13.154493134803353,0
+O18,Female,Rural,White,21,26,0,1,30,Black,Private,Micropolitan,Q2,South,96.35312373159988,88.77704610690786,11.633418731235102,0
+O18,Female,Rural,White,21,26,0,1,31,Hispanic,Public,Metropolitan,Q1,South,116.31930257534336,68.21996145707402,6.507433786344277,0
+O18,Female,Rural,White,21,26,0,1,29,Hispanic,Public,Metropolitan,Q4,South,107.43659376906076,73.67941718433475,6.0,0
+O18,Female,Rural,White,21,26,0,1,52,Hispanic,Uninsured,Micropolitan,Q2,Midwest,119.98468255493687,86.39440042350758,6.999171507993182,0
+O18,Female,Rural,White,21,26,0,1,27,Another race,Private,Micropolitan,Q1,Northeast,116.8148202481247,70.4589626337144,7.337008974276623,0
+O18,Female,Rural,White,21,26,0,1,32,American Indian and Alaska Native,Private,Metropolitan,Q1,Midwest,120.24944347065413,85.88548662803464,6.0,1
+O18,Female,Rural,White,21,26,0,1,48,Hispanic,Public,Micropolitan,Q3,South,99.35068685965358,81.98165584844222,8.333258725462839,0
+O18,Female,Rural,White,21,26,0,1,38,Black,Public,Metropolitan,Q1,Midwest,119.0699178514169,64.93218012894434,6.0,0
+O18,Female,Rural,White,21,26,0,1,47,American Indian and Alaska Native,Public,Metropolitan,Q1,South,123.06294152517893,78.78205513948735,11.639398478465125,0
+O18,Female,Rural,White,21,26,0,1,31,Black,Private,Rural,Q2,Midwest,108.96605708824684,49.0,6.564942902791991,0
+O18,Female,Rural,White,21,26,0,1,53,Black,Private,Metropolitan,Q1,South,119.55837287926511,60.87697147376479,6.214630074492847,0
+O18,Female,Rural,White,21,26,0,1,45,Missing,Public,Micropolitan,Q4,South,83.85774324390293,71.30024049375267,9.035405526397392,0
+O18,Female,Rural,White,21,26,0,1,38,Hispanic,Public,Metropolitan,Q1,South,146.55024633078946,92.69262129380238,7.673366158096556,0
+O18,Female,Rural,White,21,26,0,1,12,Another race,Public,Metropolitan,Q3,South,116.32974932705248,88.41015514906705,8.236570627108675,0
+O18,Female,Rural,White,21,26,0,1,50,White,Public,Rural,Q3,Northeast,76.81956192087952,58.21767278397873,7.402221937378104,0
+O18,Female,Rural,White,21,26,0,1,17,Black,Private,Metropolitan,Q2,South,96.77975002860869,70.84219894721845,11.345062538756466,0
+O18,Female,Rural,White,21,26,0,1,35,Hispanic,Public,Metropolitan,Q2,South,102.69235878970711,49.0,11.711294792379595,1
+O18,Female,Rural,White,21,26,0,1,27,Another race,Uninsured,Metropolitan,Q2,Midwest,123.36779475044072,49.0,7.637476806336016,0
+O19,Male,Metropolitan,White,9,29,1,-1,50,American Indian and Alaska Native,Private,Metropolitan,Q1,West,105.43453243613858,49.2599539703027,7.764965502713002,0
+O19,Male,Metropolitan,White,9,29,1,-1,33,Asian or Pacific Islander,Public,Metropolitan,Q4,South,119.18690254076162,97.67150710022894,6.0,0
+O19,Male,Metropolitan,White,9,29,1,-1,47,Missing,Public,Metropolitan,Q3,West,122.0614180405605,80.43466018512432,10.666582552440616,0
+O19,Male,Metropolitan,White,9,29,1,-1,37,Black,Private,Metropolitan,Q2,West,145.08241712169456,78.59754209816025,6.925784575657911,0
+O19,Male,Metropolitan,White,9,29,1,-1,49,Hispanic,Private,Rural,Q1,South,85.68839357970204,92.21856234195543,10.192410571715122,0
+O19,Male,Metropolitan,White,9,29,1,-1,51,White,Public,Rural,Q1,Northeast,111.73304423631498,81.88133852909026,12.71621986062598,0
+O19,Male,Metropolitan,White,9,29,1,-1,16,American Indian and Alaska Native,Uninsured,Metropolitan,Q4,Midwest,115.57744358187833,74.54662566296314,8.658216158297943,0
+O19,Male,Metropolitan,White,9,29,1,-1,38,Missing,Private,Micropolitan,Q3,Midwest,115.32241980420996,100.0,6.0,1
+O19,Male,Metropolitan,White,9,29,1,-1,45,Asian or Pacific Islander,Uninsured,Micropolitan,Q3,West,131.08031981386728,50.63337239055415,7.4859092918829875,0
+O19,Male,Metropolitan,White,9,29,1,-1,23,Black,Private,Micropolitan,Q1,South,126.6207054897547,59.26165307882432,11.04337360466356,0
+O19,Male,Metropolitan,White,9,29,1,-1,34,Asian or Pacific Islander,Private,Micropolitan,Q1,West,105.88702227554555,98.2511426299874,8.393391593550449,0
+O19,Male,Metropolitan,White,9,29,1,-1,26,Asian or Pacific Islander,Public,Metropolitan,Q3,South,124.45994346793724,77.46435351918521,8.343774968955325,0
+O19,Male,Metropolitan,White,9,29,1,-1,45,American Indian and Alaska Native,Uninsured,Metropolitan,Q4,West,93.98727555047887,76.78276369416703,12.190616215939766,1
+O19,Male,Metropolitan,White,9,29,1,-1,33,Black,Public,Rural,Q4,Midwest,106.97491985420787,77.44063370486248,6.106735444370166,0
+O19,Male,Metropolitan,White,9,29,1,-1,40,Black,Private,Metropolitan,Q2,South,123.79851996172277,90.39410392285966,9.882435499015859,0
+O19,Male,Metropolitan,White,9,29,1,-1,23,White,Uninsured,Rural,Q3,Midwest,123.6640865632017,74.45155092154454,6.0,0
+O19,Male,Metropolitan,White,9,29,1,-1,34,Another race,Private,Rural,Q4,West,121.98054455813308,68.79713487474756,6.0243243164109845,0
+O19,Male,Metropolitan,White,9,29,1,-1,30,Another race,Private,Metropolitan,Q4,Northeast,127.05418138561166,64.73727220509463,6.75198122946765,0
+O19,Male,Metropolitan,White,9,29,1,-1,45,Black,Uninsured,Rural,Q1,Midwest,137.1242702179302,100.0,8.567307136543326,0
+O19,Male,Metropolitan,White,9,29,1,-1,38,American Indian and Alaska Native,Private,Metropolitan,Q2,Northeast,102.44372857577957,79.13907092420052,7.509873031250571,0
+O19,Male,Metropolitan,White,9,29,1,-1,30,American Indian and Alaska Native,Uninsured,Rural,Q1,Northeast,90.42140807296488,51.143081390893315,10.724560940429434,0
+O19,Male,Metropolitan,White,9,29,1,-1,54,American Indian and Alaska Native,Public,Metropolitan,Q3,West,107.00783882259859,55.78585615832309,6.0,0
+O19,Male,Metropolitan,White,9,29,1,-1,43,Asian or Pacific Islander,Public,Rural,Q1,West,136.83154398134667,67.18000169746618,14.31682181790919,0
+O19,Male,Metropolitan,White,9,29,1,-1,34,Another race,Public,Metropolitan,Q1,South,116.16897923729022,78.76778066839347,10.300235306102824,0
+O19,Male,Metropolitan,White,9,29,1,-1,36,American Indian and Alaska Native,Uninsured,Metropolitan,Q3,West,108.13729364018889,89.16172427948266,6.0,0
+O19,Male,Metropolitan,White,9,29,1,-1,25,American Indian and Alaska Native,Private,Rural,Q3,South,95.68541066741392,64.3938273795826,6.0,0
+O19,Male,Metropolitan,White,9,29,1,-1,33,American Indian and Alaska Native,Uninsured,Micropolitan,Q1,Midwest,111.3838515719898,75.46987289453041,10.557038534286098,0
+O19,Male,Metropolitan,White,9,29,1,-1,45,American Indian and Alaska Native,Uninsured,Rural,Q3,Midwest,124.83602409298798,71.86478575056972,9.617113914001118,1
+O19,Male,Metropolitan,White,9,29,1,-1,52,Missing,Uninsured,Metropolitan,Q3,South,70.0,70.17133115079115,6.0,0
+O20,Female,Rural,Black,29,20,0,0,53,White,Public,Rural,Q3,West,117.18265023094301,72.18403695735502,8.475962664207584,0
+O20,Female,Rural,Black,29,20,0,0,48,Asian or Pacific Islander,Public,Metropolitan,Q1,Midwest,103.95202006643262,89.78208314385773,10.43998302009166,1
+O20,Female,Rural,Black,29,20,0,0,48,Black,Public,Micropolitan,Q3,West,108.68955606091338,74.36434557064905,11.992407568030181,0
+O20,Female,Rural,Black,29,20,0,0,49,American Indian and Alaska Native,Public,Rural,Q4,Northeast,140.564020043353,86.4633813475221,9.499730274722413,0
+O20,Female,Rural,Black,29,20,0,0,46,White,Private,Rural,Q4,Midwest,125.14976314708389,86.48960421889788,12.37882471611918,0
+O20,Female,Rural,Black,29,20,0,0,32,White,Uninsured,Micropolitan,Q3,West,136.1900936497744,80.92691211335844,14.54211405709421,0
+O20,Female,Rural,Black,29,20,0,0,49,Black,Public,Micropolitan,Q3,Midwest,114.35939432720868,92.95290401569072,7.018026508161656,0
+O20,Female,Rural,Black,29,20,0,0,35,Missing,Uninsured,Metropolitan,Q2,West,142.59739795599128,73.37262017813278,8.418489437683016,0
+O20,Female,Rural,Black,29,20,0,0,47,American Indian and Alaska Native,Public,Micropolitan,Q3,West,123.92202814869698,77.46989031827965,6.0,0
+O20,Female,Rural,Black,29,20,0,0,26,Missing,Public,Micropolitan,Q4,Midwest,109.32133032994521,92.91522455930355,7.520772850935455,0
+O20,Female,Rural,Black,29,20,0,0,20,Black,Public,Rural,Q3,South,97.25798989504159,81.80024420747864,6.0,0
+O20,Female,Rural,Black,29,20,0,0,37,Another race,Uninsured,Micropolitan,Q2,West,122.37651240554024,68.79777359676635,9.592495741593314,0
+O20,Female,Rural,Black,29,20,0,0,30,Black,Uninsured,Micropolitan,Q2,West,127.41344597911731,85.92580819134001,12.850972972046883,0
+O20,Female,Rural,Black,29,20,0,0,27,American Indian and Alaska Native,Public,Rural,Q2,South,108.04607632876237,76.1594195725937,6.0,0
+O20,Female,Rural,Black,29,20,0,0,13,American Indian and Alaska Native,Uninsured,Metropolitan,Q1,South,135.4955950084582,66.08010468056597,12.537511274760138,0
+O20,Female,Rural,Black,29,20,0,0,35,Missing,Private,Metropolitan,Q1,West,121.78119505806517,53.354315586167516,7.682974230450013,0
+O20,Female,Rural,Black,29,20,0,0,17,White,Public,Micropolitan,Q3,West,113.70696809316617,49.0,10.332211168379432,0
+O20,Female,Rural,Black,29,20,0,0,25,Missing,Public,Metropolitan,Q2,West,70.0,90.99455066384668,10.864969220802285,0
+O20,Female,Rural,Black,29,20,0,0,20,Hispanic,Public,Rural,Q2,Northeast,111.39980095022189,49.0,9.080833242848366,0
+O20,Female,Rural,Black,29,20,0,0,33,American Indian and Alaska Native,Uninsured,Micropolitan,Q2,Northeast,113.33792174391264,70.10246981269907,7.180706185602918,0
